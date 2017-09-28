@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR THE INCREDIBLES</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/header.js"></script>
+		<script src="../../js/film.js"></script>
+		<link href="../../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/film.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+		<style type="text/css">
+			#container #visual{width:100%;height:700px;background-size:cover;background:url("../../img/bg/incredibles_head.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:center;background-color:#000;}
+			#container #movieContent #trailerContent .videoWrap{height:300px;}
+
+			@media all and (min-width:481px) and (max-width:767px){
+				#container #visual{height:500px;background-position:center 140%;}
+				#container #movieContent #trailerContent .videoWrap{height:255px;}
+			}
+
+			@media all and (min-width:320px) and (max-width:480px){
+				#container #visual{height:450px;background-size:290%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:180px;}
+			}
+		</style>
+	</head>
+<body>
+	<div id="mobileNavWrap">
+		<a href="#none" title="menu" class="menu">
+			<span class="firstLine"></span>
+			<span class="secondLine"></span>
+			<span class="lastLine"></span>
+		</a>
+		<p id="mobileNavBg"></p>
+		<div id="mobileNav">
+			<p class="profileWrap">
+				<img src="../../img/icon/piper.png" alt="사용자이미지"/>
+			</p>
+			<p class="loginJoinWrap">
+				<a href="../login.html" title="LOGIN">LOGIN</a>
+				<a href="../join.html" title="JOIN">JOIN</a>
+			</p>
+			<ul>
+				<li><a href="../../index.html" title="HOME">HOME</a></li>
+				<li><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+				<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+				<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+				<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+				<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header id="header">
+			<div id="headerWrap">
+				<h1>
+					<a href="../../index.html" title="home">
+						<img src="../../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+					</a>
+				</h1>
+				<nav id="nav">
+					<h2>NAV영역</h2>
+					<a href="#none" title="menu" class="menu">
+						<span class="firstLine"></span>
+						<span class="secondLine"></span>
+						<span class="lastLine"></span>
+					</a>
+					<ul>
+						<li class="select"><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+						<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+						<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+						<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+						<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+						<li><a href="../login.html" title="LOGIN">LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual"></div>
+			</div>
+			<section id="movieContent">
+				<div class="movieHead">
+					<div class="movieLogo">
+						<img src="../../img/logo/the_incredibles_logo.png" alt="인크레더블로고이미지"/>
+					</div>
+					<div class="movieDesc">
+						<h3>The Incredibles</h3>
+						<p>
+							It takes a will of steel to hide your superhero talents from a world that still needs you, yet no longer appreciates what you can do. Battling a bulging belly and a boring job, Mr. Incredible longs for the glory days of upholding law and order while his superhuman family tries to fit in with their "normal" life. Relief from quiet suburbia finally comes years later, when the family uncovers a diabolical plan and must bring together their respective strengths to save the day.
+						</p>
+					</div>
+				</div>
+				<div class="tabWrap">
+					<ul id="tab">
+						<li class="first">
+							<a href="#trailerContent" title="trailer" class="selected">Trailer</a>
+						</li>
+						<li>
+							<a href="#characterContent" title="character">Character</a>
+						</li>
+						<li>
+							<a href="#designContent" title="design">World Design</a>
+						</li>
+						<li>
+							<a href="#creditsContent" title="credits">Credits</a>
+						</li>
+					</ul>
+				</div>
+				<ul id="content">
+					<li id="trailerContent" class="contentWrap">
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/halOra8rg1A"></iframe>
+						</div>
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/GvbrMJiVlRE"></iframe>
+						</div>
+					</li>
+					<li id="characterContent" class="contentWrap">
+						<div class="characterWrap">
+							<ul>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Mr. Incredible</h4>
+										<p>
+											Once the best-known, most popular superhero alive, Bob Parr is now fifteen years older and is bolder and heavier. As a claims adjuster at possibly the world’s worst insurance company, Insuricare, the former Mr. Incredible’s heroics are limited to helping people navigate the intricacies of the appeals system. Bob’s unhappiness has taken a toll and he and his family have become disconnected.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/incredibles/incredible00.jpg" alt="incredible이미지00"/></p>
+										<p><img src="../../img/character/incredibles/incredible01.jpg" alt="incredible이미지01"/></p>
+										<p><img src="../../img/character/incredibles/incredible02.jpg" alt="incredible이미지02"/></p>
+										<p><img src="../../img/character/incredibles/incredible03.jpg" alt="incredible이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Elastigirl</h4>
+										<p>
+											Helen Parr, the former super-stretching superhero, has adjusted to normal life, and is busily focused on caring for her three children. While she occasionally uses her amazing ability to stretch to meet the daily challenges of modern motherhood, she is careful to do so only behind the closed doors of their suburban home. She misses the old days, but doesn’t dwell on those times as she has a wonderful family.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/incredibles/elasti00.jpg" alt="elasti이미지00"/></p>
+										<p><img src="../../img/character/incredibles/elasti01.jpg" alt="elasti이미지01"/></p>
+										<p><img src="../../img/character/incredibles/elasti02.jpg" alt="elasti이미지02"/></p>
+										<p><img src="../../img/character/incredibles/elasti03.jpg" alt="elasti이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Dash</h4>
+										<p>
+											At age ten, Dash seems to be moving even when standing still. Full of restless energy, he has the power of super-speed – a power so useful for playing pranks that he has difficulty keeping it in check. Dash doesn’t understand why superheroes should hide their powers – why would they have them if they weren’t supposed to use them?
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/incredibles/dash00.jpg" alt="dash이미지00"/></p>
+										<p><img src="../../img/character/incredibles/dash01.jpg" alt="dash이미지01"/></p>
+										<p><img src="../../img/character/incredibles/dash02.jpg" alt="dash이미지02"/></p>
+										<p><img src="../../img/character/incredibles/dash03.jpg" alt="dash이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Violet</h4>
+										<p>
+											Violet Parr is, in many ways, a typical shy, insecure teenage girl stuck at the crossroads between child and woman. She, like her parents and brother Dash, has special powers, and it seems only right that hers allow her to turn invisible and protect herself with a secure force field. For what would be better for an awkward young woman but to be able to disappear from her problems at a moments notice?
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/incredibles/violet00.jpg" alt="violet이미지00"/></p>
+										<p><img src="../../img/character/incredibles/violet01.jpg" alt="violet이미지01"/></p>
+										<p><img src="../../img/character/incredibles/violet02.jpg" alt="violet이미지02"/></p>
+										<p><img src="../../img/character/incredibles/violet03.jpg" alt="violet이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Jack-Jack</h4>
+										<p>
+											Jack-Jack is the black sheep of the family. He is nearly two years old, and it seems the only thing incredible that he can do is jabber in gibberish. He’s very good at that— as well as throwing food at dinnertime. Hey, that’s what being a baby is all about! But who knows, maybe someday…He is an Incredible after all…
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/incredibles/jack00.jpg" alt="jack이미지00"/></p>
+										<p><img src="../../img/character/incredibles/jack01.jpg" alt="jack이미지01"/></p>
+										<p><img src="../../img/character/incredibles/jack02.jpg" alt="jack이미지02"/></p>
+										<p><img src="../../img/character/incredibles/jack03.jpg" alt="jack이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Frozone</h4>
+										<p>
+											Lucius Best used to be known as the coolest superhero on the planet – and not just because he was best friends with Mr. Incredible. His style, wit and attitude made Frozone, as he was known then, the hippest of the lot. Of course his powers made him cool too, literally. Lucius’ ability to create ice from moisture in the air, made him the envy of every gadget-loving little boy.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/incredibles/frozoen00.jpg" alt="frozoen이미지00"/></p>
+										<p><img src="../../img/character/incredibles/frozoen01.jpg" alt="frozoen이미지01"/></p>
+										<p><img src="../../img/character/incredibles/frozoen02.jpg" alt="frozoen이미지02"/></p>
+										<p><img src="../../img/character/incredibles/frozoen03.jpg" alt="frozoen이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Syndrome</h4>
+										<p>
+											Syndrome wasn’t born with superpowers, but envied the attention and admiration the Supers received. Of all the Supers, Mr. Incredible embodied everything Syndrome desired: strength, fame, and popularity. Highly intelligent and cunning, Syndrome now spends his days on a remote island on the other side of the world inventing gadgets and robots to carry out a diabolical plot.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/incredibles/syndrome00.jpg" alt="syndrome이미지00"/></p>
+										<p><img src="../../img/character/incredibles/syndrome01.jpg" alt="syndrome이미지01"/></p>
+										<p><img src="../../img/character/incredibles/syndrome02.jpg" alt="syndrome이미지02"/></p>
+										<p><img src="../../img/character/incredibles/syndrome03.jpg" alt="syndrome이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Edna "E" Mode</h4>
+										<p>
+											Brilliant and successful, Edna Mode got her start in the industry as the world’s leading superhero costume designer. With her now-mature sense of design, she remains the top designer in the field, taking her clothing designs to Milan, Paris and other internationally important fashion centers. However, E longs for the return of the superheroes, for a real design challenge.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/incredibles/edna00.jpg" alt="edna이미지00"/></p>
+										<p><img src="../../img/character/incredibles/edna01.jpg" alt="edna이미지01"/></p>
+										<p><img src="../../img/character/incredibles/edna02.jpg" alt="edna이미지02"/></p>
+										<p><img src="../../img/character/incredibles/edna03.jpg" alt="edna이미지03"/></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="designContent" class="contentWrap">
+						<ul>
+							<li>
+								<h3>The Parr Home</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/incredibles/design00.jpg" alt="인크레더블디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									Adhering to the early 1960s theme, the Parr home is a study in mid-century architecture with some odd futuristic twists, like the washing machine with a clear plastic dome, and a TV that mashes a contemporary wide screen with a vintage console. Though the house is comfortable in most respects, the filmmakers still needed it to suggest that it was an imperfect fit for the extraordinary family. As technical director Rick Sayre puts it, “Bob is a superhero stuck in his own suburban fortress of solitude.”
+								</p>
+							</li>
+							<li>
+								<h3>Nomanisan</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/incredibles/design01.jpg" alt="인크레더블디자인이미지01"/>
+								</p>
+								<p class="textWrap">
+									Crafting a supervillain’s lair gave the creative team a broader canvas to work with. At first glance it had to be an island paradise, then little by little reveal its sinister aspects.
+
+									“Each character sees the island from their own perspective,” explains Story Supervisor Mark Andrews.“Bob uses his strength and knocks out a guard with a coconut. Helen sees the island in a more stealthy way. For the kids, who haven’t been allowed to use their superpowers, the island is a trial by fire, particularly with Dash being chased and having to finally use his
+									super speed."
+								</p>
+							</li>
+							<li>
+								<h3>E's Lair</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/incredibles/design02.jpg" alt="인크레더블디자인이미지02"/>
+								</p>
+								<p class="textWrap">
+									"When we started to design E’s house we knew we wanted it to be very modern and minimalist," says Production Designer Lou Romano. "But we also wanted to incorporate superhero elements as well that would tie in with E’s past work as a hero costume designer. We went to Greek mythology and art for inspiration and specifically focused on anything to do with gods and heroes – the true superheroes of that time. Featuring that ancient art seemed fitting as a comment on superheroes in the world of the film, forgotten and in decay."
+								</p>
+							</li>
+							<li>
+								<h3>Colorscripts</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/incredibles/design03.jpg" alt="인크레더블디자인이미지03"/>
+								</p>
+								<p class="textWrap">
+									A colorscript is a sequence of small pastel drawings or paintings used to emphasize color in each scene and establish a film's visual language.
+									Lou Romano created his colorscript for The Incredibles with the 1960s sensibilities that infused the rest of the film. Romano’s technique was to“create these shapes that basically told the story in color,” says Character Designer Teddy Newton. “I really took a lot of inspiration from these colorscripts.” The filmmakers paid homage to Romano’s “basic shapes” in crafting the kinetic 2D end credit sequence.
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li id="creditsContent" class="contentWrap">
+						<p class="nameWrap">
+							<strong>WRITTEN AND DIRECTED BY</strong>
+							<em>BRAD BIRD</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCED BY</strong>
+							<em>JOHN WALKER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EXECUTIVE PRODUCER</strong>
+							<em>JOHN LASSETER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ASSOCIATE PRODUCER</strong>
+							<em>KORI RAE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MUSIC BY</strong>
+							<em>MICHAEL GIACCHINO</em>
+						</p>
+						<p class="nameWrap">
+							<strong>STORY SUPERVISOR</strong>
+							<em>MARK ANDREWS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FILM EDITOR</strong>
+							<em>STEPHEN SCHAFFER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTOR</strong>
+							<em>RICK SAYRE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION DESIGNERS</strong>
+							<em>LOU ROMANO</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER DESIGN</strong>
+							<em>TONY FUCILE, TEDDY NEWTON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATOR</strong>
+							<em>TONY FUCILE, STEVEN CLAY HUNTER, ALAN BARILLARO</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY</strong>
+							<em>JANET LUCROY, PATRICK LIN, ANDREW JIMENEZ</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ART DIRECTOR</strong>
+							<em>RALPH EGGLESTON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SHADING ART DIRECTOR</strong>
+							<em>BRYN IMAGIRE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER SUPERVISORS</strong>
+							<em>BILL WISE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>HAIR &amp; CLOTH SIMULATION SUPERVISOR</strong>
+							<em>MARK THOMAS HENNE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS SEQUENCE SUPERVISOR</strong>
+							<em>NIGEL HARDWIDGE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EFFECTS SUPERVISOR</strong>
+							<em>SANDRA KARPMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>RENDERING SUPERVISOR</strong>
+							<em>DON SCHREITER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION MANAGER</strong>
+							<em>KATHERINE SARAFIAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SOUND DESIGNER</strong>
+							<em>RANDY THOM</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CASTING BY</strong>
+							<em>MARY HIDALGO, KEVIN REHER, MATTHEW JON BECK</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ADDITIONAL CASTING BY</strong>
+							<em>JEN RUDIN, C.S.A.</em>
+						</p>
+						<h3>CAST</h3>
+						<p class="nameWrap">
+							<strong>BOB PARR / MR. INCREDIBLE</strong>
+							<em>CRAIG T. NELSON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>HELEN PARR / ELASTIGIRL</strong>
+							<em>HOLLY HUNTER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DASHIELL PARR (DASH)</strong>
+							<em>SPENCER FOX</em>
+						</p>
+						<p class="nameWrap">
+							<strong>VIOLET PARR</strong>
+							<em>SARAH VOWELL</em>
+						</p>
+						<p class="nameWrap">
+							<strong>LUCIUS BEST / FROZONE</strong>
+							<em>SAMUEL L. JACKSON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>BUDDY PINE / SYNDROME</strong>
+							<em>JASON LEE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EDNA MODE (E)</strong>
+							<em>BRAD BIRD</em>
+						</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<h1>FOOTER영역</h1>
+			<div>
+				<h2>회사 소개</h2>
+				<h3>PIXAR STUDIOS</h3>
+				<p>about company</p>
+				<p class="textArea">
+					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+				</p>
+				<a href="../about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+			</div>
+			<div>
+				<h2>회사 CONTACT</h2>
+				<h3>CONTACT US</h3>
+				<p>Pixar Animation Studios</p>
+				<p class="textArea">
+					1200 Park Avenue Emeryville, California 94608<br/>
+					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+				</p>
+				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

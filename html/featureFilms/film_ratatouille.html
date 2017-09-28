@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR RATATOUILLE</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/header.js"></script>
+		<script src="../../js/film.js"></script>
+		<link href="../../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/film.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tcoletteine" rel="stylesheet">
+		<style type="text/css">
+			#container #visual{width:100%;height:700px;background-size:cover;background:url("../../img/bg/ratatouille_head.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:left center;background-color:#000;}
+			#container #movieContent #trailerContent .videoWrap{height:540px;}
+
+			@media all and (min-width:481px) and (max-width:767px){
+				#container #visual{height:500px;background-position:10% center;}
+				#container #movieContent #trailerContent .videoWrap{height:345px;}
+			}
+
+			@media all and (min-width:320px) and (max-width:480px){
+				#container #visual{height:450px;background-size:300%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:245px;}
+			}
+		</style>
+	</head>
+<body>
+	<div id="mobileNavWrap">
+		<a href="#none" title="menu" class="menu">
+			<span class="firstLine"></span>
+			<span class="secondLine"></span>
+			<span class="lastLine"></span>
+		</a>
+		<p id="mobileNavBg"></p>
+		<div id="mobileNav">
+			<p class="profileWrap">
+				<img src="../../img/icon/piper.png" alt="사용자이미지"/>
+			</p>
+			<p class="loginJoinWrap">
+				<a href="../login.html" title="LOGIN">LOGIN</a>
+				<a href="../join.html" title="JOIN">JOIN</a>
+			</p>
+			<ul>
+				<li><a href="../../index.html" title="HOME">HOME</a></li>
+				<li><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+				<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+				<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+				<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+				<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header id="header">
+			<div id="headerWrap">
+				<h1>
+					<a href="../../index.html" title="home">
+						<img src="../../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+					</a>
+				</h1>
+				<nav id="nav">
+					<h2>NAV영역</h2>
+					<a href="#none" title="menu" class="menu">
+						<span class="firstLine"></span>
+						<span class="secondLine"></span>
+						<span class="lastLine"></span>
+					</a>
+					<ul>
+						<li class="select"><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+						<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+						<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+						<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+						<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+						<li><a href="../login.html" title="LOGIN">LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual"></div>
+			</div>
+			<section id="movieContent">
+				<div class="movieHead">
+					<div class="movieLogo">
+						<img src="../../img/logo/ratatouille_logo.png" alt="라따뚜이로고이미지"/>
+					</div>
+					<div class="movieDesc">
+						<h3>Ratatouille</h3>
+						<p>
+							A rat named Remy dreams of becoming a great chef despite his family's wishes, and the obvious problem of being a rat in a decidedly rodent-phobic profession. When fate places Remy in the sewers of Paris, he finds himself ideally situated beneath a restaurant made famous by his culinary hero, Auguste Gusteau. Remy's passion for cooking soon sets into motion a hilarious and exciting rat race that turns the world of Paris upside down.
+						</p>
+					</div>
+				</div>
+				<div class="tabWrap">
+					<ul id="tab">
+						<li class="first">
+							<a href="#trailerContent" title="trailer" class="selected">Trailer</a>
+						</li>
+						<li>
+							<a href="#characterContent" title="character">Character</a>
+						</li>
+						<li>
+							<a href="#designContent" title="design">World Design</a>
+						</li>
+						<li>
+							<a href="#creditsContent" title="credits">Credits</a>
+						</li>
+					</ul>
+				</div>
+				<ul id="content">
+					<li id="trailerContent" class="contentWrap">
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/T18NE5lnZJI"></iframe>
+						</div>
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/LrGgU2WXnf8"></iframe>
+						</div>
+					</li>
+					<li id="characterContent" class="contentWrap">
+						<div class="characterWrap">
+							<ul>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Remy</h4>
+										<p>
+											Rats are no strangers to rejection, but Remy, a rat who longs to be a great chef, has more than the usual obstacles to overcome. His remarkable sense of smell and genius for combining flavors puts him head and shoulders above most human chefs. However, in the rat world he’s resigned to a life of being the “poison sniffer,” using his unique talent to pick out the safe garbage for his family to eat.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/ratatouille/remy00.jpg" alt="remy이미지00"/></p>
+										<p><img src="../../img/character/ratatouille/remy01.jpg" alt="remy이미지01"/></p>
+										<p><img src="../../img/character/ratatouille/remy02.jpg" alt="remy이미지02"/></p>
+										<p><img src="../../img/character/ratatouille/remy03.jpg" alt="remy이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Linguini</h4>
+										<p>
+											Linguini, a timid and well-meaning young man, is the new garbage boy at Gusteau’s. After a series of ill-fated jobs, Linguini is desperate to hold onto this one, which he sees as his last hope. A chance encounter with Remy thrusts Linguini into a highly unusual “ghost-cooking” relationship, in which he provides the gangly brawn for Remy’s culinary brains.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/ratatouille/linguini00.jpg" alt="linguini이미지00"/></p>
+										<p><img src="../../img/character/ratatouille/linguini01.jpg" alt="linguini이미지01"/></p>
+										<p><img src="../../img/character/ratatouille/linguini02.jpg" alt="linguini이미지02"/></p>
+										<p><img src="../../img/character/ratatouille/linguini03.jpg" alt="linguini이미지03"/></p>
+									</div>
+								</li>
+                <li>
+									<div class="characterDescWrap">
+										<h4>Colette</h4>
+										<p>
+											Colette is the toughest chef and the only female in the kitchen at Gusteau’s. Her grit, talent, and intimidating air have brought her far, but years of climbing the ladder in the male-dominated world of haute cuisine have made her wary and self-contained. At first, she is exasperated at being assigned to babysit Linguini as he begins his trial period as a chef.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/ratatouille/colette00.jpg" alt="colette이미지00"/></p>
+										<p><img src="../../img/character/ratatouille/colette01.jpg" alt="colette이미지01"/></p>
+										<p><img src="../../img/character/ratatouille/colette02.jpg" alt="colette이미지02"/></p>
+										<p><img src="../../img/character/ratatouille/colette03.jpg" alt="colette이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Auguste Gusteau</h4>
+										<p>
+											The late Auguste Gusteau, France’s all-time greatest culinary genius, is the author of Anyone Can Cook, the cookbook that inspires Remy's dream of becoming a chef. Gusteau's Paris restaurant became a landmark on the strength of his imaginative vision and masterful preparation, which simultaneously honored and played with the traditions of French cuisine.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/ratatouille/gusteau00.jpg" alt="gusteau이미지00"/></p>
+										<p><img src="../../img/character/ratatouille/gusteau01.jpg" alt="gusteau이미지01"/></p>
+										<p><img src="../../img/character/ratatouille/gusteau02.jpg" alt="gusteau이미지02"/></p>
+										<p><img src="../../img/character/ratatouille/gusteau03.jpg" alt="gusteau이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Emile</h4>
+										<p>
+											Emile, Remy’s little brother, is a rat’s rat—a little overweight and good-natured, he loves life and all things edible and inedible. He doesn’t always understand the finer points of his brother’s obsession with good food, but he is always ready to support Remy on one of his harebrained errands or cheer him up when he's feeling low.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/ratatouille/emile00.jpg" alt="emile이미지00"/></p>
+										<p><img src="../../img/character/ratatouille/emile01.jpg" alt="emile이미지01"/></p>
+										<p><img src="../../img/character/ratatouille/emile02.jpg" alt="emile이미지02"/></p>
+										<p><img src="../../img/character/ratatouille/emile03.jpg" alt="emile이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Anton Ego</h4>
+										<p>
+											Anton Ego, the most powerful food critic in Paris, can make or break a restaurant with a single review. The sight of his dour, colorless, unsmiling face strikes fear into the heart of even the most complacently successful of culinary celebrities. Chefs have become so afraid of displeasing “The Grim Eater,” as he is commonly known, that no one dares to change a menu without his blessing.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/ratatouille/ego00.jpg" alt="ego이미지00"/></p>
+										<p><img src="../../img/character/ratatouille/ego01.jpg" alt="ego이미지01"/></p>
+										<p><img src="../../img/character/ratatouille/ego02.jpg" alt="ego이미지02"/></p>
+										<p><img src="../../img/character/ratatouille/ego03.jpg" alt="ego이미지03"/></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="designContent" class="contentWrap">
+						<ul>
+							<li>
+								<h3>Gusteau’s</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/ratatouille/design00.jpg" alt="라따뚜이디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									On one side, Gusteau’s hushed, luxurious restaurant is almost like a theater, explained Production Designer Harley Jessup. On the other side is the clattery intensity of the kitchen. “So the doorway into the dining room is almost like a stage proscenium, where waiters come out from backstage to present dishes to the audience of diners,” Jessup noted. “We also thought of the dining room as a palace for food and designed it both to awe the viewer and to make the food and the diners look good.”
+								</p>
+							</li>
+							<li>
+								<h3>Linguini’s Apartment</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/ratatouille/design01.jpg" alt="라따뚜이디자인이미지01"/>
+								</p>
+								<p class="textWrap">
+									Brad Bird envisioned Linguini’s apartment as the cheapest in Paris. So the design took an unintended living space, much like an attic or storage space, that had been converted with as many inconveniences as possible. For example, Linguini has to climb up four flights of stairs with his bicycle that couldn't be left on the street for fear of being stolen, the door opens just enough to awkwardly enter, and he has to bend and stretch to maneuver around the furniture—but Linguini has what he needs: an incredible view of Paris to help him dream.
+								</p>
+							</li>
+							<li>
+								<h3>Paris</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/ratatouille/design02.jpg" alt="라따뚜이디자인이미지02"/>
+								</p>
+								<p class="textWrap">
+									Going strictly by the storyline, Ratatouille could have taken place almost entirely within the kitchen. But the filmmakers took every opportunity to move the action out into the photogenic streets of Paris. While the City of Light would provide eye candy for the audience, it would also serve the story, a constant reminder of the rarefied human world that made Remy’s dream so daunting.
+								</p>
+							</li>
+              <li>
+								<h3>Sewers</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/ratatouille/design03.jpg" alt="라따뚜이디자인이미지03"/>
+								</p>
+								<p class="textWrap">
+									Production Designer Harley Jessup had long read about Paris's famous sewers, but when the Pixar team went to France for a firsthand viewing, they weren’t quite as evocative and romantic as envisioned. “So, because it’s entertainment, because we wanted to do something that was bigger than life and caricatured, we felt the audience would respond to us taking some artistic license and creating a grander, more Phantom of the Opera, Les Miserables-type of sewer.“
+								</p>
+							</li>
+							<li>
+								<h3>Colorscript</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/ratatouille/design04.jpg" alt="라따뚜이디자인이미지04"/>
+								</p>
+								<p class="textWrap">
+									A colorscript is a sequence of small pastel drawings or paintings used to emphasize color in each scene and establish a film's visual language.
+									Production Designer Harley Jessup conjured up his own admittedly “informal recipe” for a Ratatouille colorscript using gathered bunches of dyed yarns to create a rat character palette of stylized fur colors. Working with the film’s Director of Photography for Lighting Sharon Calahan, Jessup fashioned a coolly colored underground rat world against the warm, rich tones of the human world.
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li id="creditsContent" class="contentWrap">
+						<p class="nameWrap">
+							<strong>SCREENWRITER AND DIRECTOR</strong>
+							<em>BRAD BIRD</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCED BY</strong>
+							<em>BRAD LEWIS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EXECUTIVE PRODUCER</strong>
+							<em>JOHN LASSETER, ANDREW STANTON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ASSOCIATE PRODUCER</strong>
+							<em>GALYN SUSMAN</em>
+						</p>
+            <p class="nameWrap">
+							<strong>ORIGINAL STORY BY</strong>
+							<em>JAN PINKAVA, JIM CAPOBIANCO, BRAD BIRD</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MUSIC BY</strong>
+							<em>MICHAEL GIACCHINO</em>
+						</p>
+						<p class="nameWrap">
+							<strong>STORY SUPERVISOR</strong>
+							<em>JASON KATZ</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FILM EDITOR</strong>
+							<em>DARREN HOLMES</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTOR</strong>
+							<em>MICHAEL FONG</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTOR</strong>
+							<em>MICHAEL FONG</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION DESIGNER</strong>
+							<em>HARLEY JESSUP</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATORS</strong>
+							<em>DYLAN BROWN, MARK WALSH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-CAMERA</strong>
+							<em>ROBERT ANDERSON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-LIGHTING</strong>
+							<em>SHARON CALAHAN</em>
+						</p>
+            <p class="nameWrap">
+							<strong>CHARACTER DESIGN</strong>
+							<em>JASON DEAMER, GREG DYKSTRA, CARTER GOODRICH, DAN LEE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER SUPERVISOR</strong>
+							<em>BRIAN GREEN</em>
+						</p>
+            <p class="nameWrap">
+							<strong>SETS ART DIRECTOR</strong>
+							<em>ROBERT KONDO</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS SUPERVISOR</strong>
+							<em>DAVID EISENMANN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SHADING ART DIRECTIOR</strong>
+							<em>BELINDA VAN VALKENBURG</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SHADING SUPERVISOR</strong>
+							<em>DANIEL MCCOY</em>
+						</p>
+            <p class="nameWrap">
+							<strong>GLOBAL TECHNOLOGY SUPERVISOR</strong>
+							<em>WILLIAM REEVES</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EFFECTS SUPERVISOR</strong>
+							<em>APURVA SHAH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SIMULATION SUPERVISOR</strong>
+							<em>CHRISTINE WAGGONER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>GROOM SUPERVISOR</strong>
+							<em>SANJAY BAKSHI</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CROWDS SUPERVISOR</strong>
+							<em>ZIAH SARAH FOGEL</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION MANAGER</strong>
+							<em>NICOLE PARADIS GRINDLE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SOUND DESIGNER</strong>
+							<em>RANDY THOM</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CASTING BY</strong>
+							<em>KEVIN REHER, NATALIE LYON</em>
+						</p>
+						<h3>CAST</h3>
+						<p class="nameWrap">
+							<strong>remy FREDRICKSEN</strong>
+							<em>ED ASNER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARLES ego</strong>
+							<em>CHRISTOPHER PLUMMER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>REMY</strong>
+							<em>PATTON OSWALT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>LINGUINI</strong>
+							<em>LOU ROMANO</em>
+						</p>
+						<p class="nameWrap">
+							<strong>BETA</strong>
+							<em>DELROY LINDO</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EMILE</strong>
+							<em>PETER SOHN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ANTON EGO</strong>
+							<em>PETER O’TOOLE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>GUSTEAU</strong>
+							<em>BRAD GARRETT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>COLETTE</strong>
+							<em>JANEANE GAROFALO</em>
+						</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<h1>FOOTER영역</h1>
+			<div>
+				<h2>회사 소개</h2>
+				<h3>PIXAR STUDIOS</h3>
+				<p>about company</p>
+				<p class="textArea">
+					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+				</p>
+				<a href="../about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+			</div>
+			<div>
+				<h2>회사 CONTACT</h2>
+				<h3>CONTACT US</h3>
+				<p>Pixar Animation Studios</p>
+				<p class="textArea">
+					1200 Park Avenue Emeryville, California 94608<br/>
+					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+				</p>
+				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

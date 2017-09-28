@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR TOY STORY</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/header.js"></script>
+		<script src="../../js/film.js"></script>
+		<link href="../../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/film.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tjessieine" rel="stylesheet">
+		<style type="text/css">
+			#container #visual{width:100%;height:700px;background-size:cover;background:url("../../img/bg/toyStory_head.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:center;background-color:#000;}
+			#container #movieContent #trailerContent .videoWrap{height:500px;}
+
+			@media all and (min-width:481px) and (max-width:767px){
+				#container #visual{height:500px;}
+				#container #movieContent #trailerContent .videoWrap{height:330px;}
+			}
+
+			@media all and (min-width:320px) and (max-width:480px){
+				#container #visual{height:450px;background-size:255%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:230px;}
+			}
+		</style>
+	</head>
+<body>
+	<div id="mobileNavWrap">
+		<a href="#none" title="menu" class="menu">
+			<span class="firstLine"></span>
+			<span class="secondLine"></span>
+			<span class="lastLine"></span>
+		</a>
+		<p id="mobileNavBg"></p>
+		<div id="mobileNav">
+			<p class="profileWrap">
+				<img src="../../img/icon/piper.png" alt="사용자이미지"/>
+			</p>
+			<p class="loginJoinWrap">
+				<a href="../login.html" title="LOGIN">LOGIN</a>
+				<a href="../join.html" title="JOIN">JOIN</a>
+			</p>
+			<ul>
+				<li><a href="../../index.html" title="HOME">HOME</a></li>
+				<li><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+				<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+				<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+				<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+				<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header id="header">
+			<div id="headerWrap">
+				<h1>
+					<a href="../../index.html" title="home">
+						<img src="../../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+					</a>
+				</h1>
+				<nav id="nav">
+					<h2>NAV영역</h2>
+					<a href="#none" title="menu" class="menu">
+						<span class="firstLine"></span>
+						<span class="secondLine"></span>
+						<span class="lastLine"></span>
+					</a>
+					<ul>
+						<li class="select"><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+						<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+						<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+						<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+						<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+						<li><a href="../login.html" title="LOGIN">LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual"></div>
+			</div>
+			<section id="movieContent">
+				<div class="movieHead">
+					<div class="movieLogo">
+						<img src="../../img/logo/toy_story_logo.png" alt="토이스토리로고이미지"/>
+					</div>
+					<div class="movieDesc">
+						<h3>Toy Story</h3>
+						<p>
+							Ever wonder what toys do when people aren't around? Toy Story answers that question with a fantastic fun-filled journey, viewed mostly through the eyes of two rival toys – Woody, the lanky, likable cowboy, and Buzz Lightyear, the fearless space ranger.  Led by Woody, Andy's toys live happily in his room until Andy's birthday brings Buzz Lightyear onto the scene. Afraid of losing his place in Andy's heart, Woody plots against Buzz.
+							But when circumstances separate Buzz and Woody from their owner, the comically-mismatched duo eventually learn to put aside their differences, and they find themselves on a hilarious adventure-filled mission where the only way they can survive is to form an uneasy alliance.
+						</p>
+					</div>
+				</div>
+				<div class="tabWrap">
+					<ul id="tab">
+						<li class="first">
+							<a href="#trailerContent" title="trailer" class="selected">Trailer</a>
+						</li>
+						<li>
+							<a href="#characterContent" title="character">Character</a>
+						</li>
+						<li>
+							<a href="#designContent" title="design">World Design</a>
+						</li>
+						<li>
+							<a href="#creditsContent" title="credits">Credits</a>
+						</li>
+					</ul>
+				</div>
+				<ul id="content">
+					<li id="trailerContent" class="contentWrap">
+						<div class="videoWrap">
+						  <iframe src="https://www.youtube.com/embed/QqIRLEg521Y"></iframe>
+						</div>
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/T_BXsjiFa0M"></iframe>
+						</div>
+					</li>
+					<li id="characterContent" class="contentWrap">
+						<div class="characterWrap">
+							<ul>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Woody</h4>
+										<p>
+											Woody is a traditional kind of toy, with his pull-string voice box and cowboy detailing. He has long enjoyed a place of honor as the favorite among six-year-old Andy's toys—until Buzz Lightyear crash-lands and shakes up his world.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/toyStory/woody00.jpg" alt="우디이미지00"/></p>
+										<p><img src="../../img/character/toyStory/woody01.jpg" alt="우디이미지01"/></p>
+										<p><img src="../../img/character/toyStory/woody02.jpg" alt="우디이미지02"/></p>
+										<p><img src="../../img/character/toyStory/woody03.jpg" alt="우디이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Buzz Lightyear</h4>
+										<p>
+											This space ranger action figure has it all: a laser beam, karate-chop action, pop-out wings, and a belief that he's on a secret mission for Star Command. Much to Woody's chagrin, Buzz monopolizes Andy's attention and becomes an instant favorite with his toymates.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/toyStory/buzz00.jpg" alt="버즈이미지00"/></p>
+										<p><img src="../../img/character/toyStory/buzz01.jpg" alt="버즈이미지01"/></p>
+										<p><img src="../../img/character/toyStory/buzz02.jpg" alt="버즈이미지02"/></p>
+										<p><img src="../../img/character/toyStory/buzz03.jpg" alt="버즈이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Hamm</h4>
+										<p>
+											The piggy bank in the window knows everything. Or at least that's what Hamm would have everyone believe when he's sticking his snout into the day's affairs.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/toyStory/hamm00.jpg" alt="햄이미지00"/></p>
+										<p><img src="../../img/character/toyStory/hamm01.jpg" alt="햄이미지01"/></p>
+										<p><img src="../../img/character/toyStory/hamm02.jpg" alt="햄이미지02"/></p>
+										<p><img src="../../img/character/toyStory/hamm03.jpg" alt="햄이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Mr. Potato Head</h4>
+										<p>
+											Mr. Potato Head has a chip on his shoulder, but you would too if your face kept falling off. His cynical take on life makes him the toy to question Woody's authority.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/toyStory/mrpotato00.jpg" alt="미스터포테이토이미지00"/></p>
+										<p><img src="../../img/character/toyStory/mrpotato01.jpg" alt="미스터포테이토이미지01"/></p>
+										<p><img src="../../img/character/toyStory/mrpotato02.jpg" alt="미스터포테이토이미지02"/></p>
+										<p><img src="../../img/character/toyStory/mrpotato03.jpg" alt="미스터포테이토이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Rex</h4>
+										<p>
+											Rex is a neurotic and insecure 12-inch plastic dinosaur with a small-roar complex and limited upper-arm movement. With his tender heart and weak spine, this Tyrannosaurus is one of the most lovable toys of the bunch.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/toyStory/rex00.jpg" alt="렉스이미지00"/></p>
+										<p><img src="../../img/character/toyStory/rex01.jpg" alt="렉스이미지01"/></p>
+										<p><img src="../../img/character/toyStory/rex02.jpg" alt="렉스이미지02"/></p>
+										<p><img src="../../img/character/toyStory/rex03.jpg" alt="렉스이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Slinky</h4>
+										<p>
+											A dog is man's best friend, and the saying rings true for those of the vinyl variety, too. Slinky is Woody's trusted friend and partner in playing checkers—and the one who "stretches" the most in the friendship.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/toyStory/slinky00.jpg" alt="슬링키이미지00"/></p>
+										<p><img src="../../img/character/toyStory/slinky01.jpg" alt="슬링키이미지01"/></p>
+										<p><img src="../../img/character/toyStory/slinky02.jpg" alt="슬링키이미지02"/></p>
+										<p><img src="../../img/character/toyStory/slinky03.jpg" alt="슬링키이미지03"/></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="designContent" class="contentWrap">
+						<ul>
+							<li>
+								<h3>Andy's House</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/toyStory/design00.jpg" alt="토이스토리디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									Andy’s room was a world of its own, home to most of Toy Story’s characters and a place that immediately conveyed comfort and safety. That sense of safety provided the conflict as the characters faced new anxieties like leaving the house and welcoming a new toy.
+								</p>
+							</li>
+							<li>
+								<h3>Dinoco Station</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/toyStory/design01.jpg" alt="토이스토리디자인이미지01"/>
+								</p>
+								<p class="textWrap">
+									Every set offered an opportunity and a challenge. The test for the neighborhood Dinoco station was to replicate the style and sheen of the classic 1950s gas station, while adding just the right touch of harsh light, oil stains, and cement texture to make it believable.
+								</p>
+							</li>
+							<li>
+								<h3>Pizza Planet</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/toyStory/design02.jpg" alt="토이스토리디자인이미지02"/>
+								</p>
+								<p class="textWrap">
+									In an early version of the film, the pizza parlor had a miniature golf theme. When Buzz Lightyear entered the picture, the Pixar designers turned it into Pizza Planet, an elaborate space-themed drive-in that Buzz could mistake for a spaceport and his ticket home. It also supplied the name and logo for the Pizza Planet delivery truck, which went on to make cameos in several Pixar films.
+								</p>
+							</li>
+							<li>
+								<h3>Sid's House</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/toyStory/design03.jpg" alt="토이스토리디자인이미지03"/>
+								</p>
+								<p class="textWrap">
+									Movie villains are often more fun than the straight guy, and many on the Pixar team found they related to the mutant impulses of Sid, the bad boy next door. “I think Sid is normal,” says Andrew Stanton. “I think Andy is the weird one, this boy who takes care of his toys.” Coming up with disturbing new creations to populate Sid’s room became one of the most popular tasks in Toy Story.
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li id="creditsContent" class="contentWrap">
+						<p class="nameWrap">
+							<strong>DIRECTED BY</strong>
+							<em>JOHN LASSETER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCED BY</strong>
+							<em>RALPH GUGGENHEIM, BONNIE ARNOLD</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EXECUTIVE PRODUCER</strong>
+							<em>EDWIN CATMULL, STEVEN JOBS</em>
+						</p>
+            <p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTOR</strong>
+							<em>WILLIAM REEVES</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MUSIC BY</strong>
+							<em>RANDY NEWMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SONGS WRITTEN &amp; PERFORMED BY</strong>
+							<em>RANDY NEWMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ORIGINAL STORY BY</strong>
+							<em>JOHN LASSETER, PETE DOCTER, ANDREW STANTON, JOE RANFT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SCREENPLAY BY</strong>
+							<em>JOSS WHEDON, ANDREW STANTON, JOEL COHEN AND ALEC SOKOLOW</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ART DIRECTOR</strong>
+							<em>JOSS WHEDON, ANDREW STANTON, JOEL COHEN AND ALEC SOKOLOW</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FILM EDITOR</strong>
+							<em>ROBERT GORDON, LEE UNKRICH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATOR</strong>
+							<em>PETE DOCTER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SOUND DESIGN</strong>
+							<em>GARY RYDSTROM</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION SUPERVISOR</strong>
+							<em>KAREN ROBERT JACKSON</em>
+						</p>
+						<h3>CAST</h3>
+						<p class="nameWrap">
+							<strong>WOODY</strong>
+							<em>TOM HANKS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>BUZZ LIGHTYEAR</strong>
+							<em>TIM ALLEN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MR. POTATO HEAD</strong>
+							<em>DON RICKLES</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SLINKY DOG</strong>
+							<em>JIM VARNEY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>REX</strong>
+							<em>WALLACE SHAWN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>HAMM</strong>
+							<em>JOHN RATZENBERGER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ANDY</strong>
+							<em>JOHN MORRIS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>BO PEEP</strong>
+							<em>ANNIE POTTS</em>
+						</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<h1>FOOTER영역</h1>
+			<div>
+				<h2>회사 소개</h2>
+				<h3>PIXAR STUDIOS</h3>
+				<p>about company</p>
+				<p class="textArea">
+					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+				</p>
+				<a href="../about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+			</div>
+			<div>
+				<h2>회사 CONTACT</h2>
+				<h3>CONTACT US</h3>
+				<p>Pixar Animation Studios</p>
+				<p class="textArea">
+					1200 Park Avenue Emeryville, California 94608<br/>
+					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+				</p>
+				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

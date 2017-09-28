@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR INSIDE OUT</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/header.js"></script>
+		<script src="../../js/film.js"></script>
+		<link href="../../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/film.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+		<style type="text/css">
+			#container #visual{width:100%;height:700px;background-size:cover;background:url("../../img/bg/insideOut_head.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:center;background-color:#000;}
+			#container #movieContent #trailerContent .videoWrap{height:535px;}
+
+			@media all and (min-width:481px) and (max-width:767px){
+				#container #visual{height:500px;background-position:50% 110%;}
+				#container #movieContent #trailerContent .videoWrap{height:345px;}
+			}
+
+			@media all and (min-width:320px) and (max-width:480px){
+				#container #visual{height:450px;background-size:250%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:245px;}
+			}
+		</style>
+	</head>
+<body>
+	<div id="mobileNavWrap">
+		<a href="#none" title="menu" class="menu">
+			<span class="firstLine"></span>
+			<span class="secondLine"></span>
+			<span class="lastLine"></span>
+		</a>
+		<p id="mobileNavBg"></p>
+		<div id="mobileNav">
+			<p class="profileWrap">
+				<img src="../../img/icon/piper.png" alt="사용자이미지"/>
+			</p>
+			<p class="loginJoinWrap">
+				<a href="../login.html" title="LOGIN">LOGIN</a>
+				<a href="../join.html" title="JOIN">JOIN</a>
+			</p>
+			<ul>
+				<li><a href="../../index.html" title="HOME">HOME</a></li>
+				<li><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+				<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+				<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+				<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+				<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header id="header">
+			<div id="headerWrap">
+				<h1>
+					<a href="../../index.html" title="home">
+						<img src="../../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+					</a>
+				</h1>
+				<nav id="nav">
+					<h2>NAV영역</h2>
+					<a href="#none" title="menu" class="menu">
+						<span class="firstLine"></span>
+						<span class="secondLine"></span>
+						<span class="lastLine"></span>
+					</a>
+					<ul>
+						<li class="select"><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+						<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+						<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+						<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+						<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+						<li><a href="../login.html" title="LOGIN">LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual"></div>
+			</div>
+			<section id="movieContent">
+				<div class="movieHead">
+					<div class="movieLogo">
+						<img src="../../img/logo/inside_out_logo.png" alt="인사이드아웃로고이미지"/>
+					</div>
+					<div class="movieDesc">
+						<h3>Inside out</h3>
+						<p>
+							Growing up can be a bumpy road, and it’s no exception for Riley, who is uprooted from her Midwest life when her father starts a new job in San Francisco. Like all of us, Riley is guided by her emotions – Joy, Fear, Anger, Disgust and Sadness. The emotions live in Headquarters, the control center inside Riley’s mind, where they help advise her through everyday life. As Riley and her emotions struggle to adjust to a new life in San Francisco, turmoil ensues in Headquarters. Although Joy, Riley’s main and most important emotion, tries to keep things positive, the emotions conflict on how best to navigate a new city, house and school.
+            </p>
+					</div>
+				</div>
+				<div class="tabWrap">
+					<ul id="tab">
+						<li class="first">
+							<a href="#trailerContent" title="trailer" class="selected">Trailer</a>
+						</li>
+						<li>
+							<a href="#characterContent" title="character">Character</a>
+						</li>
+						<li>
+							<a href="#designContent" title="design">World Design</a>
+						</li>
+						<li>
+							<a href="#creditsContent" title="credits">Credits</a>
+						</li>
+					</ul>
+				</div>
+				<ul id="content">
+					<li id="trailerContent" class="contentWrap">
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/1t0A_tZGrYw"></iframe>
+						</div>
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/yRUAzGQ3nSY"></iframe>
+						</div>
+					</li>
+					<li id="characterContent" class="contentWrap">
+						<div class="characterWrap">
+							<ul>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Joy</h4>
+										<p>
+											Joy’s goal has always been to make sure Riley stays happy. She is lighthearted, optimistic and determined to find the fun in every situation. Joy sees challenges in Riley’s life as opportunities, and the less happy moments as hiccups on the way back to something great. As long as Riley is happy, so is Joy.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/insideOut/joy00.jpg" alt="joy이미지00"/></p>
+										<p><img src="../../img/character/insideOut/joy01.jpg" alt="joy이미지01"/></p>
+										<p><img src="../../img/character/insideOut/joy02.jpg" alt="joy이미지02"/></p>
+										<p><img src="../../img/character/insideOut/joy03.jpg" alt="joy이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Sadness</h4>
+										<p>
+											None of the other Emotions really understand what Sadness’s role is. Sadness would love to be more optimistic and helpful in keeping Riley happy, but she finds it so hard to be positive. Sometimes it seems like the best thing to do is just lie on the floor and have a good cry.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/insideOut/sadness00.jpg" alt="sadness이미지00"/></p>
+										<p><img src="../../img/character/insideOut/sadness01.jpg" alt="sadness이미지01"/></p>
+										<p><img src="../../img/character/insideOut/sadness02.jpg" alt="sadness이미지02"/></p>
+										<p><img src="../../img/character/insideOut/sadness03.jpg" alt="sadness이미지03"/></p>
+									</div>
+								</li>
+                <li>
+									<div class="characterDescWrap">
+										<h4>Anger</h4>
+										<p>
+											Anger feels very passionately about making sure things are fair for Riley. He has a fiery spirit and tends to explode (literally) when things don’t go as planned. He is quick to overreact and has little patience for life’s imperfections.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/insideOut/anger00.jpg" alt="anger이미지00"/></p>
+										<p><img src="../../img/character/insideOut/anger01.jpg" alt="anger이미지01"/></p>
+										<p><img src="../../img/character/insideOut/anger02.jpg" alt="anger이미지02"/></p>
+										<p><img src="../../img/character/insideOut/anger03.jpg" alt="anger이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Disgust</h4>
+										<p>
+											Disgust is highly opinionated, extremely honest and prevents Riley from getting poisoned – both physically and socially. She keeps a careful eye on the people, places and things that Riley comes into contact with – whether that’s broccoli or last year’s fashion trend. Disgust always has the best of intentions and refuses to lower her standards.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/insideOut/disgust00.jpg" alt="disgust이미지00"/></p>
+										<p><img src="../../img/character/insideOut/disgust01.jpg" alt="disgust이미지01"/></p>
+										<p><img src="../../img/character/insideOut/disgust02.jpg" alt="disgust이미지02"/></p>
+										<p><img src="../../img/character/insideOut/disgust03.jpg" alt="disgust이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Fear</h4>
+										<p>
+											Fear’s main job is to protect Riley and keep her safe. He is constantly on the lookout for potential disasters, and spends time evaluating the possible dangers, pitfalls and risk involved in Riley’s everyday activities. There are very few activities and events that Fear does not find to be dangerous and possibly fatal.
+                    </p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/insideOut/fear00.jpg" alt="fear이미지00"/></p>
+										<p><img src="../../img/character/insideOut/fear01.jpg" alt="fear이미지01"/></p>
+										<p><img src="../../img/character/insideOut/fear02.jpg" alt="fear이미지02"/></p>
+										<p><img src="../../img/character/insideOut/fear03.jpg" alt="fear이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Riley</h4>
+										<p>
+											Riley Andersen is an eternally happy kid, at least until she turns eleven and her dad gets a job across the country, forcing the family to relocate to San Francisco. As she struggles to navigate a new home and school, Riley experiences an unfamiliar mix of emotions.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/insideOut/riley00.jpg" alt="riley이미지00"/></p>
+										<p><img src="../../img/character/insideOut/riley01.jpg" alt="riley이미지01"/></p>
+										<p><img src="../../img/character/insideOut/riley02.jpg" alt="riley이미지02"/></p>
+										<p><img src="../../img/character/insideOut/riley03.jpg" alt="riley이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Bing Bong</h4>
+										<p>
+											With the trunk of an elephant, the tail of a cat, and body of cotton candy, Bing Bong is Riley’s imaginary friend. (You have to remember, when Riley was three animals were all the rage.) Unfortunately, he’s been out of work since Riley turned four, and he’s desperate to not be left behind as Riley grows up.
+                    </p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/insideOut/bingbong00.jpg" alt="bingbong이미지00"/></p>
+										<p><img src="../../img/character/insideOut/bingbong01.jpg" alt="bingbong이미지01"/></p>
+										<p><img src="../../img/character/insideOut/bingbong02.jpg" alt="bingbong이미지02"/></p>
+										<p><img src="../../img/character/insideOut/bingbong03.jpg" alt="bingbong이미지03"/></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="designContent" class="contentWrap">
+						<ul>
+							<li>
+								<h3>Headquarters</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/insideOut/design00.jpg" alt="인사이드아웃디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									Headquarters is the control center in Riley’s mind where all five Emotions live and work, monitoring Riley’s day-to-day experiences and guiding her along the way.
+								</p>
+							</li>
+							<li>
+								<h3>Dream Productions</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/insideOut/design01.jpg" alt="인사이드아웃디자인이미지01"/>
+								</p>
+								<p class="textWrap">
+									Built and staffed like a full-fledged Hollywood studio, Dream Productions is where Riley’s dreams (and nightmares) are created. The writers here are not afraid to take risks and often dance on the edge of logic when it comes to Riley’s dreams.
+								</p>
+							</li>
+							<li>
+								<h3>Imagination Land</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/insideOut/design02.jpg" alt="인사이드아웃디자인이미지02"/>
+								</p>
+								<p class="textWrap">
+									“Imagination Land is where all of Riley’s flights of fancy and daydreams are built full-size and come to life,” says Docter. “It’s a place where you go to play.”
+								</p>
+							</li>
+              <li>
+								<h3>Islands Of Personality</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/insideOut/design03.jpg" alt="인사이드아웃디자인이미지03"/>
+								</p>
+								<p class="textWrap">
+									Riley’s Islands of Personality are powered by core memories, which are memories of extremely significant times in Riley’s life.
+								</p>
+							</li>
+							<li>
+								<h3>Train Of Thought</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/insideOut/design04.jpg" alt="인사이드아웃디자인이미지04"/>
+								</p>
+								<p class="textWrap">
+									The Train of Thought is an all-terrain choo-choo with a self-generating track that delivers daydreams, ideas and other thoughts to Headquarters. It’s also used to transfer memories to different regions of Riley’s mind. But take note: When Riley sleeps, so do the operators.
+								</p>
+							</li>
+							<li>
+								<h3>Long Term Memory</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/insideOut/design05.jpg" alt="인사이드아웃디자인이미지05"/>
+								</p>
+								<p class="textWrap">
+									Long Term Memory is a vast floor-to-very-high-ceiling storage facility that houses millions of Riley’s memories. Long Term Memory is staffed by Mind Workers, including the Forgetters, who evaluate the usefulness of each memory and eliminate those that no longer seem relevant.
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li id="creditsContent" class="contentWrap">
+						<p class="nameWrap">
+							<strong>DIRECTED BY</strong>
+							<em>PETE DOCTER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CO-DIRECTED BY</strong>
+							<em>RONNIE DEL CARMEN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCED BY</strong>
+							<em>JONAS RIVERA, P.G.A.</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EXECUTIVE PRODUCER</strong>
+							<em>
+                JOHN LASSETER<br/>
+                ANDREW STANTON<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ASSOCIATE PRODUCER</strong>
+							<em>MARK NIELSEN</em>
+						</p>
+            <p class="nameWrap">
+							<strong>STORY BY</strong>
+							<em>
+                PETE DOCTER, RONNIE DEL CARMEN
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SCREENPLAY BY</strong>
+							<em>PETE DOCTER, MEG LEFAUVE, JOSH COOLEY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ORIGINAL SCORE COMPOSED BY</strong>
+							<em>MICHAEL GIACCHINO</em>
+						</p>
+						<p class="nameWrap">
+							<strong>STORY SUPERVISOR</strong>
+							<em>JOSH COOLEY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FILM EDITOR</strong>
+							<em>KEVIN NOLTING, A.C.E</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION DESIGNER</strong>
+							<em>RALPH EGGLESTON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTOR</strong>
+							<em>MICHAEL FONG</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION MANAGER</strong>
+							<em>DANA MURRAY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATORS</strong>
+							<em>SHAWN KRAUSE, VICTOR NAVONE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-CAMERA</strong>
+							<em>PATRICK LIN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-LIGHTING</strong>
+							<em>KIM WHITE</em>
+						</p>
+            <p class="nameWrap">
+							<strong>CHARACTER SUPERVISOR</strong>
+							<em>SAJAN SKARIA</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS SUPERVISOR</strong>
+							<em>ROBERT MOYER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SIMULATION SUPERVISOR</strong>
+							<em>EDWIN CHANG</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EFFECTS SUPERVISOR</strong>
+							<em>GARY BRUINS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER ART DIRECTOR</strong>
+							<em>ALBERT LOZANO</em>
+						</p>
+            <p class="nameWrap">
+							<strong>SHADING ART DIRECTOR</strong>
+							<em>BERT BERRY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>GLOBAL TECHNOLOGY SUPERVISOR</strong>
+							<em>WILLIAM REEVES</em>
+						</p>
+						<p class="nameWrap">
+							<strong>RENDERING SUPERVISOR</strong>
+							<em>ALEXANDER KOLLIOPOULOS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SOUND DESIGNER</strong>
+							<em>REN KLYCE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CASTING</strong>
+							<em>
+								KEVIN REHER, C.S.A.<br/>
+								NATALIE LYON, C.S.A.<br/>
+							</em>
+						</p>
+						<h3>CAST</h3>
+						<p class="nameWrap">
+							<strong>JOY</strong>
+							<em>AMY POEHLER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SADNESS</strong>
+							<em>PHYLLIS SMITH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>BING BONG</strong>
+							<em>RICHARD KIND</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FEAR</strong>
+							<em>BILL HADER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ANGER</strong>
+							<em>LEWIS BLACK</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DISGUST</strong>
+							<em>MINDY KALING</em>
+						</p>
+						<p class="nameWrap">
+							<strong>NASH</strong>
+							<em>A.J. BUCKLEY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>RILEY ANDERSEN</strong>
+							<em>KAITLYN DIAS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MOM</strong>
+							<em>DIANE LANE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DAD</strong>
+							<em>KYLE MACLACHLAN</em>
+						</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<h1>FOOTER영역</h1>
+			<div>
+				<h2>회사 소개</h2>
+				<h3>PIXAR STUDIOS</h3>
+				<p>about company</p>
+				<p class="textArea">
+					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+				</p>
+				<a href="../about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+			</div>
+			<div>
+				<h2>회사 CONTACT</h2>
+				<h3>CONTACT US</h3>
+				<p>Pixar Animation Studios</p>
+				<p class="textArea">
+					1200 Park Avenue Emeryville, California 94608<br/>
+					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+				</p>
+				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

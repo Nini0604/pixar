@@ -1,0 +1,10 @@
+*{margin:0;padding:0;}
+li{list-style-type:none;}
+img{border:none;}
+a:link,a:visited{text-decoration:none;color:#333;}
+/*a:focus{outline:none;}*/
+h2,#container h1,#footer h1{position:absolute;left:-9999px;width:1px;height:1px;font-size:1px;line-height:0;overflow:hidden;}
+
+header,footer,section,nav,article,aside,body,div,p,span,a,tr,td,th,caption,strong,em{margin:0;padding:0;}
+header,footer,section,nav,article,aside{display:block;}
+button,input[type="button"],input[type="submit"],input[type="reset"]{cursor:pointer;}

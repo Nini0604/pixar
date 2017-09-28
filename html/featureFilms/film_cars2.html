@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR CARS2</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/header.js"></script>
+		<script src="../../js/film.js"></script>
+		<link href="../../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/film.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tfinnine" rel="stylesheet">
+		<style type="text/css">
+			#container #visual{width:100%;height:700px;background-size:cover;background:url("../../img/bg/cars2_head.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:center;background-color:#000;}
+			#container #movieContent #trailerContent .videoWrap{height:540px;}
+
+			@media all and (min-width:481px) and (max-width:767px){
+				#container #visual{height:500px;background-position:center 165%;}
+				#container #movieContent #trailerContent .videoWrap{height:345px;}
+			}
+
+			@media all and (min-width:320px) and (max-width:480px){
+				#container #visual{height:450px;background-size:300%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:245px;}
+			}
+		</style>
+	</head>
+<body>
+	<div id="mobileNavWrap">
+		<a href="#none" title="menu" class="menu">
+			<span class="firstLine"></span>
+			<span class="secondLine"></span>
+			<span class="lastLine"></span>
+		</a>
+		<p id="mobileNavBg"></p>
+		<div id="mobileNav">
+			<p class="profileWrap">
+				<img src="../../img/icon/piper.png" alt="사용자이미지"/>
+			</p>
+			<p class="loginJoinWrap">
+				<a href="../login.html" title="LOGIN">LOGIN</a>
+				<a href="../join.html" title="JOIN">JOIN</a>
+			</p>
+			<ul>
+				<li><a href="../../index.html" title="HOME">HOME</a></li>
+				<li><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+				<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+				<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+				<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+				<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header id="header">
+			<div id="headerWrap">
+				<h1>
+					<a href="../../index.html" title="home">
+						<img src="../../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+					</a>
+				</h1>
+				<nav id="nav">
+					<h2>NAV영역</h2>
+					<a href="#none" title="menu" class="menu">
+						<span class="firstLine"></span>
+						<span class="secondLine"></span>
+						<span class="lastLine"></span>
+					</a>
+					<ul>
+						<li class="select"><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+						<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+						<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+						<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+						<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+						<li><a href="../login.html" title="LOGIN">LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual"></div>
+			</div>
+			<section id="movieContent">
+				<div class="movieHead">
+					<div class="movieLogo">
+						<img src="../../img/logo/cars2_logo.png" alt="카2로고이미지"/>
+					</div>
+					<div class="movieDesc">
+						<h3>Cars 2</h3>
+						<p>
+							Star racecar Lightning McQueen and the incomparable tow truck Mater take their friendship to exciting new places in Cars 2 when they head overseas to compete in the first-ever World Grand Prix to determine the world's fastest car. But the road to the championship is filled with plenty of potholes, detours, and hilarious surprises when Mater gets caught up in an intriguing adventure of his own: international espionage.
+						</p>
+					</div>
+				</div>
+				<div class="tabWrap">
+					<ul id="tab">
+						<li class="first">
+							<a href="#trailerContent" title="trailer" class="selected">Trailer</a>
+						</li>
+						<li>
+							<a href="#characterContent" title="character">Character</a>
+						</li>
+						<li>
+							<a href="#designContent" title="design">World Design</a>
+						</li>
+						<li>
+							<a href="#creditsContent" title="credits">Credits</a>
+						</li>
+					</ul>
+				</div>
+				<ul id="content">
+					<li id="trailerContent" class="contentWrap">
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/D8m9qWJA2qo"></iframe>
+						</div>
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/dSWSRtLv4oU"></iframe>
+						</div>
+					</li>
+					<li id="characterContent" class="contentWrap">
+						<div class="characterWrap">
+							<ul>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Mater</h4>
+										<p>
+											In the now-popular tourist destination of Radiator Springs, the rusty old tow truck Mater has a number of roles, including proprietor of Tow Mater Towing and Salvage, grand storyteller, and the heart and soul of the town. But Mater’s favorite title is best friend to Lightning McQueen. Mater values each and every dent he’s earned on his escapades with Lightning over the years.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/cars2/mater00.jpg" alt="mater이미지00"/></p>
+										<p><img src="../../img/character/cars2/mater01.jpg" alt="mater이미지01"/></p>
+										<p><img src="../../img/character/cars2/mater02.jpg" alt="mater이미지02"/></p>
+										<p><img src="../../img/character/cars2/mater03.jpg" alt="mater이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Lightning McQueen</h4>
+										<p>
+											Number 95 Lightning McQueen is still a hotshot race car, but his rookie days are past him. Now a permanent resident of Radiator Springs, Lightning has become a bona fide worldwide celebrity as winner of four Piston Cups.His off-season is unexpectedly cut short when Mater inadvertently prompts Lightning to enter the World Grand Prix, a high profile, three-part exhibition race that will take him around the globe.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/cars2/mcQueen00.jpg" alt="mcQueen이미지00"/></p>
+										<p><img src="../../img/character/cars2/mcQueen01.jpg" alt="mcQueen이미지01"/></p>
+										<p><img src="../../img/character/cars2/mcQueen02.jpg" alt="mcQueen이미지02"/></p>
+										<p><img src="../../img/character/cars2/mcQueen03.jpg" alt="mcQueen이미지03"/></p>
+									</div>
+								</li>
+                <li>
+									<div class="characterDescWrap">
+										<h4>Finn McMissile</h4>
+										<p>
+											Finn McMissile is a master British spy. Though charming and eloquent, it’s his stealth maneuvering, intelligence, and years in the field that enable him to thwart unexpected attacks from bad guys and make quick daredevil escapes.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/cars2/finn00.jpg" alt="finn이미지00"/></p>
+										<p><img src="../../img/character/cars2/finn01.jpg" alt="finn이미지01"/></p>
+										<p><img src="../../img/character/cars2/finn02.jpg" alt="finn이미지02"/></p>
+										<p><img src="../../img/character/cars2/finn03.jpg" alt="finn이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Francesco Bernoulli </h4>
+										<p>
+											Francesco Bernoulli grew up in the shadow of the famous Monza racecourse in Italy, where he and his friends would sneak onto the track and race the famous Pista di Alta Velocita bank turn. He was an instant winner on the amateur circuit and soon became an international Formula Racer champion. The ladies love Francesco’s open wheels, youngsters look up to his winning spirit, and fellow racers envy his speed.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/cars2/francesco00.jpg" alt="francesco이미지00"/></p>
+										<p><img src="../../img/character/cars2/francesco01.jpg" alt="francesco이미지01"/></p>
+										<p><img src="../../img/character/cars2/francesco02.jpg" alt="francesco이미지02"/></p>
+										<p><img src="../../img/character/cars2/francesco03.jpg" alt="francesco이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Holley Shiftwell</h4>
+										<p>
+											Holley Shiftwell is a beautiful young British desk agent turned rookie field spy stationed in Tokyo. Well educated and sharp, she knows every trick in the book—or rather, she relies on every trick in the spy manual. She’s armed with the latest state-of-the-art spy equipment imaginable, from hidden cameras and concealed weapons to a telescoping utility arm and a holographic pop-up display.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/cars2/holley00.jpg" alt="holley이미지00"/></p>
+										<p><img src="../../img/character/cars2/holley01.jpg" alt="holley이미지01"/></p>
+										<p><img src="../../img/character/cars2/holley02.jpg" alt="holley이미지02"/></p>
+										<p><img src="../../img/character/cars2/holley03.jpg" alt="holley이미지03"/></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="designContent" class="contentWrap">
+						<ul>
+							<li>
+								<h3>Oil Rig</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars2/design00.jpg" alt="카2디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									“I really wanted to start off with something that was the complete opposite of what the audience would expect from the sequel to Cars,” said Director John Lasseter. “People are expecting to see Lightning McQueen, Mater, stock car racing, Radiator Springs, Route 66, the Southwest…but instead, the first thing you see is ocean. And then there’s a boat. And out in the middle of the ocean, there’s a little car riding on this boat and he’s looking for another car. You’re thinking, ‘Wait a minute—what’s going on here?!'”
+								</p>
+							</li>
+							<li>
+								<h3>Tokyo</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars2/design01.jpg" alt="카2디자인이미지01"/>
+								</p>
+								<p class="textWrap">
+									Setting the tone for the film’s fictional World Grand Prix, the opening race in Tokyo took inspiration from Singapore’s Formula One night race. “Having the Tokyo race take place at night let us showcase a really rich and beautiful range of light sources, from glowing lanterns to the amazing neon signs downtown to the chaos of light reflecting on the cars themselves,” said Director of Photography for Lighting, Sharon Calahan.
+								</p>
+							</li>
+							<li>
+								<h3>Italy</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars2/design02.jpg" alt="카2디자인이미지02"/>
+								</p>
+								<p class="textWrap">
+									After adapting the Grand Prix races to the real cities of Tokyo and London, the filmmakers decided to create the Italian Riviera town of Porto Corsa from whole cloth. Though fictional, Porto Corsa proudly displays the influences of Vernazza, Genoa, Positano, Monte Carlo, and Portofino. “We wanted it to be our love letter to European racing and to Italy,” explained Co-Director Brad Lewis.
+								</p>
+							</li>
+              <li>
+								<h3>Paris</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars2/design03.jpg" alt="카2디자인이미지03"/>
+								</p>
+								<p class="textWrap">
+									After jettisoning plans for a 24-hour endurance race through Paris, the filmmakers gave the City of Light a more mysterious role.  Inspired by classic action-thriller films, they used Paris for a chase veering away from the postcard imagery of the usual lush travelogue backdrop. The Pixar team found inspiration in vintage photos of Paris’s old central market, Les Halles, to create an unexpected setting for the black market storyline.
+								</p>
+							</li>
+							<li>
+								<h3>London</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars2/design04.jpg" alt="카2디자인이미지04"/>
+								</p>
+								<p class="textWrap">
+									London provided the Cars 2 art team’s biggest challenge, requiring over 50 miles of city streets and thousands of uniquely "car-ified" buildings exhibiting a wide variety of architectural styles. Along with celebrated landmarks like Big Ben and Buckingham Palace, the filmmakers got to make distinctively British characters out of such revered vehicles as Range Rovers, Jaguars, Minis, and the London double-decker bus.
+								</p>
+							</li>
+							<li>
+								<h3>Colorscript</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars2/design05.jpg" alt="카2디자인이미지05"/>
+								</p>
+								<p class="textWrap">
+									A colorscript is a sequence of small pastel drawings or paintings used to emphasize color in each scene and establish a film's visual language.
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li id="creditsContent" class="contentWrap">
+						<p class="nameWrap">
+							<strong>DIRECTED BY</strong>
+							<em>JOHN LASSETER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CO-DIRECTED BY</strong>
+							<em>BRAD LEWIS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCED BY</strong>
+							<em>DENISE REAM</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ASSOCIATE PRODUCER</strong>
+							<em>MARK NIELSEN</em>
+						</p>
+            <p class="nameWrap">
+							<strong>ORIGINAL STORY BY</strong>
+							<em>JOHN LASSETER, BRAD LEWIS, DAN FOGELMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SCREENPLAY BY</strong>
+							<em>BEN QUEEN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ORIGINAL SCORE COMPOSED BY</strong>
+							<em>MICHAEL GIACCHINO</em>
+						</p>
+						<p class="nameWrap">
+							<strong>STORY SUPERVISOR</strong>
+							<em>NATHAN STANTON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FILM EDITOR</strong>
+							<em>STEPHEN SCHAFFER, A.C.E.</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION DESIGNER</strong>
+							<em>HARLEY JESSUP</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTOR</strong>
+							<em>APURVA SHAH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION MANAGER</strong>
+							<em>JAKE MARTIN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATORS</strong>
+							<em>SHAWN KRAUSE, DAVE MULLINS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-CAMERA</strong>
+							<em>JEREMY LASKY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-LIGHTING</strong>
+							<em>SHARON CALAHAN</em>
+						</p>
+            <p class="nameWrap">
+							<strong>CHARACTER SUPERVISOR</strong>
+							<em>SAJAN SKARIA, ROBERT MOYER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS SUPERVISOR</strong>
+							<em>JOHN HALSTEAD</em>
+						</p>
+            <p class="nameWrap">
+							<strong>SIMULATION SUPERVISOR</strong>
+							<em>CHRISTINE WAGGONER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EFFECTS SUPERVISOR</strong>
+							<em>GARY BRUINS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MOTION GRAPHIC EFFECTS SUPERVISOR</strong>
+							<em>MICHAEL FU</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER ART DIRECTOR</strong>
+							<em>JAY SHUSTER</em>
+						</p>
+            <p class="nameWrap">
+							<strong>SETS ART DIRECTION</strong>
+							<em>NAT MCLAUGHLIN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SHADING ART DIRECTION</strong>
+							<em>BERT BERRY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CROWDS ANIMATION SUPERVISOR</strong>
+							<em>ARIK EHLE</em>
+						</p>
+            <p class="nameWrap">
+							<strong>CROWDS TECHNICAL SUPERVISOR</strong>
+							<em>MICHAEL LORENZEN</em>
+						</p>
+            <p class="nameWrap">
+              <strong>GLOBAL TECHNOLOGY SUPERVISOR</strong>
+              <em>BENA CURRIN</em>
+            </p>
+						<p class="nameWrap">
+							<strong>RENDERING SUPERVISOR</strong>
+							<em>ALEXANDER KOLLIOPOULOS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SOUND DESIGNER</strong>
+							<em>TOM MYERS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CASTING BY</strong>
+							<em>
+								KEVIN REHER, C.S.A.<br/>
+								NATALIE LYON, C.S.A.<br/>
+							</em>
+						</p>
+						<h3>CAST</h3>
+						<p class="nameWrap">
+							<strong>MATER</strong>
+							<em>LARRY THE CABLE GUY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>LIGHTNING MCQUEEN</strong>
+							<em>OWEN WILSON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FINN MCMISSILE </strong>
+							<em>MICHAEL CAINE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>HOLLEY SHIFTWELL</strong>
+							<em>EMILY MORTIMER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MILES AXLEROD</strong>
+							<em>EDDIE IZZARD</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DON</strong>
+							<em>JOEL MURRAY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FRANCESCO BERNOULLI</strong>
+							<em>JOHN TURTURRO</em>
+						</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<h1>FOOTER영역</h1>
+			<div>
+				<h2>회사 소개</h2>
+				<h3>PIXAR STUDIOS</h3>
+				<p>about company</p>
+				<p class="textArea">
+					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+				</p>
+				<a href="../about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+			</div>
+			<div>
+				<h2>회사 CONTACT</h2>
+				<h3>CONTACT US</h3>
+				<p>Pixar Animation Studios</p>
+				<p class="textArea">
+					1200 Park Avenue Emeryville, California 94608<br/>
+					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+				</p>
+				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

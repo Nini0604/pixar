@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR THE GOOD DINOSAUR</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/header.js"></script>
+		<script src="../../js/film.js"></script>
+		<link href="../../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/film.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+		<style type="text/css">
+			#container #visual{width:100%;height:700px;background-size:cover;background:url("../../img/bg/dinosaur_head.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:center right;background-color:#000;}
+			#container #movieContent #trailerContent .videoWrap{height:400px;}
+
+			@media all and (min-width:481px) and (max-width:767px){
+				#container #visual{height:500px;background-attachment:scroll;background-size:200%;}
+				#container #movieContent #trailerContent .videoWrap{height:255px;}
+			}
+
+			@media all and (min-width:320px) and (max-width:480px){
+				#container #visual{height:450px;background-size:250%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:240px;}
+			}
+		</style>
+	</head>
+<body>
+	<div id="mobileNavWrap">
+		<a href="#none" title="menu" class="menu">
+			<span class="firstLine"></span>
+			<span class="secondLine"></span>
+			<span class="lastLine"></span>
+		</a>
+		<p id="mobileNavBg"></p>
+		<div id="mobileNav">
+			<p class="profileWrap">
+				<img src="../../img/icon/piper.png" alt="사용자이미지"/>
+			</p>
+			<p class="loginJoinWrap">
+				<a href="../login.html" title="LOGIN">LOGIN</a>
+				<a href="../join.html" title="JOIN">JOIN</a>
+			</p>
+			<ul>
+				<li><a href="../../index.html" title="HOME">HOME</a></li>
+				<li><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+				<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+				<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+				<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+				<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header id="header">
+			<div id="headerWrap">
+				<h1>
+					<a href="../../index.html" title="home">
+						<img src="../../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+					</a>
+				</h1>
+				<nav id="nav">
+					<h2>NAV영역</h2>
+					<a href="#none" title="menu" class="menu">
+						<span class="firstLine"></span>
+						<span class="secondLine"></span>
+						<span class="lastLine"></span>
+					</a>
+					<ul>
+						<li class="select"><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+						<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+						<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+						<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+						<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+						<li><a href="../login.html" title="LOGIN">LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual"></div>
+			</div>
+			<section id="movieContent">
+				<div class="movieHead">
+					<div class="movieLogo">
+						<img src="../../img/logo/the_good_dinosaur_logo.png" alt="굿다이노로고이미지"/>
+					</div>
+					<div class="movieDesc">
+						<h3>The Good Dinosaur</h3>
+						<p>
+              The Good Dinosaur asks the question: What if the asteroid that forever changed life on Earth missed the planet completely and giant dinosaurs never became extinct? Pixar takes you on an epic journey into the world of dinosaurs where an Apatosaurus named Arlo makes an unlikely human friend. While traveling through a harsh and mysterious landscape, Arlo learns the power of confronting his fears and discovers what he is truly capable of.
+           </p>
+					</div>
+				</div>
+				<div class="tabWrap">
+					<ul id="tab">
+						<li class="first">
+							<a href="#trailerContent" title="trailer" class="selected">Trailer</a>
+						</li>
+						<li>
+							<a href="#characterContent" title="character">Character</a>
+						</li>
+						<li>
+							<a href="#designContent" title="design">World Design</a>
+						</li>
+						<li>
+							<a href="#creditsContent" title="credits">Credits</a>
+						</li>
+					</ul>
+				</div>
+				<ul id="content">
+					<li id="trailerContent" class="contentWrap">
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/8lsIrASLD-Q"></iframe>
+						</div>
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/O-RgquKVTPE"></iframe>
+						</div>
+					</li>
+					<li id="characterContent" class="contentWrap">
+						<div class="characterWrap">
+							<ul>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Arlo</h4>
+										<p>
+											The last to hatch among his siblings, 11-year-old Arlo has yet to make his mark on his family’s farm. Though he is eager to help out with chores, this sheltered Apatosaurus just can’t seem to get past his fear of everything.
+                    </p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/goodDinosaur/arlo00.jpg" alt="알로이미지00"/></p>
+										<p><img src="../../img/character/goodDinosaur/arlo01.jpg" alt="알로이미지01"/></p>
+										<p><img src="../../img/character/goodDinosaur/arlo02.jpg" alt="알로이미지02"/></p>
+										<p><img src="../../img/character/goodDinosaur/arlo03.jpg" alt="알로이미지03"/></p>
+									</div>
+								</li>
+                <li class="eventCharacter">
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/goodDinosaur/poppa00.jpg" alt="알로아빠이미지00"/></p>
+										<p><img src="../../img/character/goodDinosaur/poppa01.jpg" alt="알로아빠이미지01"/></p>
+										<p><img src="../../img/character/goodDinosaur/momma00.jpg" alt="알로엄마이미지02"/></p>
+										<p><img src="../../img/character/goodDinosaur/momma01.jpg" alt="알로엄마이미지03"/></p>
+									</div>
+									<div class="characterDescWrap">
+										<h4>Poppa &amp; Momma</h4>
+										<p>
+											Brave and selfless, Poppa is a devoted husband and father, working tirelessly to make a life for his family on their farm. He has a soft spot for Arlo, his small and fearful son, and takes special care of him as he grows up.
+                      A loving wife and mother, Momma is smart and quick-witted. She’s a hard worker with a lot of love for her family, and she keeps her children and their farm in order.
+                    </p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Spot</h4>
+										<p>
+                      Spot is a wild, tough and tenacious human boy who has lived alone in the wilderness for much of his life. He speaks in only grunts and growls, but his strengths are clear: he’s fearless and confident.
+                    </p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/goodDinosaur/spot00.jpg" alt="스팟이미지00"/></p>
+										<p><img src="../../img/character/goodDinosaur/spot01.jpg" alt="스팟이미지01"/></p>
+										<p><img src="../../img/character/goodDinosaur/spot02.jpg" alt="스팟이미지02"/></p>
+										<p><img src="../../img/character/goodDinosaur/spot03.jpg" alt="스팟이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Buck &amp; Libby</h4>
+										<p>
+                      Buck is Arlo’s brother: they’re the same age, but Buck is bigger, stronger and a little rambunctious. Arlo's sister Libby is a capable and willful girl who can plow a mean field.
+                      <br/>
+                      “We wanted Buck and Libby to be more capable, more brave than Arlo,” says Story Supervisor Kelsey Mann. “Everything comes more easily, despite the fact that they’re all the same age.”
+                    </p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/goodDinosaur/buck00.jpg" alt="벅이미지00"/></p>
+										<p><img src="../../img/character/goodDinosaur/buck01.jpg" alt="벅이미지01"/></p>
+										<p><img src="../../img/character/goodDinosaur/libby00.jpg" alt="리비이미지02"/></p>
+										<p><img src="../../img/character/goodDinosaur/libby01.jpg" alt="리비이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Pet Collector</h4>
+										<p>
+                      Pet Collector is a mysterious Styracosaurus who lives in the wilderness. Like Arlo, he harbors unreasonable fears. His ability to blend into his surroundings helps—along with an unusual (but not exactly fierce) collection of forest critters he’s recruited to protect him.
+                    </p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/goodDinosaur/petCollector00.jpg" alt="펫콜렉터이미지00"/></p>
+										<p><img src="../../img/character/goodDinosaur/petCollector01.jpg" alt="펫콜렉터이미지01"/></p>
+										<p><img src="../../img/character/goodDinosaur/petCollector02.jpg" alt="펫콜렉터이미지02"/></p>
+										<p><img src="../../img/character/goodDinosaur/petCollector03.jpg" alt="펫콜렉터이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Nash &amp; Ramsey</h4>
+										<p>
+                      Nash, who isn’t the sharpest of spurs and has trouble keeping track of their herd, exhibits a mischievous charm and positive attitude that makes him good company out on the range.
+                      <br/>
+                      Ramsey loves the challenge of driving a herd of longhorns with her father, Butch, and her little brother Nash. Ramsey has a lively, outgoing personality—she likes good jokes.
+                    </p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/goodDinosaur/nashRamsey00.jpg" alt="내쉬람세이이미지00"/></p>
+										<p><img src="../../img/character/goodDinosaur/nashRamsey01.jpg" alt="내쉬람세이이미지01"/></p>
+										<p><img src="../../img/character/goodDinosaur/nashRamsey02.jpg" alt="내쉬람세이이미지02"/></p>
+										<p><img src="../../img/character/goodDinosaur/nashRamsey03.jpg" alt="내쉬람세이이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Butch</h4>
+										<p>
+											According to production designer Harley Jessup, the filmmakers did a deep dive into what’s known about the size of a real Apatosaurus in an effort to add authenticity to Arlo and his family. “We created a life-size printout of Arlo to help imagine his gigantic scale,” says Jessup.
+                    </p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/goodDinosaur/butch00.jpg" alt="버치이미지00"/></p>
+										<p><img src="../../img/character/goodDinosaur/butch01.jpg" alt="버치이미지01"/></p>
+										<p><img src="../../img/character/goodDinosaur/butch02.jpg" alt="버치이미지02"/></p>
+										<p><img src="../../img/character/goodDinosaur/butch03.jpg" alt="버치이미지03"/></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="designContent" class="contentWrap">
+						<ul>
+							<li>
+								<h3>The River</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/goodDinosaur/design00.jpg" alt="굿다이노디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+                  “The river became the vehicle that would take Arlo hundreds of miles away from home, where he wakes up and begins his life quest,” says Director Peter Sohn. “That same river becomes the yellow brick road back to Arlo’s family. And that simple concept became our basic structure: he gets washed away in first act and then fights his way home throughout the second and third acts."
+                </p>
+							</li>
+							<li>
+								<h3>Forest &amp; Mountains</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/goodDinosaur/design01.jpg" alt="굿다이노디자인이미지01"/>
+								</p>
+								<p class="textWrap">
+                  Their awe of nature’s beauty and power inspired the filmmakers to make the wilderness a character in itself and not just a setting for Arlo and Spot. “The golds and reds from the aspens were incredible—and the cottonwoods—I’ve never seen anything like that before,” says Director Peter Sohn. “The landscape is so huge. It makes you feel tiny. There’s such a simplicity to the graphic nature of the place that it felt perfect for making a giant animal like a dinosaur feel small.”
+                </p>
+							</li>
+							<li>
+								<h3>Homestead</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/goodDinosaur/design02.jpg" alt="굿다이노디자인이미지02"/>
+								</p>
+								<p class="textWrap">
+									Arlo’s home, a simple ranch nestled in the plains, is the heart of his long journey home.
+                </p>
+							</li>
+              <li>
+								<h3>The Plains</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/goodDinosaur/design03.jpg" alt="굿다이노디자인이미지02"/>
+								</p>
+								<p class="textWrap">
+                  Their awe of nature’s beauty and power inspired the filmmakers to make the wilderness a character in itself and not just a setting for Arlo and Spot. The filmmakers studied the grasslands of Montana and the mesas in Wyoming’s Red Desert, then incorporated all of it in Arlo’s journey.
+                </p>
+							</li>
+						</ul>
+					</li>
+					<li id="creditsContent" class="contentWrap">
+						<p class="nameWrap">
+							<strong>DIRECTED BY</strong>
+							<em>PETER SOHN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCED BY</strong>
+							<em>DENISE REAM, P.G.A</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EXECUTIVE PRODUCER</strong>
+							<em>
+                JOHN LASSETER<br/>
+                LEE UNKRICH<br/>
+                ANDREW STANTON<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ASSOCIATE PRODUCER</strong>
+							<em>MARY ALICE DRUMM</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ORIGINAL CONCEPT AND DEVELOPMENT BY</strong>
+							<em>BOB PETERSON</em>
+						</p>
+            <p class="nameWrap">
+							<strong>STORY BY</strong>
+							<em>
+                PETER SOHN<br/>
+                ERIK BENSON<br/>
+                MEG LEFAUVE<br/>
+                KELSEY MANN<br/>
+                BOB PETERSON<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SCREENPLAY BY</strong>
+							<em>MEG LEFAUVE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MUSIC BY</strong>
+							<em>
+                MYCHAEL DANNA<br/>
+                JEFF DANNA<br/>
+              </em>
+						</p>
+						<p class="nameWrap">
+							<strong>STORY SUPERVISOR</strong>
+							<em>KELSEY MANN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FILM EDITOR</strong>
+							<em>STEPHEN SCHAFFER, A.C.E.</em>
+						</p>
+            <p class="nameWrap">
+							<strong>VISUAL DESIGN</strong>
+							<em>SHARON CALAHAN, A.S.C.</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTOR</strong>
+							<em>SANJAY BAKSHI</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION DESIGNERS</strong>
+							<em>HARLEY JESSUP</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION MANAGER</strong>
+							<em>ANN BRILZ</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATOR</strong>
+							<em>MICHAEL VENTURINI</em>
+						</p>
+            <p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-LIGHTING</strong>
+							<em>SHARON CALAHAN, A.S.C</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-CAMERA</strong>
+							<em>MAHYAR ABOUSAEEDI</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS SUPERVISOR</strong>
+							<em>DAVID MUNIER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EFFECTS SUPERVISOR</strong>
+							<em>JON REISCH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>VOLUMETRIC CLOUDS SUPERVISOR</strong>
+							<em>MATTHEW WEBB</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER SUPERVISORS</strong>
+							<em>
+                MICHAEL COMET<br/>
+                JUNYI LING<br/>
+              </em>
+						</p>
+						<p class="nameWrap">
+							<strong>SIMULATION AND CROWDS SUPERVISOR</strong>
+							<em>GORDON CAMERON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>RENDERING AND GLOBAL TECHNOLOGY SUPERVISOR</strong>
+							<em>SUSAN FISHER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EFFECTS SUPERVISOR</strong>
+							<em>JON REISCH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER ART DIRECTOR</strong>
+							<em>MATT NOLTE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS ART DIRECTORS</strong>
+							<em>
+                NOAH KLOCEK<br/>
+                HUY NGUYEN<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SHADING ART DIRECTOR</strong>
+							<em>BRYN IMAGIRE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SOUND DESIGNER</strong>
+							<em>CRAIG BERKEY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CASTING</strong>
+							<em>
+								KEVIN REHER, C.S.A.<br/>
+								NATALIE LYON, C.S.A.<br/>
+							</em>
+						</p>
+						<h3>CAST</h3>
+						<p class="nameWrap">
+							<strong>POPPA</strong>
+							<em>JEFFREY WRIGHT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MOMMA</strong>
+							<em>FRANCES MCDORMAND</em>
+						</p>
+						<p class="nameWrap">
+							<strong>BUCK</strong>
+							<em>MARCUS SCRIBNER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ARLO</strong>
+							<em>RAYMOND OCHOA</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SPOT</strong>
+							<em>JACK BRIGHT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PET COLLECTOR</strong>
+							<em>PETER SOHN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>NASH</strong>
+							<em>A.J. BUCKLEY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>RAMSEY</strong>
+							<em>ANNA PAQUIN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>BUTCH</strong>
+							<em>SAM ELLIOTT</em>
+						</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<h1>FOOTER영역</h1>
+			<div>
+				<h2>회사 소개</h2>
+				<h3>PIXAR STUDIOS</h3>
+				<p>about company</p>
+				<p class="textArea">
+					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+				</p>
+				<a href="../about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+			</div>
+			<div>
+				<h2>회사 CONTACT</h2>
+				<h3>CONTACT US</h3>
+				<p>Pixar Animation Studios</p>
+				<p class="textArea">
+					1200 Park Avenue Emeryville, California 94608<br/>
+					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+				</p>
+				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

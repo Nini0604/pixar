@@ -1,0 +1,73 @@
+body{font-family: 'PT Sans Narrow', sans-serif;}
+/*##########################container#########################################*/
+#container #visual{width:100%;height:550px;background-image:url("../img/bg/insideOut.jpg");background-size:cover;background-attachment:fixed;background-repeat:no-repeat;background-position:top center;}
+#container #visual h3{font-size:40px;font-weight:100;color:#fff;line-height:550px;text-align:center;text-transform: uppercase;letter-spacing:5px;text-shadow:0 0 3px #111;}
+#container .logoWrap{max-width:980px;padding-left:14px;margin:4% auto;}
+#container .logoWrap ul{overflow:hidden;text-align:center;}
+#container .logoWrap ul li{display:inline-block;width:90px;height:95px;margin-bottom:5px;margin-right:14px;border-bottom:4px solid transparent;}
+#container .logoWrap ul li.selected img{opacity:0.5;}
+#container .logoWrap ul li.selected{border-bottom:4px solid #499df5;}
+#container .logoWrap ul li a{width:100%;height:100%;display:block;}
+#container .logoWrap ul li a:hover,#container .logoWrap ul li a:focus{outline:none;}
+#container .logoWrap ul li a,#container .logoWrap ul li img{width:100%;line-height:100px;vertical-align:middle;}
+#container .contentWrap{width:100%;border-top:1px solid gray;}
+#container .characterWrap{width:980px;margin:5% auto 12%;min-height:2000px;}
+#container .characterWrap h3{font-size:30px;}
+#container .characterWrap ul li.nameWrap{border-bottom:none;text-transform:uppercase;}
+#container .characterWrap ul li{width:100%;overflow:hidden;border-bottom:1px solid gray;padding:40px 20px 20px;}
+#container .characterWrap ul li .characterImgWrap{width:440px;margin-left:20px;float:right;overflow:hidden;}
+#container .characterWrap ul li .characterImgWrap p{width:200px;height:200px;overflow:hidden;float:left;margin:0 20px 20px 0;}
+#container .characterWrap ul li .characterImgWrap p img{width:100%;height:100%;}
+#container .characterWrap ul li .characterDescWrap{width:310px;float:left;}
+#container .characterWrap ul li .characterDescWrap h4{font-size:25px;padding:10px 0;color:#499df5;}
+#container .characterWrap ul li .characterDescWrap p{font-size:20px;color:#333;line-height:35px;padding-top:10px;}
+#container .characterWrap ul li.eventCharacter .characterImgWrap{float:left;}
+#container .characterWrap ul li.eventCharacter .characterDescWrap{float:right;}
+a.mainBtn{width:210px;height:55px;text-align:center;display:inline-block;font-size:18px;
+line-height:55px;background-color:#499df5;color:#fff;}
+a.mainBtn:hover,a.mainBtn:focus{color:#000;}
+
+@media all and (min-width:768px) and (max-width:1024px){
+  #container .logoWrap{width:720px;}
+  #container .characterWrap{width:720px;}
+  #container .characterWrap h3{text-indent:0;}
+  #container .characterWrap ul li{padding:40px 0 0;}
+  #container .characterWrap ul li .characterDescWrap{width:260px;}
+  #container .characterWrap ul li .characterDescWrap p{font-size:18px;line-height:24px;}
+  #container .characterWrap ul li .characterImgWrap{width:380px;}
+  #container .characterWrap ul li .characterImgWrap p{width:170px;height:170px;}
+}
+
+@media all and (min-width:481px) and (max-width:767px){
+  #container #visual{height:350px;}
+  #container #visual h3{line-height:350px;font-size:30px;}
+  #container .logoWrap{width:95%;min-width:340px;}
+  #container .characterWrap{width:90%;min-width:450px;max-width:700px;margin:5px auto 15%;}
+  #container .characterWrap h3{text-indent:0;}
+  #container .characterWrap ul li{padding:20px 0;}
+  #container .characterWrap ul li.nameWrap{padding:40px 0 0;}
+  #container .characterWrap ul li .characterImgWrap{float:none;width:370px;padding-left:10px;margin:0 auto;}
+  #container .characterWrap ul li .characterImgWrap p{width:175px;height:175px;margin:0 10px 10px 0;}
+  #container .characterWrap ul li .characterDescWrap{width:100%;}
+  #container .characterWrap ul li .characterDescWrap p{font-size:16px;line-height:21px;padding-top:0;padding-bottom:30px;}
+  #container .characterWrap ul li.eventCharacter .characterImgWrap{float:none;}
+  #container .characterWrap ul li.eventCharacter .characterDescWrap{float:none;}
+}
+
+@media all and (min-width:320px) and (max-width:480px){
+  #container #visual{height:250px;}
+  #container #visual h3{line-height:250px;font-size:26px;}
+  #container .logoWrap{width:305px;padding-left:15px;}
+  #container .logoWrap ul li{margin-right:15px;width:80px;height:85px;margin-bottom:10px;}
+  #container .characterWrap{width:90%;min-width:295px;margin:5px auto 15%;}
+  #container .characterWrap h3{font-size:24px;text-indent:0;}
+  #container .characterWrap ul li{padding:20px 0;min-width:295px;}
+  #container .characterWrap ul li.nameWrap{padding:50px 0 0;}
+  #container .characterWrap ul li .characterImgWrap{width:285px;float:none;margin:20px auto 10px;padding-left:10px;}
+  #container .characterWrap ul li .characterImgWrap p{width:132px;height:132px;margin:0 10px 10px 0;}
+  #container .characterWrap ul li .characterDescWrap{float:none;width:100%;}
+  #container .characterWrap ul li .characterDescWrap h4{font-size:22px;padding:5px 0;}
+  #container .characterWrap ul li .characterDescWrap p{font-size:16px;line-height:20px;}
+  #container .characterWrap ul li.eventCharacter .characterImgWrap{float:none;}
+  #container .characterWrap ul li.eventCharacter .characterDescWrap{float:none;}
+}

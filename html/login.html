@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR LOGIN</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../js/header.js"></script>
+		<link href="../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+	</head>
+	<body>
+		<div id="mobileNavWrap">
+			<a href="#none" title="menu" class="menu">
+				<span class="firstLine"></span>
+				<span class="secondLine"></span>
+				<span class="lastLine"></span>
+			</a>
+			<p id="mobileNavBg"></p>
+			<div id="mobileNav">
+				<p class="profileWrap">
+					<img src="../img/icon/piper.png" alt="사용자이미지"/>
+				</p>
+				<p class="loginJoinWrap">
+					<a href="login.html" title="LOGIN">LOGIN</a>
+					<a href="join.html" title="JOIN">JOIN</a>
+				</p>
+				<ul>
+					<li><a href="../index.html" title="HOME">HOME</a></li>
+					<li><a href="featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+					<li><a href="shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+					<li><a href="character.html" title="CHARACTERS">CHARACTERS</a></li>
+					<li><a href="upcoming.html" title="UPCOMING">UPCOMING</a></li>
+					<li><a href="about.html" title="ABOUT">ABOUT</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="wrapper">
+			<header id="header">
+				<div id="headerWrap">
+					<h1>
+						<a href="../index.html" title="home">
+							<img src="../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+						</a>
+					</h1>
+					<nav id="nav">
+						<h2>NAV영역</h2>
+						<a href="#none" title="menu" class="menu">
+							<span class="firstLine"></span>
+							<span class="secondLine"></span>
+							<span class="lastLine"></span>
+						</a>
+						<ul>
+							<li><a href="featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+							<li><a href="shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+							<li><a href="character.html" title="CHARACTERS">CHARACTERS</a></li>
+							<li><a href="upcoming.html" title="UPCOMING">UPCOMING</a></li>
+							<li><a href="about.html" title="ABOUT">ABOUT</a></li>
+							<li class="select"><a href="login.html" title="LOGIN">LOGIN</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<div id="container">
+				<h1>CONTAINER영역</h1>
+				<p class="scrollTopBtn">
+					<a href="#none" title="scrollTop"><img src="../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+				</p>
+				<p class="bg"></p>
+				<section id="loginWrap">
+					<h2>SECTION영역</h2>
+					<h3>LOGIN</h3>
+					<p class="greeting">Welcome to pixar:-)</p>
+					<form action="#" method="post">
+						<fieldset>
+							<legend>로그인</legend>
+							<input type="text" id="userID" name="userID" title="userID" placeholder="아이디를 입력하세요." required autocomplete="off" autofocus maxlength="20"/>
+							<input type="password" id="userPwd" name="userPwd" title="userPwd" placeholder="비밀번호를 입력하세요." required autocomplete="off" maxlength="16"/>
+							<input type="submit" class="loginBtn mainBtn" id="login" title="login" value="LOGIN"/>
+						</fieldset>
+					</form>
+					<p class="loginHelp">
+						<span><a href="#none" title="아이디찾기">아이디 찾기</a></span>&nbsp;|
+						<span><a href="#none" title="비밀번호찾기">비밀번호 찾기</a></span>&nbsp;|
+						<span><a href="join.html" class="join" title="회원가입">회원가입</a></span>
+					</p>
+				</section>
+			</div>
+			<footer id="footer">
+				<h1>FOOTER영역</h1>
+				<div>
+					<h2>회사 소개</h2>
+					<h3>PIXAR STUDIOS</h3>
+					<p>about company</p>
+					<p class="textArea">
+						Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+					</p>
+					<a href="about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+				</div>
+				<div>
+					<h2>회사 CONTACT</h2>
+					<h3>CONTACT US</h3>
+					<p>Pixar Animation Studios</p>
+					<p class="textArea">
+						1200 Park Avenue Emeryville, California 94608<br/>
+						Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+					</p>
+					<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

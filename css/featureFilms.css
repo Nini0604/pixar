@@ -1,0 +1,129 @@
+body{font-family: 'PT Sans Narrow', sans-serif;}
+/*##########################container#########################################*/
+#container #visual{width:100%;height:550px;background-image:url("../img/bg/toystory.jpg");background-size:cover;background-attachment:fixed;background-repeat:no-repeat;background-position:center;background-color:#000;}
+#container #visual h3{font-size:40px;font-weight:100;color:#fff;line-height:550px;text-align:center;text-transform: uppercase;letter-spacing:5px;text-shadow:0 0 3px #111;}
+#container #filmTimeline{overflow:hidden;margin:110px auto 190px;width:100%;max-width:960px;position:relative;}
+#container #filmTimeline div{float:left;width:50%;position:relative;right:-1px;}
+#container #filmTimeline ul li{overflow:hidden;padding-bottom:50px;}
+#container #filmTimeline ul li p{float:left;}
+#container #filmTimeline ul li .textWrap{width:40%;padding-right:8%;padding-top:75px;text-align:right;font-size:16px;}
+#container #filmTimeline ul li .textWrap strong{font-size:20px;display:block;line-height:40px;}
+#container #filmTimeline ul li .imgWrap{width:52%;height:350px;}
+#container #filmTimeline ul li .imgWrap span{display:block;}
+#container #filmTimeline ul li .imgWrap a{display:inline-block;padding-top:80px;width:100%;position:relative;}
+#container #filmTimeline ul li .imgWrap .imgArea{width:186px;height:266px;display:inline-block;transition:transform .5s ease-in-out .6s;}
+#container #filmTimeline ul li .imgWrap .arrow{vertical-align: middle;display:inline-block;color:#499df5;font-size:27px;line-height:266px;}
+#container #filmTimeline ul li .imgWrap .rightTop{width:3px;height:1px;background-color:#499df5;display:block;position:absolute;top:2px;right:0;
+transition:height .5s ease-out .1s;}
+#container #filmTimeline ul li .imgWrap .rightCenter{width:1px;height:3px;background-color:#499df5;display:block;position:absolute;top:210px;right:0;transition:width .5s linear .5s;z-index:-1;}
+#container #filmTimeline ul li .imgWrap img{width:100%;vertical-align: middle;}
+#container #filmTimeline ul li .imgWrap a:hover .rightTop,#container #filmTimeline ul li .imgWrap a:focus .rightTop{height:200px;}
+#container #filmTimeline ul li .imgWrap a:hover .rightCenter,#container #filmTimeline ul li .imgWrap a:focus .rightCenter{width:70px;}
+#container #filmTimeline ul li .imgWrap a:hover,#container #filmTimeline ul li .imgWrap a:focus{outline:none;}
+#container #filmTimeline ul li .imgWrap a:hover .imgArea,#container #filmTimeline ul li .imgWrap a:focus .imgArea{transform:scale(1.2);}
+#container #filmTimeline .right{position:relative;left:-2px;padding-top:200px;}
+#container #filmTimeline .right ul li a .leftTop{position:absolute;top:2px;left:0;width:3px;height:1px;background-color:#499df5;transition:height .5s ease-out .1s;}
+#container #filmTimeline .right ul li a .leftCenter{position:absolute;top:210px;left:0;width:1px;height:3px;background-color:#499df5;transition:width .5s linear .5s;}
+#container #filmTimeline .right ul li a .arrow{padding-left:19%;}
+#container #filmTimeline .right ul li a:hover .leftTop,#container #filmTimeline .right ul li a:focus .leftTop{height:210px;}
+#container #filmTimeline .right ul li a:hover .leftCenter,#container #filmTimeline .right ul li a:focus .leftCenter{width:70px;}
+#container #filmTimeline .right ul li .textWrap{text-align:left;padding-right:0;padding-left:8%;}
+#container #filmTimeline .lineWrap{width:38px;height:100%;text-align:center;position:absolute;top:0;left:50%;margin-left:-19px;}
+#container #filmTimeline p.circleWrap{width:19px;height:100%;position:relative;margin:0 auto;}
+#container #filmTimeline .line{width:1px;height:100%;background-color:#aaa;display:inline-block;}
+#container #filmTimeline .circleWrap span.circle{width:10px;height:10px;top:0;left:0;;position:absolute;border:5px solid #499df5;border-radius:100%;background-color:#fff;z-index:1;}
+#container #filmTimeline .circleWrap span.colorCircle{width:19px;height:19px;border:none;background-color:#499df5;top:0;left:0;position:absolute;border-radius:100%;}
+#container #filmTimeline .circleWrap span.circle1{top:201px;}
+#container #filmTimeline .circleWrap span.circle2{top:401px;}
+#container #filmTimeline .circleWrap span.circle3{top:601px;}
+#container #filmTimeline .circleWrap span.circle4{top:801px;}
+#container #filmTimeline .circleWrap span.circle5{top:1001px;}
+#container #filmTimeline .circleWrap span.circle6{top:1201px;}
+#container #filmTimeline .circleWrap span.circle7{top:1401px;}
+#container #filmTimeline .circleWrap span.circle8{top:1601px;}
+#container #filmTimeline .circleWrap span.circle9{top:1801px;}
+#container #filmTimeline .circleWrap span.circle10{top:2001px;}
+#container #filmTimeline .circleWrap span.circle11{top:2201px;}
+#container #filmTimeline .circleWrap span.circle12{top:2401px;}
+#container #filmTimeline .circleWrap span.circle13{top:2601px;}
+#container #filmTimeline .circleWrap span.circle14{top:2801px;}
+#container #filmTimeline .circleWrap span.circle15{top:3001px;}
+#container #filmTimeline .circleWrap span.circle16{top:3201px;}
+#container #filmTimeline .circleWrap span.circle17{top:3401px;}
+#container #filmTimeline .circleWrap span.circle18{top:3601px;}
+#container #filmTimeline .lineWrap .triangle{display:block;width:0;height:0;border-left:19px solid transparent;border-right:19px solid transparent;border-top:19px solid #499df5;position:absolute;bottom:0;}
+a.mainBtn{width:210px;height:55px;text-align:center;display:inline-block;font-size:18px;
+line-height:55px;background-color:#499df5;color:#fff;}
+a.mainBtn:hover,a.mainBtn:focus{color:#000;outline:none;}
+
+@media all and (min-width:768px) and (max-width:1024px){
+  #container #filmTimeline{width:768px;}
+  #container #filmTimeline ul li .imgWrap .imgArea{width:150px;}
+  #container #filmTimeline ul li .textWrap{padding-top:95px;}
+  #container #filmTimeline .right ul li a .arrow{padding-left:35px;}
+}
+
+@media all and (min-width:481px) and (max-width:767px){
+  #container #visual{height:350px;}
+  #container #visual h3{line-height:350px;font-size:30px;}
+  #container #filmTimeline{width:481px;margin:50px auto 100px;padding-bottom:115px;}
+  #container #filmTimeline ul li{position:relative;overflow:visible}
+  #container #filmTimeline ul li:after{clear:both;content:"";display:block;}
+  #container #filmTimeline ul li .imgWrap{width:100%;}
+  #container #filmTimeline ul li .imgWrap .imgArea{width:155px;}
+  #container #filmTimeline ul li .imgWrap a:hover .imgArea, #container #filmTimeline ul li .imgWrap a:focus .imgArea{transform:scale(1.18);}
+  #container #filmTimeline ul li .textWrap{width:77%;padding-top:0;padding-right:23%;position:absolute;top:345px;font-size:14px;}
+  #container #filmTimeline ul li .textWrap strong{line-height:25px;}
+  #container #filmTimeline ul li .textWrap span{font-size:14px;}
+  #container #filmTimeline .left ul li p{float:none;}
+  #container #filmTimeline .left ul li .imgWrap .imgArea{margin-left:30px;}
+  #container #filmTimeline .right ul li .textWrap{padding-left:23%;padding-right:0;}
+}
+
+@media all and (min-width:320px) and (max-width:480px){
+  #container #visual{height:250px;}
+  #container #visual h3{line-height:250px;font-size:26px;}
+  #container #filmTimeline{width:320px;margin:30px auto 70px;padding-bottom:115px;}
+  #container #filmTimeline ul li{position:relative;overflow:visible}
+  #container #filmTimeline ul li:after{clear:both;content:"";display:block;}
+  #container #filmTimeline ul li .imgWrap{width:100%;height:310px;}
+  #container #filmTimeline ul li .imgWrap .imgArea{width:110px;height:157px;}
+  #container #filmTimeline ul li .imgWrap .arrow{line-height:158px;}
+  #container #filmTimeline ul li .imgWrap a{padding-top:113px;}
+  #container #filmTimeline ul li .imgWrap a:hover .imgArea, #container #filmTimeline ul li .imgWrap a:focus .imgArea{transform:scale(1.26);}
+  #container #filmTimeline ul li .imgWrap a:hover .rightTop, #container #filmTimeline ul li .imgWrap a:focus .rightTop{height:180px;}
+  #container #filmTimeline ul li .imgWrap .rightCenter{top:190px;}
+  #container #filmTimeline ul li .textWrap{width:77%;padding-top:0;padding-right:23%;position:absolute;top:293px;font-size:14px;}
+  #container #filmTimeline ul li .textWrap strong{font-size:18px;line-height:25px;}
+  #container #filmTimeline ul li .textWrap span{font-size:14px;}
+  #container #filmTimeline ul li.first{padding-bottom:0;}
+  #container #filmTimeline ul li.first .imgWrap a{padding-top:63px}
+  #container #filmTimeline ul li.first .textWrap{top:243px;}
+  #container #filmTimeline ul li.first .imgWrap a:hover .rightTop, #container #filmTimeline ul li.first .imgWrap a:focus .rightTop{height:130px;}
+  #container #filmTimeline ul li.first .imgWrap .rightCenter{top:140px;}
+  #container #filmTimeline .left ul li p{float:none;}
+  #container #filmTimeline .left ul li .imgWrap .imgArea{margin-left:14px;}
+  #container #filmTimeline .right{padding-top:131px;}
+  #container #filmTimeline .right ul li .textWrap{padding-left:23%;padding-right:0;}
+  #container #filmTimeline .right ul li a .arrow{padding-left:22px;}
+  #container #filmTimeline .right ul li a:hover .leftTop, #container #filmTimeline .right ul li a:focus .leftTop{height:180px;}
+  #container #filmTimeline .right ul li a .leftCenter{top:190px;}
+  #container #filmTimeline .circleWrap span.circle1{top:131px;}
+  #container #filmTimeline .circleWrap span.circle2{top:311px;}
+  #container #filmTimeline .circleWrap span.circle3{top:491px;}
+  #container #filmTimeline .circleWrap span.circle4{top:671px;}
+  #container #filmTimeline .circleWrap span.circle5{top:851px;}
+  #container #filmTimeline .circleWrap span.circle6{top:1031px;}
+  #container #filmTimeline .circleWrap span.circle7{top:1211px;}
+  #container #filmTimeline .circleWrap span.circle8{top:1391px;}
+  #container #filmTimeline .circleWrap span.circle9{top:1571px;}
+  #container #filmTimeline .circleWrap span.circle10{top:1751px;}
+  #container #filmTimeline .circleWrap span.circle11{top:1931px;}
+  #container #filmTimeline .circleWrap span.circle12{top:2111px;}
+  #container #filmTimeline .circleWrap span.circle13{top:2291px;}
+  #container #filmTimeline .circleWrap span.circle14{top:2471px;}
+  #container #filmTimeline .circleWrap span.circle15{top:2651px;}
+  #container #filmTimeline .circleWrap span.circle16{top:2831px;}
+  #container #filmTimeline .circleWrap span.circle17{top:3011px;}
+  #container #filmTimeline .circleWrap span.circle18{top:3191px;}
+}

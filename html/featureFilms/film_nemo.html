@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR FINDING NEMO</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/header.js"></script>
+		<script src="../../js/film.js"></script>
+		<link href="../../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/film.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+		<style type="text/css">
+			#container #visual{width:100%;height:700px;background-size:cover;background:url("../../img/bg/nemo_head.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:center 70%;background-color:#000;}
+			#container #movieContent #trailerContent .videoWrap{height:420px;}
+
+			@media all and (min-width:481px) and (max-width:767px){
+				#container #visual{height:500px;background-size:190%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:270px;}
+			}
+
+			@media all and (min-width:320px) and (max-width:480px){
+				#container #visual{height:450px;background-size:250%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:190px;}
+			}
+		</style>
+	</head>
+<body>
+	<div id="mobileNavWrap">
+		<a href="#none" title="menu" class="menu">
+			<span class="firstLine"></span>
+			<span class="secondLine"></span>
+			<span class="lastLine"></span>
+		</a>
+		<p id="mobileNavBg"></p>
+		<div id="mobileNav">
+			<p class="profileWrap">
+				<img src="../../img/icon/piper.png" alt="사용자이미지"/>
+			</p>
+			<p class="loginJoinWrap">
+				<a href="../login.html" title="LOGIN">LOGIN</a>
+				<a href="../join.html" title="JOIN">JOIN</a>
+			</p>
+			<ul>
+				<li><a href="../../index.html" title="HOME">HOME</a></li>
+				<li><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+				<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+				<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+				<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+				<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header id="header">
+			<div id="headerWrap">
+				<h1>
+					<a href="../../index.html" title="home">
+						<img src="../../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+					</a>
+				</h1>
+				<nav id="nav">
+					<h2>NAV영역</h2>
+					<a href="#none" title="menu" class="menu">
+						<span class="firstLine"></span>
+						<span class="secondLine"></span>
+						<span class="lastLine"></span>
+					</a>
+					<ul>
+						<li class="select"><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+						<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+						<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+						<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+						<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+						<li><a href="../login.html" title="LOGIN">LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual"></div>
+			</div>
+			<section id="movieContent">
+				<div class="movieHead">
+					<div class="movieLogo">
+						<img src="../../img/logo/finding_nemo_logo.png" alt="니모로고이미지"/>
+					</div>
+					<div class="movieDesc">
+						<h3>Finding Nemo</h3>
+						<p>
+							In the colorful and warm tropical waters of the Great Barrier Reef, a Clown Fish named Marlin lives safe and secluded in his anemone home with his only son, Nemo. Fearful of the ocean and its unpredictable risks, he struggles to protect his son. Nemo, like all young fish, is eager to explore the mysterious reef. When Nemo is unexpectedly taken far from home and thrust into a tacky dentist’s office fish tank, Marlin finds himself the unlikely hero on an epic journey to rescue his son.
+						</p>
+					</div>
+				</div>
+				<div class="tabWrap">
+					<ul id="tab">
+						<li class="first">
+							<a href="#trailerContent" title="trailer" class="selected">Trailer</a>
+						</li>
+						<li>
+							<a href="#characterContent" title="character">Character</a>
+						</li>
+						<li>
+							<a href="#designContent" title="design">World Design</a>
+						</li>
+						<li>
+							<a href="#creditsContent" title="credits">Credits</a>
+						</li>
+					</ul>
+				</div>
+				<ul id="content">
+					<li id="trailerContent" class="contentWrap">
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/GraVZbADTRY"></iframe>
+						</div>
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/VtZ6C3M0q28"></iframe>
+						</div>
+					</li>
+					<li id="characterContent" class="contentWrap">
+						<div class="characterWrap">
+							<ul>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Marlyn</h4>
+										<p>
+											Sheltered deep within The Great Barrier reef, safe inside his anemone home, lives Marlin. After losing his wife and family to the ocean, Marlin is left alone to raise his only surviving child, Nemo. He vows never to let anything happen to his son. A loving and responsible father, Marlin keeps his noble promise throughout Nemo’s early years.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/nemo/marlyn00.jpg" alt="marlyn이미지00"/></p>
+										<p><img src="../../img/character/nemo/marlyn01.jpg" alt="marlyn이미지01"/></p>
+										<p><img src="../../img/character/nemo/marlyn02.jpg" alt="marlyn이미지02"/></p>
+										<p><img src="../../img/character/nemo/marlyn03.jpg" alt="marlyn이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Nemo</h4>
+										<p>
+											Nemo is a curious and impressionable six-year-old, only child who lives with his overprotective, single-parent father, Marlin. Having led a sheltered life, Nemo brims with the excitement of starting school and finally seeing the wonders of the Great Barrier Reef. Despite being born with a withered fin, Nemo yearns for adventure, and as fate takes him far from home, he learns he is capable of doing great things.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/nemo/nemo00.jpg" alt="니모이미지00"/></p>
+										<p><img src="../../img/character/nemo/nemo01.jpg" alt="니모이미지01"/></p>
+										<p><img src="../../img/character/nemo/nemo02.jpg" alt="니모이미지02"/></p>
+										<p><img src="../../img/character/nemo/nemo03.jpg" alt="니모이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Dory</h4>
+										<p>
+											Throughout the vast ocean you will not find a fish more hospitable, more friendly, or more sociable than Dory. She would love to chat with you all day and tell you her life story, but she can’t. Dory suffers from short term memory loss. Dory is the aquatic Good Samaritan who offers to help Marlin on his journey to find his son. She is certainly an odd partner.
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/dory/dory00.jpg" alt="도리이미지00"/></p>
+										<p><img src="../../img/character/dory/dory01.jpg" alt="도리이미지01"/></p>
+										<p><img src="../../img/character/nemo/dory00.jpg" alt="도리이미지02"/></p>
+										<p><img src="../../img/character/nemo/dory01.jpg" alt="도리이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Gill</h4>
+										<p>
+											Gill is the maverick of the dentist’s office fish tank. He is the leader of an eclectic gang of fish, who hang on his every word and are drawn to his magnetic personality. This tough, scarred, one-finned fish was raised in the ocean, but taken at a young age to live in a tank. Surrounded by fish who have spent their entire lives in “the box,” Gill alone feels the pull to be free. Though he dreams of one day breaking out and returning to the ocean.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/nemo/gill00.jpg" alt="gill이미지00"/></p>
+										<p><img src="../../img/character/nemo/gill01.jpg" alt="gill이미지01"/></p>
+										<p><img src="../../img/character/nemo/gill02.jpg" alt="gill이미지02"/></p>
+										<p><img src="../../img/character/nemo/gill03.jpg" alt="gill이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>The Tank Gang</h4>
+										<p>
+											No matter where you're from—the ocean, eBay, Pet Palace, or mail order—being stuck in a kitschy dentist's aquarium can do things to a fish. Led by escape artist Gill, Peach, Bloat, Gurgle, Deb, Bubbles, and Jacques make life livable with tiki-inspired tank rituals, all the while dreaming of getting back into the Big Blue.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/nemo/fishTank00.jpg" alt="fishTank이미지00"/></p>
+										<p><img src="../../img/character/nemo/fishTank01.jpg" alt="fishTank이미지01"/></p>
+										<p><img src="../../img/character/nemo/fishTank02.jpg" alt="fishTank이미지02"/></p>
+										<p><img src="../../img/character/nemo/fishTank03.jpg" alt="fishTank이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Sharks</h4>
+										<p>
+											Bruce, Anchor and Chum are mates. Anchor is cynical; he hates dolphins. Chum is hyperactive; he can’t keep still. Bruce is the jolly leader of the pack. All three are members of a Fish-Eaters Anonymous Group, and are tormented by their natural urge to eat fish and their resulting unpopularity amongst the general ocean population.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/nemo/shark00.jpg" alt="shark이미지00"/></p>
+										<p><img src="../../img/character/nemo/shark01.jpg" alt="shark이미지01"/></p>
+										<p><img src="../../img/character/nemo/shark02.jpg" alt="shark이미지02"/></p>
+										<p><img src="../../img/character/nemo/shark03.jpg" alt="shark이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Turtles</h4>
+										<p>
+											Crush and his offspring Squirt know how to chill and go with the flow, especially the one created by the East Australian Current. The two have a righteous bond that's totally sweet. After 150 years of living in the ocean, Crush knows a thing or two about being a good parent.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/nemo/turtle00.jpg" alt="turtle이미지00"/></p>
+										<p><img src="../../img/character/nemo/turtle01.jpg" alt="turtle이미지01"/></p>
+										<p><img src="../../img/character/nemo/turtle02.jpg" alt="turtle이미지02"/></p>
+										<p><img src="../../img/character/nemo/turtle03.jpg" alt="turtle이미지03"/></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="designContent" class="contentWrap">
+						<ul>
+							<li>
+								<h3>The Tank</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/nemo/design00.jpg" alt="니모디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									Intended to amuse children visiting the dentist’s office, the fish tank in Finding Nemo can also be viewed as a glass prison for its unlucky inhabitants. Looking to illustrate the odd dichotomy, the filmmakers found inspiration in the world of kitsch aquarium accessories and began filling the tank with garish plastic objects. When we meet them, we find the tank gang has gone slightly mad, prisoners not only of their narrow confines but also the dentist’s bad taste.
+								</p>
+							</li>
+							<li>
+								<h3>Current</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/nemo/design01.jpg" alt="니모디자인이미지01"/>
+								</p>
+								<p class="textWrap">
+									It’s not often that an ocean current plays a role in a movie, but the real-life East Australian Current (EAC) had compelling qualities. A colorful underwater highway favored by migrating fish and sea turtles, the EAC follows a path of hundreds of miles before reaching Sydney Harbor, providing a handy template for both the Pixar art and story teams.
+								</p>
+							</li>
+							<li>
+								<h3>The Drop Off</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/nemo/design02.jpg" alt="니모디자인이미지02"/>
+								</p>
+								<p class="textWrap">
+									The epic journey required Marlin to leave the relative safety of his home on the coral reef for the depths of the great unknown, which the filmmakers viewed as both a metaphor and the very real drop-off of a deep-ocean trench.“The ocean is so beautiful and there’s so much to explore, but if you’re a fish, every foot you go there is something that could eat you," observed producer Graham Walters.“Ultimately it comes down to anything could be out there. It’s both wondrous and terrifying.”
+								</p>
+							</li>
+							<li>
+								<h3>The Harbor</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/nemo/design03.jpg" alt="니모디자인이미지03"/>
+								</p>
+								<p class="textWrap">
+									Humans enter the picture as Marlin and Dory reach Sydney Harbor, bustling with trawling fishermen, a sewage treatment plant, views of iconic Sydney landmarks, and most importantly, buildings perched next to the water.
+									For both scenic and technical reasons, the filmmakers needed their land-based scenes as close to the ocean as possible, and a dentist’s office in the charming seaside community of North Sydney provided the perfect location for Nemo’s final rescue.
+								</p>
+							</li>
+							<li>
+								<h3>Jellyfish</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/nemo/design04.jpg" alt="니모디자인이미지04"/>
+								</p>
+								<p class="textWrap">
+									How do you construct a set out of thousands of gelatinous, translucent animals? “We spent a lot of time with Ralph’s (Eggelston) pastels, watched a lot of underwater footage taken in Palau in the South Pacific, and also went to visit the jellyfish exhibit at the Monterey Bay Aquarium to better understand what jellyfish look like and how they really move,” explains Supervising Technical Director Oren Jacob.“In the end this is one of the most beautiful scenes in the movie, and one of the scariest, too.”
+								</p>
+							</li>
+							<li>
+								<h3>The Reef</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/nemo/design05.jpg" alt="니모디자인이미지05"/>
+								</p>
+								<p class="textWrap">
+									With Nemo’s home set in Australia’s Great Barrier Reef, the Pixar team had one of the most colorful environments on Earth to work with. The unlikely challenge was how much to change its otherworldly beauty.
+									Early R&amp;D tests were startling. “It looked so real!” recalls John Lasseter. “From that first CG coral reef test we realized we had to go further with stylization than we’d ever gone before. Of course we have talking fish, but we really needed the audience to know that this world, while believable, was also make-believe.”
+								</p>
+							</li>
+							<li>
+								<h3>The Whale</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/nemo/design06.jpg" alt="니모디자인이미지06"/>
+								</p>
+								<p class="textWrap">
+									"Inside the whale it’s dark, and in a dark environment, the lighting requires extreme precision. There’s no obvious light source, so we had to create something. Whales have a baleen—a thick, broom-like substance around their lips—so we have the light seeping through there," explains Director of Photography for Lighting Sharon Calahan.
+								</p>
+							</li>
+							<li>
+								<h3>The Sunken Ship</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/nemo/design07.jpg" alt="니모디자인이미지07"/>
+								</p>
+								<p class="textWrap">
+									The filmmakers wanted a chase scene involving Dory, Marlin, and great white shark Bruce. Many scenarios were being considered when a team field trip to a submarine docked at a San Francisco pier revealed that submarine floors are actually grates. With that simple fact in mind, the Pixar team envisioned a wild escape sequence set in the wreck of an old World War II era submarine sunk in the Great Barrier Reef.
+								</p>
+							</li>
+							<li>
+								<h3>Colorscript</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/nemo/design08.jpg" alt="니모디자인이미지08"/>
+								</p>
+								<p class="textWrap">
+									A colorscript is a sequence of small pastel drawings or paintings used to emphasize color in each scene and establish a film's visual language.
+									For Finding Nemo, Production Designer Ralph Eggleston started with the vibrant palette of the underwater reef, among the most naturally colorful environments on Earth, then shifted to an increasingly minimalist and ominous palette as Marlin and Dory descend into the murky depths of the ocean on an increasingly perilous journey.
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li id="creditsContent" class="contentWrap">
+						<p class="nameWrap">
+							<strong>DIRECTED BY</strong>
+							<em>ANDREW STANTON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CO-DIRECTED BY</strong>
+							<em>LEE UNKRICH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCED BY</strong>
+							<em>GRAHAM WALTERS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EXECUTIVE PRODUCER</strong>
+							<em>JOHN LASSETER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ASSOCIATE PRODUCER</strong>
+							<em>JINKO GOTOH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ORIGINAL STORY BY</strong>
+							<em>ANDREW STANTON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SCREENPLAY BY</strong>
+							<em>ANDREW STANTON, BOB PETERSON, DAVID REYNOLDS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MUSIC BY</strong>
+							<em>THOMAS NEWMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>STORY SUPERVISOR</strong>
+							<em>RONNIE DEL CARMEN, DAN JEUP, JASON KATZ</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FILM EDITOR</strong>
+							<em>DAVID IAN SALTER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTOR</strong>
+							<em>OREN JACOB</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION DESIGNERS</strong>
+							<em>RALPH EGGLESTON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTORS OF PHOTOGRAPHY</strong>
+							<em>SHARON CALAHAN, JEREMY LASKY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATOR</strong>
+							<em>DYLAN BROWN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER ART DIRECTOR</strong>
+							<em>RICKY VEGA NIERVA</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SHADING ART DIRECTOR</strong>
+							<em>ROBIN COOPER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ENVIRONMENT ART DIRECTOR</strong>
+							<em>ANTHONY CHRISTOV, RANDY BERRETT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTERS CG SUPERVISOR</strong>
+							<em>BRIAN GREEN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>OCEAN UNIT CG SUPERVISORS</strong>
+							<em>LISA FORSSELL, DANIELLE FEINBERG</em>
+						</p>
+						<p class="nameWrap">
+							<strong>REEF UNIT CG SUPERVISOR</strong>
+							<em>DAVID EISENMANN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>TANK UNIT CG SUPERVISOR</strong>
+							<em>JESSE HOLLANDER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SHARKS/SYDNEY UNIT CG SUPERVISOR</strong>
+							<em>STEVE MAY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>GLOBAL TECHNOLOGY CG SUPERVISOR</strong>
+							<em>MICHAEL FONG</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIGITAL FINAL CG SUPERVISOR</strong>
+							<em>ANTHONY APODACA</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SCHOOLING/FLOCKING CG SUPERVISOR</strong>
+							<em>MICHAEL LORENZEN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION MANAGER</strong>
+							<em>LINDSEY COLLINS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SOUND DESIGN</strong>
+							<em>GARY RYDSTROM</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CASTING</strong>
+							<em>MARY HIDALGO, KEVIN REHER, MATTHEW JON BECK</em>
+						</p>
+						<h3>CAST</h3>
+						<p class="nameWrap">
+							<strong>MARLIN</strong>
+							<em>ALBERT BROOKS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DORY</strong>
+							<em>ELLEN DEGENERES</em>
+						</p>
+						<p class="nameWrap">
+							<strong>GILL</strong>
+							<em>WILLEM DAFOE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>BLOAT</strong>
+							<em>BRAD GARRETT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PEACH</strong>
+							<em>ALLISON JANNEY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>GURGLE</strong>
+							<em>AUSTIN PENDLETON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DEB (&amp; FLO)</strong>
+							<em>VICKI LEWIS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>JACQUES</strong>
+							<em>JOE RANFT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>NIGEL</strong>
+							<em>GEOFFREY RUSH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CRUSH</strong>
+							<em>ANDREW STANTON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SQUIRT</strong>
+							<em>NICHOLAS BIRD</em>
+						</p>
+						<p class="nameWrap">
+							<strong>BRUCE</strong>
+							<em>BARRY HUMPHRIES</em>
+						</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<h1>FOOTER영역</h1>
+			<div>
+				<h2>회사 소개</h2>
+				<h3>PIXAR STUDIOS</h3>
+				<p>about company</p>
+				<p class="textArea">
+					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+				</p>
+				<a href="../about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+			</div>
+			<div>
+				<h2>회사 CONTACT</h2>
+				<h3>CONTACT US</h3>
+				<p>Pixar Animation Studios</p>
+				<p class="textArea">
+					1200 Park Avenue Emeryville, California 94608<br/>
+					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+				</p>
+				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

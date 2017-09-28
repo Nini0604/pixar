@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR A BUG'S LIFE</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/header.js"></script>
+		<script src="../../js/film.js"></script>
+		<link href="../../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/film.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tjessieine" rel="stylesheet">
+		<style type="text/css">
+			#container #visual{width:100%;height:700px;background-size:cover;background:url("../../img/bg/bugsLife_head.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:center;background-color:#000;}
+			#container #movieContent #trailerContent .videoWrap{height:530px;}
+
+			@media all and (min-width:481px) and (max-width:767px){
+				#container #visual{height:500px;background-size:200%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:330px;}
+
+			}
+
+			@media all and (min-width:320px) and (max-width:480px){
+				#container #visual{height:450px;background-size:255%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:230px;}
+			}
+		</style>
+	</head>
+<body>
+	<div id="mobileNavWrap">
+		<a href="#none" title="menu" class="menu">
+			<span class="firstLine"></span>
+			<span class="secondLine"></span>
+			<span class="lastLine"></span>
+		</a>
+		<p id="mobileNavBg"></p>
+		<div id="mobileNav">
+			<p class="profileWrap">
+				<img src="../../img/icon/piper.png" alt="사용자이미지"/>
+			</p>
+			<p class="loginJoinWrap">
+				<a href="../login.html" title="LOGIN">LOGIN</a>
+				<a href="../join.html" title="JOIN">JOIN</a>
+			</p>
+			<ul>
+				<li><a href="../../index.html" title="HOME">HOME</a></li>
+				<li><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+				<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+				<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+				<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+				<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header id="header">
+			<div id="headerWrap">
+				<h1>
+					<a href="../../index.html" title="home">
+						<img src="../../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+					</a>
+				</h1>
+				<nav id="nav">
+					<h2>NAV영역</h2>
+					<a href="#none" title="menu" class="menu">
+						<span class="firstLine"></span>
+						<span class="secondLine"></span>
+						<span class="lastLine"></span>
+					</a>
+					<ul>
+						<li class="select"><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+						<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+						<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+						<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+						<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+						<li><a href="../login.html" title="LOGIN">LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual"></div>
+			</div>
+			<section id="movieContent">
+				<div class="movieHead">
+					<div class="movieLogo">
+						<img src="../../img/logo/bugs_life_logo.png" alt="벅스라이프로고이미지"/>
+					</div>
+					<div class="movieDesc">
+						<h3>A Bug's Life</h3>
+						<p>
+							Meet Flik. Independent-thinker ant. The only insect capable of throwing a kink in the food chain. After one of Flik's inventions goes terribly wrong, he embarks on a mission to help save the colony from a gang of freeloading grasshoppers in order to get back in good graces with the Queen. But when the group of "warrior bugs" that Flik recruits turns out to be a bumbling circus troupe, he must believe in himself and his inventions to save Ant Island once and for all.
+						</p>
+					</div>
+				</div>
+				<div class="tabWrap">
+					<ul id="tab">
+						<li class="first">
+							<a href="#trailerContent" title="trailer" class="selected">Trailer</a>
+						</li>
+						<li>
+							<a href="#characterContent" title="character">Character</a>
+						</li>
+						<li>
+							<a href="#designContent" title="design">World Design</a>
+						</li>
+						<li>
+							<a href="#creditsContent" title="credits">Credits</a>
+						</li>
+					</ul>
+				</div>
+				<ul id="content">
+					<li id="trailerContent" class="contentWrap">
+						<div class="videoWrap">
+						  <iframe src="https://www.youtube.com/embed/CPen1YcWTgk"></iframe>
+						</div>
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/knNNc2fI97U"></iframe>
+						</div>
+					</li>
+					<li id="characterContent" class="contentWrap">
+						<div class="characterWrap">
+							<ul>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Flik</h4>
+										<p>
+											Everyone keeps telling Flik to stop questioning tradition and be a good worker ant, but he knows that's not his lot in life. Even when the going gets tough, this resourceful but misguided ant risks everything despite some major setbacks and the prevailing perception that he's a failure.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/bugsLife/flink00.jpg" alt="flink이미지00"/></p>
+										<p><img src="../../img/character/bugsLife/flink01.jpg" alt="flink이미지01"/></p>
+										<p><img src="../../img/character/bugsLife/flink02.jpg" alt="flink이미지02"/></p>
+										<p><img src="../../img/character/bugsLife/flink03.jpg" alt="flink이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Princess Atta</h4>
+										<p>
+											Princess Atta often seems aggravated, but you would too if you were ascending to the throne and had to deal with a mean freeloading grasshopper. It takes a few tries for Atta to realize the colony's courage and strength, and to learn to trust her instincts as a leader.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/bugsLife/atta00.jpg" alt="atta이미지00"/></p>
+										<p><img src="../../img/character/bugsLife/atta01.jpg" alt="atta이미지01"/></p>
+										<p><img src="../../img/character/bugsLife/atta02.jpg" alt="atta이미지02"/></p>
+										<p><img src="../../img/character/bugsLife/atta03.jpg" alt="atta이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Dot</h4>
+										<p>
+											As the Queen's youngest daughter, Dot proves that size doesn't matter when it comes to being a heroine. The pint-sized princess learns to spread her wings and convinces Flik to return to save the colony.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/bugsLife/dot00.jpg" alt="dot이미지00"/></p>
+										<p><img src="../../img/character/bugsLife/dot01.jpg" alt="dot이미지01"/></p>
+										<p><img src="../../img/character/bugsLife/dot02.jpg" alt="dot이미지02"/></p>
+										<p><img src="../../img/character/bugsLife/dot03.jpg" alt="dot이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Queen</h4>
+										<p>
+											The ant colony's miniature monarch has been around the island more than a few times and she's looking forward to retiring and letting Atta take over the throne.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/bugsLife/queen00.jpg" alt="queen이미지00"/></p>
+										<p><img src="../../img/character/bugsLife/queen01.jpg" alt="queen이미지01"/></p>
+										<p><img src="../../img/character/bugsLife/queen02.jpg" alt="queen이미지02"/></p>
+										<p><img src="../../img/character/bugsLife/queen03.jpg" alt="queen이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Francis</h4>
+										<p>
+											A member of the circus crew, Francis is the misunderstood male ladybug. To compensate for his mistaken gender, he develops a macho attitude that can only be softened by Ant Island's young Blueberries troop.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/bugsLife/francis00.jpg" alt="francis이미지00"/></p>
+										<p><img src="../../img/character/bugsLife/francis01.jpg" alt="francis이미지01"/></p>
+										<p><img src="../../img/character/bugsLife/francis02.jpg" alt="francis이미지02"/></p>
+										<p><img src="../../img/character/bugsLife/francis03.jpg" alt="francis이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Heimlich</h4>
+										<p>
+											This Bavarian caterpillar who can't stomach the idea of a battle is happiest when he's munching on food. For Heimlich, eating large doesn't guarantee a set of large wings—but he loves them just the way they are.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/bugsLife/heimlich00.jpg" alt="heimlich이미지00"/></p>
+										<p><img src="../../img/character/bugsLife/heimlich01.jpg" alt="heimlich이미지01"/></p>
+										<p><img src="../../img/character/bugsLife/heimlich02.jpg" alt="heimlich이미지02"/></p>
+										<p><img src="../../img/character/bugsLife/heimlich03.jpg" alt="heimlich이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Dim</h4>
+										<p>
+											At first glance he looks like a menacing insect, but Dim has a heart of gold. The lovable rhino beetle appears as the ferocious star of P.T. Flea's circus act, even though he has an extremely low tolerance for pain.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/bugsLife/dim00.jpg" alt="dim이미지00"/></p>
+										<p><img src="../../img/character/bugsLife/dim01.jpg" alt="dim이미지01"/></p>
+										<p><img src="../../img/character/bugsLife/dim02.jpg" alt="dim이미지02"/></p>
+										<p><img src="../../img/character/bugsLife/dim03.jpg" alt="dim이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Tuck &amp; Roll</h4>
+										<p>
+											These Hungarian pill bugs don't speak a word of English, but it's no problem when they're getting shot out of a cannon or performing acrobatic routines that always end in fights.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/bugsLife/tuckRoll00.jpg" alt="tuckRoll이미지00"/></p>
+										<p><img src="../../img/character/bugsLife/tuckRoll01.jpg" alt="tuckRoll이미지01"/></p>
+										<p><img src="../../img/character/bugsLife/tuckRoll02.jpg" alt="tuckRoll이미지02"/></p>
+										<p><img src="../../img/character/bugsLife/tuckRoll03.jpg" alt="tuckRoll이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Manny &amp; Gypsy</h4>
+										<p>
+											Manny is a pompous praying-mantis magician who prays for the good old days when audiences responded to his act. His moth mate, Gypsy, requires all eyes on her lovely wings and helps Manny look good in their performances.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/bugsLife/mannyGypsy00.jpg" alt="mannyGypsy이미지00"/></p>
+										<p><img src="../../img/character/bugsLife/mannyGypsy01.jpg" alt="mannyGypsy이미지01"/></p>
+										<p><img src="../../img/character/bugsLife/mannyGypsy02.jpg" alt="mannyGypsy이미지02"/></p>
+										<p><img src="../../img/character/bugsLife/mannyGypsy03.jpg" alt="mannyGypsy이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Rosie</h4>
+										<p>
+											Her husbands keep dying on her, but that doesn't stop this widowed black widow spider from spinning a (sometimes) successful career as a circus performer—and unlikely "warrior bug."
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/bugsLife/rosie00.jpg" alt="rosie이미지00"/></p>
+										<p><img src="../../img/character/bugsLife/rosie01.jpg" alt="rosie이미지01"/></p>
+										<p><img src="../../img/character/bugsLife/rosie02.jpg" alt="rosie이미지02"/></p>
+										<p><img src="../../img/character/bugsLife/rosie03.jpg" alt="rosie이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Slim</h4>
+										<p>
+											Slim is an intellectual walking stick who takes his acting a bit too seriously. He often ponders his fate and wonders if he'll ever be able to break out of his circus role as the stick.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/bugsLife/slim00.jpg" alt="slim이미지00"/></p>
+										<p><img src="../../img/character/bugsLife/slim01.jpg" alt="slim이미지01"/></p>
+										<p><img src="../../img/character/bugsLife/slim02.jpg" alt="slim이미지02"/></p>
+										<p><img src="../../img/character/bugsLife/slim03.jpg" alt="slim이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Hopper</h4>
+										<p>
+											He's a mean, lean eating machine and can squash an ant's head with his foot if the food's not on the offering stone. Hopper's tough exterior conceals an even tougher interior and a superior intellect.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/bugsLife/hopper00.jpg" alt="hopper이미지00"/></p>
+										<p><img src="../../img/character/bugsLife/hopper01.jpg" alt="hopper이미지01"/></p>
+										<p><img src="../../img/character/bugsLife/hopper02.jpg" alt="hopper이미지02"/></p>
+										<p><img src="../../img/character/bugsLife/hopper03.jpg" alt="hopper이미지03"/></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="designContent" class="contentWrap">
+						<ul>
+							<li>
+								<h3>Ant Island</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/bugsLife/design00.jpg" alt="벅스라이프디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									Most of A Bug’s Life takes place within a few hundred square feet. The filmmakers got to know the tiny idyllic island “like a live-action set,” said John Lasseter. It was also home to a cast of thousands. The filmmakers had to contend with 400 crowd scenes, ranging from 25 to 1000 ants in each shot. In a first for animated film crowds, each character is unique, fully animated, and clearly acting.
+								</p>
+							</li>
+							<li>
+								<h3>Bug City</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/bugsLife/design01.jpg" alt="벅스라이프디자인이미지01"/>
+								</p>
+								<p class="textWrap">
+									Flik’s epic adventure had to lead to somewhere exciting, and the perfect contrast to a pastoral island was a city teeming with exotic insects. In a rare acknowledgement of human presence, the Pixar team created a bustling metropolis out of a garbage pile. It’s here that Flik encounters P.T. Flea’s Circus Troupe. According to Co-Director Andrew Stanton, the inspiration for a multinational flea circus“was the first thing that really felt like us, felt like Pixar.”
+								</p>
+							</li>
+							<li>
+								<h3>The Circus</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/bugsLife/design02.jpg" alt="벅스라이프디자인이미지02"/>
+								</p>
+								<p class="textWrap">
+									Garbage can be useful, particularly when you're trying to think of ideas for a bug-scaled circus. By rifling through trash, the artists transformed everyday objects into a miniature scaled version of a recognizable circus. Egg cartons stacked together looked like a grandstand. A broken umbrella, if painted pink and white, had the exact pattern and shape of a circus tent. A thimble looked big enough to serve as a pedestal for a flea. Prop by prop, a circus came together as if assembled by bugs.
+								</p>
+							</li>
+							<li>
+								<h3>Hopper's Hideout</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/bugsLife/design03.jpg" alt="벅스라이프디자인이미지03"/>
+								</p>
+								<p class="textWrap">
+									The filmmakers had always seen Hopper’s herd of marauding grasshoppers as a motorcycle gang. An abandoned sombrero became a south-of-the-border hideout where the gang could party and Hopper could nurse his grudge. When the grasshoppers take to the sky bent on revenge, the sound design included motorcycle engines mixed in with the flapping wings.
+								</p>
+							</li>
+							<li>
+								<h3>Vegetation</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/bugsLife/design04.jpg" alt="벅스라이프디자인이미지04"/>
+								</p>
+								<p class="textWrap">
+									The Pixar team quickly realized that Mother Nature is a terrific artist. Early in the process, Production Designer Bill Cone crawled on his stomach with a camera for a closer look at the vegetation that would become the film’s architecture. Art Director Tia Kratter spent a year painting natural objects. Their efforts came together in“The Leaf Bridge Test,” a scene that used sophisticated lighting to capture the translucence of a leaf and served as visual inspiration for the film.
+								</p>
+							</li>
+							<li>
+								<h3>Colorscripts</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/bugsLife/design05.jpg" alt="벅스라이프디자인이미지05"/>
+								</p>
+								<p class="textWrap">
+									A colorscript is a sequence of small pastel drawings or paintings used to emphasize color in each scene and establish a film's visual language.
+									There were three ways to think of color in A Bug’s Life, says colorscript creator Bill Cone: What season is it? What time of day is it? And what does the story require—gloom, sunshine, or threatening shadows? From glowing mushrooms and shafts of daylight in the ant’s bunker to the late afternoon lighting scheme for Flik and Atta’s romantic encounters, the colorscript set the tone.
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li id="creditsContent" class="contentWrap">
+						<p class="nameWrap">
+							<strong>DIRECTED BY</strong>
+							<em>JOHN LASSETER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CO-DIRECTED BY</strong>
+							<em>ANDREW STANTON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ORIGINAL STORY BY</strong>
+							<em>JOHN LASSETER, ANDREW STANTON, JOE RANFT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SCREENPLAY BY</strong>
+							<em>ANDREW STANTON, DONALD MCENERY, BOB SHAW</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MUSIC BY</strong>
+							<em>RANDY NEWMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>STORY SUPERVISOR</strong>
+							<em>JOE RANFT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING FILM EDITOR</strong>
+							<em>LEE UNKRICH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTORS</strong>
+							<em>WILLIAM REEVES, EBEN OSTBY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY</strong>
+							<em>SHARON CALAHAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION DESIGNER</strong>
+							<em>WILLIAM CONE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATOR</strong>
+							<em>GLENN MCQUEEN, RICH QUADE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ART DIRECTORS</strong>
+							<em>TIA W. KRATTER, BOB PAULEY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATORS</strong>
+							<em>GLENN MCQUEEN, RICH QUADE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SHADING SUPERVISOR</strong>
+							<em>RICK SAYRE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING LAYOUT ARTIST</strong>
+							<em>EWAN JOHNSON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION SUPERVISOR - TECHNICAL</strong>
+							<em>GRAHAM WALTERS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION SUPERVISOR - EDITORIAL</strong>
+							<em>BILL KINDER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION SUPERVISOR - STORY, ART &amp; LAYOUT</strong>
+							<em>BZ PETROFF</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EXECUTIVE MUSIC PRODUCER</strong>
+							<em>CHRIS MONTAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>"THE TIME OF YOUR LIFE"</strong>
+							<em>WRITTEN AND PERFORMED BY RANDY NEWMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CASTING BY</strong>
+							<em>RUTH LAMBERT, MARY HIDALGO-ASSOCIATE </em>
+						</p>
+						<h3>CAST</h3>
+						<p class="nameWrap">
+							<strong>FLIK</strong>
+							<em>DAVE FOLEY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>HOPPER</strong>
+							<em>KEVIN SPACEY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ATTA</strong>
+							<em>JULIA LOUIS-DREYFUS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DOT</strong>
+							<em>HAYDEN PANETTIERE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>QUEEN</strong>
+							<em>PHYLLIS DILLER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MOLT</strong>
+							<em>RICHARD KIND</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SLIM</strong>
+							<em>DAVID HYDE PIERCE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>HEIMLICH</strong>
+							<em>JOE RANFT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FRANCIS</strong>
+							<em>DENIS LEARY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MANNY</strong>
+							<em>JONATHAN HARRIS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>GYPSY</strong>
+							<em>MADELINE KAHN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ROSIE</strong>
+							<em>BONNIE HUNT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>TUCK &amp; ROLL</strong>
+							<em>MICHAEL MCSHANE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIM</strong>
+							<em>BRAD GARRETT</em>
+						</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<h1>FOOTER영역</h1>
+			<div>
+				<h2>회사 소개</h2>
+				<h3>PIXAR STUDIOS</h3>
+				<p>about company</p>
+				<p class="textArea">
+					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+				</p>
+				<a href="../about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+			</div>
+			<div>
+				<h2>회사 CONTACT</h2>
+				<h3>CONTACT US</h3>
+				<p>Pixar Animation Studios</p>
+				<p class="textArea">
+					1200 Park Avenue Emeryville, California 94608<br/>
+					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+				</p>
+				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

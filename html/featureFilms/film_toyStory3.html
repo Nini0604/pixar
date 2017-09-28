@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR TOY STORY3</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/header.js"></script>
+		<script src="../../js/film.js"></script>
+		<link href="../../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/film.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tlotsoine" rel="stylesheet">
+		<style type="text/css">
+			#container #visual{width:100%;height:700px;background-size:cover;background:url("../../img/bg/toyStory3_head.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:center;background-color:#000;}
+			#container #movieContent #trailerContent .videoWrap{height:540px;}
+
+			@media all and (min-width:481px) and (max-width:767px){
+				#container #visual{height:500px;background-position:center 165%;}
+				#container #movieContent #trailerContent .videoWrap{height:345px;}
+			}
+
+			@media all and (min-width:320px) and (max-width:480px){
+				#container #visual{height:450px;background-size:300%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:245px;}
+			}
+		</style>
+	</head>
+<body>
+	<div id="mobileNavWrap">
+		<a href="#none" title="menu" class="menu">
+			<span class="firstLine"></span>
+			<span class="secondLine"></span>
+			<span class="lastLine"></span>
+		</a>
+		<p id="mobileNavBg"></p>
+		<div id="mobileNav">
+			<p class="profileWrap">
+				<img src="../../img/icon/piper.png" alt="사용자이미지"/>
+			</p>
+			<p class="loginJoinWrap">
+				<a href="../login.html" title="LOGIN">LOGIN</a>
+				<a href="../join.html" title="JOIN">JOIN</a>
+			</p>
+			<ul>
+				<li><a href="../../index.html" title="HOME">HOME</a></li>
+				<li><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+				<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+				<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+				<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+				<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header id="header">
+			<div id="headerWrap">
+				<h1>
+					<a href="../../index.html" title="home">
+						<img src="../../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+					</a>
+				</h1>
+				<nav id="nav">
+					<h2>NAV영역</h2>
+					<a href="#none" title="menu" class="menu">
+						<span class="firstLine"></span>
+						<span class="secondLine"></span>
+						<span class="lastLine"></span>
+					</a>
+					<ul>
+						<li class="select"><a href="featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+						<li><a href="shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+						<li><a href="character.html" title="CHARACTERS">CHARACTERS</a></li>
+						<li><a href="upcoming.html" title="UPCOMING">UPCOMING</a></li>
+						<li><a href="#none" title="ABOUT">ABOUT</a></li>
+						<li><a href="login.html" title="LOGIN">LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual"></div>
+			</div>
+			<section id="movieContent">
+				<div class="movieHead">
+					<div class="movieLogo">
+						<img src="../../img/logo/toy_story3_logo.png" alt="토이스토리3로고이미지"/>
+					</div>
+					<div class="movieDesc">
+						<h3>Toy Story 3</h3>
+						<p>
+							The creators of the beloved Toy Story films re-open the toy box and bring moviegoers back to the delightful world of our favorite gang of toy characters in Toy Story 3. As Andy prepares to depart for college, Buzz, Woody, and the rest of his loyal toys are troubled about their uncertain future.
+							<br/><br/>
+							Toy Story 3 is a comical adventure that lands the toys in a room full of untamed tots who can't wait to get their sticky little fingers on these "new" toys. It's pandemonium as the toys try to stay together, ensuring that "no toy gets
+							left behind."
+						</p>
+					</div>
+				</div>
+				<div class="tabWrap">
+					<ul id="tab">
+						<li class="first">
+							<a href="#trailerContent" title="trailer" class="selected">Trailer</a>
+						</li>
+						<li>
+							<a href="#characterContent" title="character">Character</a>
+						</li>
+						<li>
+							<a href="#designContent" title="design">World Design</a>
+						</li>
+						<li>
+							<a href="#creditsContent" title="credits">Credits</a>
+						</li>
+					</ul>
+				</div>
+				<ul id="content">
+					<li id="trailerContent" class="contentWrap">
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/ay2j2svxaqA"></iframe>
+						</div>
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/aGYxNuodVOU"></iframe>
+						</div>
+					</li>
+					<li id="characterContent" class="contentWrap">
+						<div class="characterWrap">
+							<ul>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Woody</h4>
+										<p>
+											Woody is a cowboy sheriff who proclaims his signature catchphrases from the 1950s TV show Woody’s Roundup every time his pull-string is pulled. He’s always been Andy’s favorite toy. Even though his owner is now grown, the loyal sheriff Woody maintains a steadfast belief that Andy still cares about his toys.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/toyStory3/woody00.jpg" alt="woody이미지00"/></p>
+										<p><img src="../../img/character/toyStory3/woody01.jpg" alt="woody이미지01"/></p>
+										<p><img src="../../img/character/toyStory3/woody02.jpg" alt="woody이미지02"/></p>
+										<p><img src="../../img/character/toyStory3/woody03.jpg" alt="woody이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Buzz Lightyear</h4>
+										<p>
+											Buzz Lightyear is a heroic space ranger action figure, complete with laser beam, karate-chop action, and pop-out wings. Buzz is a boy’s dream toy who becomes a quick favorite of young Andy and the closest of buddies with Woody. While Buzz’s sole mission used to be defeating the evil Emperor Zurg, what he now cares about most is keeping his toy family. Buzz’s new mission is sidetracked along the way.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/toyStory3/buzz00.jpg" alt="buzz이미지00"/></p>
+										<p><img src="../../img/character/toyStory3/buzz01.jpg" alt="buzz이미지01"/></p>
+										<p><img src="../../img/character/toyStory3/buzz02.jpg" alt="buzz이미지02"/></p>
+										<p><img src="../../img/character/toyStory3/buzz03.jpg" alt="buzz이미지03"/></p>
+									</div>
+								</li>
+                <li>
+									<div class="characterDescWrap">
+										<h4>Lotso</h4>
+										<p>
+											Lotso is a jumbo, extra-soft teddy bear with a pink and white plush body and a velvety purple nose. This lovable bear ranks fuzzy heads and shoulders above other teddy bears because he smells like sweet strawberries. With a smile that will light up your child’s face and a belly just asking to be hugged, Lotso Bear is sure to become a bedtime necessity. Stain resistant. Spot clean plush surface with a damp cloth.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/toyStory3/lotso00.jpg" alt="lotso이미지00"/></p>
+										<p><img src="../../img/character/toyStory3/lotso01.jpg" alt="lotso이미지01"/></p>
+										<p><img src="../../img/character/toyStory3/lotso02.jpg" alt="lotso이미지02"/></p>
+										<p><img src="../../img/character/toyStory3/lotso03.jpg" alt="lotso이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Andy's Toys</h4>
+										<p>
+											Created to be loved by generations, Andy’s toys have features that feed imaginations: the beautiful stitching on Jessie and Bullseye can survive the roughest of play; the durable pieces of Mr. and Mrs. Potato Head® offer endless combinations; the tireless spring of Slinky® Dog keeps his stretch; the pose-able limbs of Rex give him different looks; Hamm holds an appetite for saving; and the collectible Aliens emit mysterious calls.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/toyStory3/andysToys00.jpg" alt="andysToys이미지00"/></p>
+										<p><img src="../../img/character/toyStory3/andysToys01.jpg" alt="andysToys이미지01"/></p>
+										<p><img src="../../img/character/toyStory3/andysToys02.jpg" alt="andysToys이미지02"/></p>
+										<p><img src="../../img/character/toyStory3/andysToys03.jpg" alt="andysToys이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Andy</h4>
+										<p>
+											Andy—Buzz and Woody’s kind, imaginative young owner—is now nearly 18 years old and just days away from heading to college. His bedroom walls, once covered with Buzz Lightyear posters, are now plastered with images of sports cars, rock bands, and skateboarders. Although Andy no longer brings his old toys out from the chest for playtime, he hasn’t been able to bring himself to get rid of them.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/toyStory3/andy00.jpg" alt="andy이미지00"/></p>
+										<p><img src="../../img/character/toyStory3/andy01.jpg" alt="andy이미지01"/></p>
+										<p><img src="../../img/character/toyStory3/andy02.jpg" alt="andy이미지02"/></p>
+										<p><img src="../../img/character/toyStory3/andy03.jpg" alt="andy이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Bonnie</h4>
+										<p>
+											Bonnie is a 4-year-old girl who goes to Sunnyside Daycare. Although shy when around many adults, she is full of energy and creativity. She likes her pink tutu with yellow boots and a blue backpack. She's filled with imagination that helps her create endless new games and scenarios with her toys. She can never have too many toys because those that she has will always be loved, well cared for, and—best of all—played with.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/toyStory3/bonnie00.jpg" alt="bonnie이미지00"/></p>
+										<p><img src="../../img/character/toyStory3/bonnie01.jpg" alt="bonnie이미지01"/></p>
+										<p><img src="../../img/character/toyStory3/bonnie02.jpg" alt="bonnie이미지02"/></p>
+										<p><img src="../../img/character/toyStory3/bonnie03.jpg" alt="bonnie이미지03"/></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="designContent" class="contentWrap">
+						<ul>
+							<li>
+								<h3>Western Opening</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/toyStory3/design00.jpg" alt="토이스토리3디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									From the beginning, the filmmakers had wanted a Western-themed opening for Toy Story 3. Taking a visual cue from the original wallpaper in Andy’s bedroom, the big blue sky provided the canopy for Woody’s heroic runaway train rescue set in the desert Southwest. But for the third cinematic Toy Story opening sequence, the Pixar team took the action majestically over the top with spaceships, dinosaurs, and a memorable Death by Monkeys finale.
+								</p>
+							</li>
+							<li>
+								<h3>The Landfill</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/toyStory3/design01.jpg" alt="토이스토리3디자인이미지01"/>
+								</p>
+								<p class="textWrap">
+									The choice of a landfill for the climactic sequence fit director Lee Unkrich’s notion of Toy Story as a life-cycle trilogy. For the characters, the dump would be the equivalent of Dante’s Inferno: a grim, dehumanized landscape and final destination. Pixar artists studied real dumps to emulate, but they also heightened the elements to maximize the drama.
+									<br/><br/>
+									According to Lighting Art Director, Dice Tsutsumi, “The dump is the one scene out of all the Toy Story films that needs to feel absolutely real, believable, and scary.”
+								</p>
+							</li>
+							<li>
+								<h3>Andy's Room</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/toyStory3/design02.jpg" alt="토이스토리3디자인이미지02"/>
+								</p>
+								<p class="textWrap">
+									By now Andy’s room has become an emblem of the Toy Story movies and of Pixar itself. The idyllic blue sky and white cloud wallpaper of Toy Story gives way to a galaxy of stars in Toy Story 2. For Toy Story 3, the artifacts on the walls, and even the more subdued sunlight streaming into the room, conveyed the realm of a teenager and the new problem facing the toys: Andy’s imminent departure for college.
+								</p>
+							</li>
+              <li>
+								<h3>Bonnie's Room</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/toyStory3/design03.jpg" alt="토이스토리3디자인이미지03"/>
+								</p>
+								<p class="textWrap">
+									Bonnie’s room presented a major challenge for the Pixar team. They needed the audience to immediately like the new little girl character and relate to her own collection of toys. Bonnie’s room had to be viewed as a place of safety and imagination, where toys are cherished, respected, and played with. And they had to do all this without giving away the ending. While critical story elements would take place in Bonnie’s room, it had to be treated as a speed bump in Woody’s journey home.
+								</p>
+							</li>
+							<li>
+								<h3>Sunnyside Daycare</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/toyStory3/design04.jpg" alt="토이스토리3디자인이미지04"/>
+								</p>
+								<p class="textWrap">
+									Sunnyside Daycare had to play two crucial roles in the film: a warm and welcoming environment one minute, an oppressive prison lockdown the next. Either way, the Pixar artists had to make Sunnyside always appear as a credible day care center. The crews took field trips to various child-care facilities in the Bay Area where they identified patterns in the organization and structure of bins. It also proved valuable in getting the child’s perspective. “Being there is great," said Production Designer Bob Pauley, "because you notice, wow…that chair’s tiny. Those toilets are tiny.”
+								</p>
+							</li>
+							<li>
+								<h3>Research</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/toyStory3/design05.jpg" alt="토이스토리3디자인이미지05"/>
+								</p>
+								<p class="textWrap">
+									For authenticity and inspiration, the Pixar team engaged in several field trips. With much of the film taking place at Sunnyside, the filmmakers toured multiple day care centers. Figuring that a day care center might feel like prison to a toy, they also took an outing to Alcatraz.
+									<br/><br/>
+									The Pixar team also spent hours scouring the local dump for angles. “The Ratatouille artists went to Paris. The Paris of Toy Story 3 is the dump. The Ratatouille crew got a better deal,” said Production Designer Bob Pauley.
+								</p>
+							</li>
+							<li>
+								<h3>Colorscripts</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/toyStory3/design06.jpg" alt="토이스토리3디자인이미지06"/>
+								</p>
+								<p class="textWrap">
+									A colorscript is a sequence of small pastel drawings or paintings used to emphasize color in each scene and establish a film's
+									visual language.
+									<br/><br/>
+									“I embrace what John and everybody else had done for Toy Story and Toy Story 2 because both films are fantastic. As I studied the earlier movies, I found that so many elements of the art direction had a lot of thinking behind them. Those visuals aren’t the result of intuitive or arbitrary choices: the artists were thinking about how to best support the story,” said Art Director
+									Daisuke “Dice” Tsutsumi.
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li id="creditsContent" class="contentWrap">
+						<p class="nameWrap">
+							<strong>DIRECTED BY</strong>
+							<em>LEE UNKRICH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCED BY</strong>
+							<em>DARLA K. ANDERSON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EXECUTIVE PRODUCER</strong>
+							<em>JOHN LASSETER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ASSOCIATE PRODUCER</strong>
+							<em>NICOLE PARADIS GRINDLE</em>
+						</p>
+            <p class="nameWrap">
+							<strong>STORY BY</strong>
+							<em>JOHN LASSETER, ANDREW STANTON, AND LEE UNKRICH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SCREENPLAY BY</strong>
+							<em>MICHAEL ARNDT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MUSIC COMPOSED AND CONDUCTED BY</strong>
+							<em>RANDY NEWMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>STORY SUPERVISOR</strong>
+							<em>JASON KATZ</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FILM EDITOR</strong>
+							<em>KEN SCHRETZMANN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION DESIGNER</strong>
+							<em>BOB PAULEY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTOR</strong>
+							<em>GUIDO QUARONI</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION MANAGER</strong>
+							<em>MICHAEL WARCH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATORS</strong>
+							<em>BOBBY PODESTA, MICHAEL VENTURINI</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-CAMERA</strong>
+							<em>JEREMY LASKY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-LIGHTING</strong>
+							<em>KIM WHITE</em>
+						</p>
+            <p class="nameWrap">
+							<strong>CHARACTER SUPERVISOR</strong>
+							<em>SANJAY BAKSHI, BRIAN GREEN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS SUPERVISOR</strong>
+							<em>DAVID EISENMANN</em>
+						</p>
+            <p class="nameWrap">
+							<strong>SIMULATION &amp; EFFECTS SUPERVISOR</strong>
+							<em>MICHAEL FONG</em>
+						</p>
+						<p class="nameWrap">
+							<strong>GLOBAL TECH SUPERVISOR</strong>
+							<em>WILLIAM REEVES</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ART DIRECTION</strong>
+							<em>DAISUKE "DICE" TSUTSUMI</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER ART DIRECTOR</strong>
+							<em>DANIEL ARRIAGA</em>
+						</p>
+            <p class="nameWrap">
+							<strong>SETS ART DIRECTION</strong>
+							<em>ROBERT KONDO</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SHADING ART DIRECTION</strong>
+							<em>BELINDA VAN VALKENBURG</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SOUND DESIGNER</strong>
+							<em>TOM MYERS</em>
+						</p>
+            <p class="nameWrap">
+							<strong>EXECUTIVE MUSIC PRODUCER</strong>
+							<em>CHRIS MONTAN</em>
+						</p>
+            <p class="nameWrap">
+              <strong>MUSIC SUPERVISOR</strong>
+              <em>TOM MACDOUGALL</em>
+            </p>
+						<p class="nameWrap">
+							<strong>POST PRODUCTION SUPERVISOR</strong>
+							<em>PAUL CICHOCKI</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION FINANCE LEADS</strong>
+							<em>BEATRICE DE LUCA, MARC S. GREENBERG</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CASTING BY</strong>
+							<em>
+								KEVIN REHER, C.S.A.<br/>
+								NATALIE LYON, C.S.A.<br/>
+							</em>
+						</p>
+						<h3>CAST</h3>
+						<p class="nameWrap">
+							<strong>WOODY</strong>
+							<em>TOM HANKS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>BUZZ LIGHTYEAR</strong>
+							<em>TIM ALLEN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>JESSIE</strong>
+							<em>JOAN CUSACK</em>
+						</p>
+						<p class="nameWrap">
+							<strong>LOTSO</strong>
+							<em>NED BEATTY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MR. POTATO HEAD</strong>
+							<em>DON RICKLES</em>
+						</p>
+						<p class="nameWrap">
+							<strong>KEN</strong>
+							<em>MICHAEL KEATON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>REX</strong>
+							<em>WALLACE SHAWN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>HAMM</strong>
+							<em>JOHN RATZENBERGER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MRS. POTATO HEAD</strong>
+							<em>ESTELLE HARRIS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ANDY</strong>
+							<em>JOHN MORRIS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>BONNIE</strong>
+							<em>EMILY HAHN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>BARBIE</strong>
+							<em>JODI BENSON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SLINKY DOG</strong>
+							<em>BLAKE CLARK</em>
+						</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<h1>FOOTER영역</h1>
+			<div>
+				<h2>회사 소개</h2>
+				<h3>PIXAR STUDIOS</h3>
+				<p>about company</p>
+				<p class="textArea">
+					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+				</p>
+				<a href="../about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+			</div>
+			<div>
+				<h2>회사 CONTACT</h2>
+				<h3>CONTACT US</h3>
+				<p>Pixar Animation Studios</p>
+				<p class="textArea">
+					1200 Park Avenue Emeryville, California 94608<br/>
+					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+				</p>
+				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

@@ -1,0 +1,1782 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+	<title>PIXAR CHARACTERS</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../js/header.js"></script>
+	<script src="../js/character.js"></script>
+	<link href="../img/icon/pixar_ball.png" rel="shortcut icon"/>
+	<link href="../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/character.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/header.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/footer.css"/>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+  </head>
+  <body>
+		<div id="mobileNavWrap">
+			<a href="#none" title="menu" class="menu">
+				<span class="firstLine"></span>
+				<span class="secondLine"></span>
+				<span class="lastLine"></span>
+			</a>
+			<p id="mobileNavBg"></p>
+			<div id="mobileNav">
+				<p class="profileWrap">
+					<img src="../img/icon/piper.png" alt="사용자이미지"/>
+				</p>
+				<p class="loginJoinWrap">
+					<a href="login.html" title="LOGIN">LOGIN</a>
+					<a href="join.html" title="JOIN">JOIN</a>
+				</p>
+				<ul>
+					<li><a href="../index.html" title="HOME">HOME</a></li>
+					<li><a href="featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+					<li><a href="shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+					<li><a href="character.html" title="CHARACTERS">CHARACTERS</a></li>
+					<li><a href="upcoming.html" title="UPCOMING">UPCOMING</a></li>
+					<li><a href="about.html" title="ABOUT">ABOUT</a></li>
+				</ul>
+			</div>
+		</div>
+  	<div id="wrapper">
+  		<header id="header">
+  			<div id="headerWrap">
+  				<h1>
+  					<a href="../index.html" title="home">
+  						<img src="../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+  					</a>
+  				</h1>
+  				<nav id="nav">
+						<h2>NAV</h2>
+						<a href="#none" title="menu" class="menu">
+							<span class="firstLine"></span>
+							<span class="secondLine"></span>
+							<span class="lastLine"></span>
+						</a>
+  					<ul>
+  						<li><a href="featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+  						<li><a href="shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+  						<li class="select"><a href="character.html" title="CHARACTERS">CHARACTERS</a></li>
+  						<li><a href="upcoming.html" title="UPCOMING">UPCOMING</a></li>
+  						<li><a href="about.html" title="ABOUT">ABOUT</a></li>
+  						<li><a href="login.html" title="LOGIN">LOGIN</a></li>
+  					</ul>
+  				</nav>
+  			</div>
+  		</header>
+      <div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual">
+					<h3>CHARACTERS</h3>
+				</div>
+			</div>
+			<section class="logoWrap">
+				<h2>SECTION1영역(LOGOWRAP)</h2>
+				<ul>
+					<li class="selected"><a href="#cars3" id="cars3" title="카3캐릭터보기"><img src="../img/logo/cars3_logo.png" alt="cars3로고"/></a></li>
+					<li><a href="#dory" id="dory" title="도리캐릭터보기"><img src="../img/logo/finding_dory_logo.png" alt="dory로고"/></a></li>
+					<li><a href="#dinosaur" id="dinosaur" title="굿다이노소어캐릭터보기"><img src="../img/logo/the_good_dinosaur_logo.png" alt="goodDinosaur로고"/></a></li>
+					<li><a href="#insideOut" id="insideOut" title="인사이드아웃캐릭터보기"><img src="../img/logo/inside_out_logo.png" alt="insideOut로고"/></a></li>
+					<li><a href="#monstersUniver" id="monstersUniver" title="몬스터대학교캐릭터보기"><img src="../img/logo/mu_logo.png" alt="mu로고"/></a></li>
+					<li><a href="#brave" id="brave" title="메리다캐릭터보기"><img src="../img/logo/brave_logo.png" alt="brave로고"/></a></li>
+					<li><a href="#cars2" id="cars2" title="카2캐릭터보기"><img src="../img/logo/cars2_logo.png" alt="cars2로고"/></a></li>
+					<li><a href="#toyStory3" id="toyStory3" title="토이스토리3캐릭터보기"><img src="../img/logo/toy_story3_logo.png" alt="toyStory3로고"/></a></li>
+					<li><a href="#up" id="up" title="업캐릭터보기"><img src="../img/logo/up_logo.png" alt="up로고"/></a></li>
+					<li><a href="#wallE" id="wallE" title="월E캐릭터보기"><img src="../img/logo/walle_logo.png" alt="walle로고"/></a></li>
+					<li><a href="#ratatouille" id="ratatouille" title="라따뚜이캐릭터보기"><img src="../img/logo/ratatouille_logo.png" alt="ratatouille로고"/></a></li>
+					<li><a href="#cars" id="cars" title="카캐릭터보기"><img src="../img/logo/cars_logo.png" alt="cars로고"/></a></li>
+					<li><a href="#incredibles" id="incredibles" title="인크레더블캐릭터보기"><img src="../img/logo/the_incredibles_logo.png" alt="incredibles로고"/></a></li>
+					<li><a href="#nemo" id="nemo" title="니모캐릭터보기"><img src="../img/logo/finding_nemo_logo.png" alt="nemo로고"/></a></li>
+					<li><a href="#monsters" id="monsters" title="몬스터주식회사캐릭터보기"><img src="../img/logo/monsters_logo.png" alt="monsters로고"/></a></li>
+					<li><a href="#toyStory2" id="toyStory2" title="토이스토리2캐릭터보기"><img src="../img/logo/toy_story2_logo.png" alt="toystory2로고"/></a></li>
+					<li><a href="#bugsLife" id="bugsLife" title="벅스라이프캐릭터보기"><img src="../img/logo/bugs_life_logo.png" alt="bugsLife로고"/></a></li>
+					<li><a href="#toyStory" id="toyStory" title="토이스토리캐릭터보기"><img src="../img/logo/toy_story_logo.png" alt="toyStroy로고"/></a></li>
+				</ul>
+			</section>
+			<section class="contentWrap">
+				<h2>SECTION2영역(CHARACTERWRAP)</h2>
+				<div class="characterWrap">
+					<ul>
+						<li class="nameWrap cars3"><h3>CARS 3</h3></li>
+						<li class="cars3">
+							<div class="characterDescWrap">
+								<h4>Lightning McQueen</h4>
+								<p>
+									Lightning McQueen is a world-champion racer who’s riding high with five Piston-Cup wins under his hood. Suddenly, he finds himself faced with a new generation of racers who threaten not only his dominance in the sport—but the confidence that got him there. Determined to get back into the pole position, #95 must decide if his love for racing is enough to fuel the comeback of his life.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/cars3/mcQueen00.jpg" alt="맥퀸이미지00"/></p>
+								<p><img src="../img/character/cars3/mcQueen01.jpg" alt="맥퀸이미지01"/></p>
+								<p><img src="../img/character/cars3/mcQueen02.jpg" alt="맥퀸이미지02"/></p>
+								<p><img src="../img/character/cars3/mcQueen03.jpg" alt="맥퀸이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter cars3">
+							<div class="characterDescWrap">
+								<h4>Cruz Ramirez</h4>
+								<p>
+									Cruz Ramirez is a tech-savvy, unconventional trainer at the Rust-eze Racing Center. She expertly arms the team’s talented rookies with cutting-edge tools to tear up the track—but she nearly stalls when Piston-Cup champion Lightning McQueen shows up. While she’d love to help him find his way back to the top, she knows the competition is faster than ever, and victory is all about speed—or is it?
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/cars3/cruz00.jpg" alt="크루즈이미지00"/></p>
+								<p><img src="../img/character/cars3/cruz01.jpg" alt="크루즈이미지01"/></p>
+								<p><img src="../img/character/cars3/cruz02.jpg" alt="크루즈이미지02"/></p>
+								<p><img src="../img/character/cars3/cruz03.jpg" alt="크루즈이미지03"/></p>
+							</div>
+						</li>
+						<li class="cars3">
+							<div class="characterDescWrap">
+								<h4>Jackson Storm</h4>
+								<p>
+									Jackson Storm is fast, sleek and ready to win. A front-runner in the next generation of racers, Storm’s quiet confidence and cocky demeanor are off-putting—but his unmatched speed threatens to redefine the sport. Trained on high-tech simulators that are programmed to perfect technique and maximize velocity, Jackson Storm is literally built to be unbeatable—and he knows it.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/cars3/storm00.jpg" alt="잭슨이미지00"/></p>
+								<p><img src="../img/character/cars3/storm01.jpg" alt="잭슨이미지01"/></p>
+								<p><img src="../img/character/cars3/storm02.jpg" alt="잭슨이미지02"/></p>
+								<p><img src="../img/character/cars3/storm03.jpg" alt="잭슨이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter cars3">
+							<div class="characterDescWrap">
+								<h4>Smokey</h4>
+								<p>
+									Former Piston Cup team owner Smokey teamed up with the Fabulous Hudson Hornet back in the ‘50s. His gruff exterior and strong opinions served him well as crew chief—and he owns what’s arguably the best dang garage in town. He still wrestles with trusting his head or his gut, but when it comes to his friends—he’s all heart.</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/cars3/smokey00.jpg" alt="스모키이미지00"/></p>
+								<p><img src="../img/character/cars3/smokey01.jpg" alt="스모키이미지01"/></p>
+								<p><img src="../img/character/cars3/smokey02.jpg" alt="스모키이미지02"/></p>
+								<p><img src="../img/character/cars3/smokey03.jpg" alt="스모키이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap brave"><h3>BRAVE</h3></li>
+						<li class="brave">
+							<div class="characterDescWrap">
+								<h4>Merida</h4>
+								<p>
+									Passionate and fiery, Merida is a headstrong teenager of royal upbringing who is struggling to take control of her own witch. She feels most at home in the outdoors honing her impressive athletic skills as an archer and swordfighter, and racing across the magnificent Highland countryside with her faithful horse, Angus. With a spirit as vibrant as her untamed hair.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/brave/merida00.jpg" alt="merida이미지00"/></p>
+								<p><img src="../img/character/brave/merida01.jpg" alt="merida이미지01"/></p>
+								<p><img src="../img/character/brave/merida02.jpg" alt="merida이미지02"/></p>
+								<p><img src="../img/character/brave/merida03.jpg" alt="merida이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter brave">
+							<div class="characterDescWrap">
+								<h4>Queen Elinor</h4>
+								<p>
+									A vision of grace of character, Queen Elinor is fiercely dedicated to the well being of her family and kingdom. Elinor strives to instill in Merida the knowledge and manner of a royal, expecting complete commitment to Elinor’s standards. But her vision of her daughter’s future is at odds with Merida’s rebellious spirit and desire to forge her own path., which ultimately causes Elinor to face calamitous consequences.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/brave/queen00.jpg" alt="queen이미지00"/></p>
+								<p><img src="../img/character/brave/queen01.jpg" alt="queen이미지01"/></p>
+								<p><img src="../img/character/brave/queen02.jpg" alt="queen이미지02"/></p>
+								<p><img src="../img/character/brave/queen03.jpg" alt="queen이미지03"/></p>
+							</div>
+						</li>
+						<li class="brave">
+							<div class="characterDescWrap">
+								<h4>King Fergus</h4>
+								<p>
+									King Fergus is a heroic warrior with a majestic bear cape, broad sword and a knobby peg leg – the result of his much-regaled skirmish with the demon bear Mor’du. His vendetta against the beast who took his leg makes Fergus a ferocious and determined bear hunter. His pride for his first-born daughter Merida is unmatched, and he has gifted her his great skill and passion for the sword and the bow.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/brave/king00.jpg" alt="king이미지00"/></p>
+								<p><img src="../img/character/brave/king01.jpg" alt="king이미지01"/></p>
+								<p><img src="../img/character/brave/king02.jpg" alt="king이미지02"/></p>
+								<p><img src="../img/character/brave/king03.jpg" alt="king이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter brave">
+							<div class="characterDescWrap">
+								<h4>Triplets</h4>
+								<p>
+									Identical triplets Harris, Hubert and Hamish are adorable, redheaded, and always ready to stir up a bit of mischief, especially if sweets are at stake. This troublemaking trio is particularly keen on sneaking through the secret passages of the castle, mysteriously appearing out of walls, and playing clever tricks on everyone, especially their father, King Fergus. They share an extra special bond with their big sister, Merida.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/brave/triple00.jpg" alt="triple이미지00"/></p>
+								<p><img src="../img/character/brave/triple01.jpg" alt="triple이미지01"/></p>
+								<p><img src="../img/character/brave/triple02.jpg" alt="triple이미지02"/></p>
+								<p><img src="../img/character/brave/triple03.jpg" alt="triple이미지03"/></p>
+							</div>
+						</li>
+						<li class="brave">
+							<div class="characterDescWrap">
+								<h4>The Witch</h4>
+								<p>
+									Deep in the overgrown Highland forest, a ramshackle blackhouse cottage is home to the Crafty Carver. This seemingly long-in-the-tooth crone specializes in the whittling of wooden bear trinkets, figurines and curios. When Merida sees through the guise and reveals her as the Witch she truly is, Merida begs for a magical solution to her problems. The Witch begrudgingly gives in, conjuring a haphazard spell with an obscure riddle.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/brave/witch00.jpg" alt="witch이미지00"/></p>
+								<p><img src="../img/character/brave/witch01.jpg" alt="witch이미지01"/></p>
+								<p><img src="../img/character/brave/witch02.jpg" alt="witch이미지02"/></p>
+								<p><img src="../img/character/brave/witch03.jpg" alt="witch이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap toyStory"><h3>Toy Story</h3></li>
+						<li class="toyStory">
+							<div class="characterDescWrap">
+								<h4>Woody</h4>
+								<p>
+									Woody is a traditional kind of toy, with his pull-string voice box and cowboy detailing. He has long enjoyed a place of honor as the favorite among six-year-old Andy's toys—until Buzz Lightyear crash-lands and shakes up his world.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/toyStory/woody00.jpg" alt="우디이미지00"/></p>
+								<p><img src="../img/character/toyStory/woody01.jpg" alt="우디이미지01"/></p>
+								<p><img src="../img/character/toyStory/woody02.jpg" alt="우디이미지02"/></p>
+								<p><img src="../img/character/toyStory/woody03.jpg" alt="우디이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter toyStory">
+							<div class="characterDescWrap">
+								<h4>Buzz Lightyear</h4>
+								<p>
+									This space ranger action figure has it all: a laser beam, karate-chop action, pop-out wings, and a belief that he's on a secret mission for Star Command. Much to Woody's chagrin, Buzz monopolizes Andy's attention and becomes an instant favorite with his toymates.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/toyStory/buzz00.jpg" alt="버즈이미지00"/></p>
+								<p><img src="../img/character/toyStory/buzz01.jpg" alt="버즈이미지01"/></p>
+								<p><img src="../img/character/toyStory/buzz02.jpg" alt="버즈이미지02"/></p>
+								<p><img src="../img/character/toyStory/buzz03.jpg" alt="버즈이미지03"/></p>
+							</div>
+						</li>
+						<li class="toyStory">
+							<div class="characterDescWrap">
+								<h4>Hamm</h4>
+								<p>
+									The piggy bank in the window knows everything. Or at least that's what Hamm would have everyone believe when he's sticking his snout into the day's affairs.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/toyStory/hamm00.jpg" alt="햄이미지00"/></p>
+								<p><img src="../img/character/toyStory/hamm01.jpg" alt="햄이미지01"/></p>
+								<p><img src="../img/character/toyStory/hamm02.jpg" alt="햄이미지02"/></p>
+								<p><img src="../img/character/toyStory/hamm03.jpg" alt="햄이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter toyStory">
+							<div class="characterDescWrap">
+								<h4>Mr. Potato Head</h4>
+								<p>
+									Mr. Potato Head has a chip on his shoulder, but you would too if your face kept falling off. His cynical take on life makes him the toy to question Woody's authority.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/toyStory/mrpotato00.jpg" alt="미스터포테이토이미지00"/></p>
+								<p><img src="../img/character/toyStory/mrpotato01.jpg" alt="미스터포테이토이미지01"/></p>
+								<p><img src="../img/character/toyStory/mrpotato02.jpg" alt="미스터포테이토이미지02"/></p>
+								<p><img src="../img/character/toyStory/mrpotato03.jpg" alt="미스터포테이토이미지03"/></p>
+							</div>
+						</li>
+						<li class="toyStory">
+							<div class="characterDescWrap">
+								<h4>Rex</h4>
+								<p>
+									Rex is a neurotic and insecure 12-inch plastic dinosaur with a small-roar complex and limited upper-arm movement. With his tender heart and weak spine, this Tyrannosaurus is one of the most lovable toys of the bunch.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/toyStory/rex00.jpg" alt="렉스이미지00"/></p>
+								<p><img src="../img/character/toyStory/rex01.jpg" alt="렉스이미지01"/></p>
+								<p><img src="../img/character/toyStory/rex02.jpg" alt="렉스이미지02"/></p>
+								<p><img src="../img/character/toyStory/rex03.jpg" alt="렉스이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap bugsLife"><h3>a bug's life</h3></li>
+						<li class="bugsLife">
+							<div class="characterDescWrap">
+								<h4>Flik</h4>
+								<p>
+									Everyone keeps telling Flik to stop questioning tradition and be a good worker ant, but he knows that's not his lot in life. Even when the going gets tough, this resourceful but misguided ant risks everything despite some major setbacks and the prevailing perception that he's a failure.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/bugsLife/flink00.jpg" alt="flink이미지00"/></p>
+								<p><img src="../img/character/bugsLife/flink01.jpg" alt="flink이미지01"/></p>
+								<p><img src="../img/character/bugsLife/flink02.jpg" alt="flink이미지02"/></p>
+								<p><img src="../img/character/bugsLife/flink03.jpg" alt="flink이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter bugsLife">
+							<div class="characterDescWrap">
+								<h4>Princess Atta</h4>
+								<p>
+									Princess Atta often seems aggravated, but you would too if you were ascending to the throne and had to deal with a mean freeloading grasshopper. It takes a few tries for Atta to realize the colony's courage and strength, and to learn to trust her instincts as a leader.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/bugsLife/atta00.jpg" alt="atta이미지00"/></p>
+								<p><img src="../img/character/bugsLife/atta01.jpg" alt="atta이미지01"/></p>
+								<p><img src="../img/character/bugsLife/atta02.jpg" alt="atta이미지02"/></p>
+								<p><img src="../img/character/bugsLife/atta03.jpg" alt="atta이미지03"/></p>
+							</div>
+						</li>
+						<li class="bugsLife">
+							<div class="characterDescWrap">
+								<h4>Dot</h4>
+								<p>
+									As the Queen's youngest daughter, Dot proves that size doesn't matter when it comes to being a heroine. The pint-sized princess learns to spread her wings and convinces Flik to return to save the colony.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/bugsLife/dot00.jpg" alt="dot이미지00"/></p>
+								<p><img src="../img/character/bugsLife/dot01.jpg" alt="dot이미지01"/></p>
+								<p><img src="../img/character/bugsLife/dot02.jpg" alt="dot이미지02"/></p>
+								<p><img src="../img/character/bugsLife/dot03.jpg" alt="dot이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter bugsLife">
+							<div class="characterDescWrap">
+								<h4>Queen</h4>
+								<p>
+									The ant colony's miniature monarch has been around the island more than a few times and she's looking forward to retiring and letting Atta take over the throne.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/bugsLife/queen00.jpg" alt="queen이미지00"/></p>
+								<p><img src="../img/character/bugsLife/queen01.jpg" alt="queen이미지01"/></p>
+								<p><img src="../img/character/bugsLife/queen02.jpg" alt="queen이미지02"/></p>
+								<p><img src="../img/character/bugsLife/queen03.jpg" alt="queen이미지03"/></p>
+							</div>
+						</li>
+						<li class="bugsLife">
+							<div class="characterDescWrap">
+								<h4>Francis</h4>
+								<p>
+									A member of the circus crew, Francis is the misunderstood male ladybug. To compensate for his mistaken gender, he develops a macho attitude that can only be softened by Ant Island's young Blueberries troop.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/bugsLife/francis00.jpg" alt="francis이미지00"/></p>
+								<p><img src="../img/character/bugsLife/francis01.jpg" alt="francis이미지01"/></p>
+								<p><img src="../img/character/bugsLife/francis02.jpg" alt="francis이미지02"/></p>
+								<p><img src="../img/character/bugsLife/francis03.jpg" alt="francis이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter bugsLife">
+							<div class="characterDescWrap">
+								<h4>Heimlich</h4>
+								<p>
+									This Bavarian caterpillar who can't stomach the idea of a battle is happiest when he's munching on food. For Heimlich, eating large doesn't guarantee a set of large wings—but he loves them just the way they are.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/bugsLife/heimlich00.jpg" alt="heimlich이미지00"/></p>
+								<p><img src="../img/character/bugsLife/heimlich01.jpg" alt="heimlich이미지01"/></p>
+								<p><img src="../img/character/bugsLife/heimlich02.jpg" alt="heimlich이미지02"/></p>
+								<p><img src="../img/character/bugsLife/heimlich03.jpg" alt="heimlich이미지03"/></p>
+							</div>
+						</li>
+						<li class="bugsLife">
+							<div class="characterDescWrap">
+								<h4>Dim</h4>
+								<p>
+									At first glance he looks like a menacing insect, but Dim has a heart of gold. The lovable rhino beetle appears as the ferocious star of P.T. Flea's circus act, even though he has an extremely low tolerance for pain.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/bugsLife/dim00.jpg" alt="dim이미지00"/></p>
+								<p><img src="../img/character/bugsLife/dim01.jpg" alt="dim이미지01"/></p>
+								<p><img src="../img/character/bugsLife/dim02.jpg" alt="dim이미지02"/></p>
+								<p><img src="../img/character/bugsLife/dim03.jpg" alt="dim이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter bugsLife">
+							<div class="characterDescWrap">
+								<h4>Tuck &amp; Roll</h4>
+								<p>
+									These Hungarian pill bugs don't speak a word of English, but it's no problem when they're getting shot out of a cannon or performing acrobatic routines that always end in fights.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/bugsLife/tuckRoll00.jpg" alt="tuckRoll이미지00"/></p>
+								<p><img src="../img/character/bugsLife/tuckRoll01.jpg" alt="tuckRoll이미지01"/></p>
+								<p><img src="../img/character/bugsLife/tuckRoll02.jpg" alt="tuckRoll이미지02"/></p>
+								<p><img src="../img/character/bugsLife/tuckRoll03.jpg" alt="tuckRoll이미지03"/></p>
+							</div>
+						</li>
+						<li class="bugsLife">
+							<div class="characterDescWrap">
+								<h4>Manny &amp; Gypsy</h4>
+								<p>
+									Manny is a pompous praying-mantis magician who prays for the good old days when audiences responded to his act. His moth mate, Gypsy, requires all eyes on her lovely wings and helps Manny look good in their performances.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/bugsLife/mannyGypsy00.jpg" alt="mannyGypsy이미지00"/></p>
+								<p><img src="../img/character/bugsLife/mannyGypsy01.jpg" alt="mannyGypsy이미지01"/></p>
+								<p><img src="../img/character/bugsLife/mannyGypsy02.jpg" alt="mannyGypsy이미지02"/></p>
+								<p><img src="../img/character/bugsLife/mannyGypsy03.jpg" alt="mannyGypsy이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter bugsLife">
+							<div class="characterDescWrap">
+								<h4>Rosie</h4>
+								<p>
+									Her husbands keep dying on her, but that doesn't stop this widowed black widow spider from spinning a (sometimes) successful career as a circus performer—and unlikely "warrior bug."
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/bugsLife/rosie00.jpg" alt="rosie이미지00"/></p>
+								<p><img src="../img/character/bugsLife/rosie01.jpg" alt="rosie이미지01"/></p>
+								<p><img src="../img/character/bugsLife/rosie02.jpg" alt="rosie이미지02"/></p>
+								<p><img src="../img/character/bugsLife/rosie03.jpg" alt="rosie이미지03"/></p>
+							</div>
+						</li>
+						<li class="bugsLife">
+							<div class="characterDescWrap">
+								<h4>Slim</h4>
+								<p>
+									Slim is an intellectual walking stick who takes his acting a bit too seriously. He often ponders his fate and wonders if he'll ever be able to break out of his circus role as the stick.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/bugsLife/slim00.jpg" alt="slim이미지00"/></p>
+								<p><img src="../img/character/bugsLife/slim01.jpg" alt="slim이미지01"/></p>
+								<p><img src="../img/character/bugsLife/slim02.jpg" alt="slim이미지02"/></p>
+								<p><img src="../img/character/bugsLife/slim03.jpg" alt="slim이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter bugsLife">
+							<div class="characterDescWrap">
+								<h4>Hopper</h4>
+								<p>
+									He's a mean, lean eating machine and can squash an ant's head with his foot if the food's not on the offering stone. Hopper's tough exterior conceals an even tougher interior and a superior intellect.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/bugsLife/hopper00.jpg" alt="hopper이미지00"/></p>
+								<p><img src="../img/character/bugsLife/hopper01.jpg" alt="hopper이미지01"/></p>
+								<p><img src="../img/character/bugsLife/hopper02.jpg" alt="hopper이미지02"/></p>
+								<p><img src="../img/character/bugsLife/hopper03.jpg" alt="hopper이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap cars"><h3>CARS</h3></li>
+						<li class="cars">
+							<div class="characterDescWrap">
+								<h4>Lightning McQueen</h4>
+								<p>
+									Rats are no strangers to rejection, but mcQueen, a rat who longs to be a great chef, has more than the usual obstacles to overcome. His remarkable sense of smell and genius for combining flavors puts him head and shoulders above most human chefs. However, in the rat world he’s resigned to a life of being the “poison sniffer,” using his unique talent to pick out the safe garbage for his family to eat.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/cars/mcQueen00.jpg" alt="mcQueen이미지00"/></p>
+								<p><img src="../img/character/cars/mcQueen01.jpg" alt="mcQueen이미지01"/></p>
+								<p><img src="../img/character/cars/mcQueen02.jpg" alt="mcQueen이미지02"/></p>
+								<p><img src="../img/character/cars/mcQueen03.jpg" alt="mcQueen이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter cars">
+							<div class="characterDescWrap">
+								<h4>Mater</h4>
+								<p>
+									Mater is a good ol' boy tow truck with a big heart and a lovable laugh to match. Though a little rusty, he has the quickest towrope in Carburetor County and is always the first to lend a helping hand. He's the sweetest, most loyal guy in town and the first to befriend newcomer Lightning McQueen.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/cars/mater00.jpg" alt="mater이미지00"/></p>
+								<p><img src="../img/character/cars/mater01.jpg" alt="mater이미지01"/></p>
+								<p><img src="../img/character/cars/mater02.jpg" alt="mater이미지02"/></p>
+								<p><img src="../img/character/cars/mater03.jpg" alt="mater이미지03"/></p>
+							</div>
+						</li>
+						<li class="cars">
+							<div class="characterDescWrap">
+								<h4>Sally</h4>
+								<p>
+									Sally is a beautiful 2002 Porsche 911 from California who grew tired of life in the fast lane and made a new start in the small town of Radiator Springs. Charming, intelligent, and witty, she is the town's attorney and the car most dedicated to one day getting Radiator Springs "back on the map."
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/cars/sally00.jpg" alt="sally이미지00"/></p>
+								<p><img src="../img/character/cars/sally01.jpg" alt="sally이미지01"/></p>
+								<p><img src="../img/character/cars/sally02.jpg" alt="sally이미지02"/></p>
+								<p><img src="../img/character/cars/sally03.jpg" alt="sally이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter cars">
+							<div class="characterDescWrap">
+								<h4>Doc Hudson</h4>
+								<p>
+									Doc Hudson is a 1951 Hudson Hornet, a quiet country doctor with a mysterious past. A cornerstone of Radiator Springs, Doc runs the local medical clinic and serves as the town judge. But when Lightning McQueen rolls through town, Doc's old competitive engine gets revved up once more.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/cars/doc00.jpg" alt="doc이미지00"/></p>
+								<p><img src="../img/character/cars/doc01.jpg" alt="doc이미지01"/></p>
+								<p><img src="../img/character/cars/doc02.jpg" alt="doc이미지02"/></p>
+								<p><img src="../img/character/cars/doc03.jpg" alt="doc이미지03"/></p>
+							</div>
+						</li>
+						<li class="cars">
+							<div class="characterDescWrap">
+								<h4>Luigi &amp; Guido</h4>
+								<p>
+									Luigi is a 1959 Fiat 500 who runs the local tire shop, Luigi's Casa Della Tires. Big-hearted, gregarious and excitable Luigi is assisted by Guido, a little Italian forklift, and together they serve up more than a new set of wheels for customers. Their positive energy and enthusiasm have a natural way of rubbing off on anyone who passes through their shop doors.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/cars/luigiGuido00.jpg" alt="luigiGuido이미지00"/></p>
+								<p><img src="../img/character/cars/luigiGuido01.jpg" alt="luigiGuido이미지01"/></p>
+								<p><img src="../img/character/cars/luigiGuido02.jpg" alt="luigiGuido이미지02"/></p>
+								<p><img src="../img/character/cars/luigiGuido03.jpg" alt="luigiGuido이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap cars2"><h3>CARS 2</h3></li>
+						<li class="cars2">
+							<div class="characterDescWrap">
+								<h4>Mater</h4>
+								<p>
+									In the now-popular tourist destination of Radiator Springs, the rusty old tow truck Mater has a number of roles, including proprietor of Tow Mater Towing and Salvage, grand storyteller, and the heart and soul of the town. But Mater’s favorite title is best friend to Lightning McQueen. Mater values each and every dent he’s earned on his escapades with Lightning over the years.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/cars2/mater00.jpg" alt="mater이미지00"/></p>
+								<p><img src="../img/character/cars2/mater01.jpg" alt="mater이미지01"/></p>
+								<p><img src="../img/character/cars2/mater02.jpg" alt="mater이미지02"/></p>
+								<p><img src="../img/character/cars2/mater03.jpg" alt="mater이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter cars2">
+							<div class="characterDescWrap">
+								<h4>Lightning McQueen</h4>
+								<p>
+									Number 95 Lightning McQueen is still a hotshot race car, but his rookie days are past him. Now a permanent resident of Radiator Springs, Lightning has become a bona fide worldwide celebrity as winner of four Piston Cups.His off-season is unexpectedly cut short when Mater inadvertently prompts Lightning to enter the World Grand Prix, a high profile, three-part exhibition race that will take him around the globe.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/cars2/mcQueen00.jpg" alt="mcQueen이미지00"/></p>
+								<p><img src="../img/character/cars2/mcQueen01.jpg" alt="mcQueen이미지01"/></p>
+								<p><img src="../img/character/cars2/mcQueen02.jpg" alt="mcQueen이미지02"/></p>
+								<p><img src="../img/character/cars2/mcQueen03.jpg" alt="mcQueen이미지03"/></p>
+							</div>
+						</li>
+						<li class="cars2">
+							<div class="characterDescWrap">
+								<h4>Finn McMissile</h4>
+								<p>
+									Finn McMissile is a master British spy. Though charming and eloquent, it’s his stealth maneuvering, intelligence, and years in the field that enable him to thwart unexpected attacks from bad guys and make quick daredevil escapes.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/cars2/finn00.jpg" alt="finn이미지00"/></p>
+								<p><img src="../img/character/cars2/finn01.jpg" alt="finn이미지01"/></p>
+								<p><img src="../img/character/cars2/finn02.jpg" alt="finn이미지02"/></p>
+								<p><img src="../img/character/cars2/finn03.jpg" alt="finn이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter cars2">
+							<div class="characterDescWrap">
+								<h4>Francesco Bernoulli </h4>
+								<p>
+									Francesco Bernoulli grew up in the shadow of the famous Monza racecourse in Italy, where he and his friends would sneak onto the track and race the famous Pista di Alta Velocita bank turn. He was an instant winner on the amateur circuit and soon became an international Formula Racer champion. The ladies love Francesco’s open wheels, youngsters look up to his winning spirit, and fellow racers envy his speed.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/cars2/francesco00.jpg" alt="francesco이미지00"/></p>
+								<p><img src="../img/character/cars2/francesco01.jpg" alt="francesco이미지01"/></p>
+								<p><img src="../img/character/cars2/francesco02.jpg" alt="francesco이미지02"/></p>
+								<p><img src="../img/character/cars2/francesco03.jpg" alt="francesco이미지03"/></p>
+							</div>
+						</li>
+						<li class="cars2">
+							<div class="characterDescWrap">
+								<h4>Holley Shiftwell</h4>
+								<p>
+									Holley Shiftwell is a beautiful young British desk agent turned rookie field spy stationed in Tokyo. Well educated and sharp, she knows every trick in the book—or rather, she relies on every trick in the spy manual. She’s armed with the latest state-of-the-art spy equipment imaginable, from hidden cameras and concealed weapons to a telescoping utility arm and a holographic pop-up display.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/cars2/holley00.jpg" alt="holley이미지00"/></p>
+								<p><img src="../img/character/cars2/holley01.jpg" alt="holley이미지01"/></p>
+								<p><img src="../img/character/cars2/holley02.jpg" alt="holley이미지02"/></p>
+								<p><img src="../img/character/cars2/holley03.jpg" alt="holley이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap dory"><h3>FINDING DORY</h3></li>
+						<li class="dory">
+							<div class="characterDescWrap">
+								<h4>Dory</h4>
+								<p>
+									Dory is a bright blue tang with a sunny personality. She suffers from short-term memory loss, which normally doesn’t upset her upbeat attitude—until she realizes she’s forgotten something big: her family. She’s found a new family in Marlin and Nemo, but she’s haunted by the belief that someone out there is looking for her.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/dory/dory00.jpg" alt="도리이미지00"/></p>
+								<p><img src="../img/character/dory/dory01.jpg" alt="도리이미지01"/></p>
+								<p><img src="../img/character/dory/dory02.jpg" alt="도리이미지02"/></p>
+								<p><img src="../img/character/dory/dory03.jpg" alt="도리이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter dory">
+							<div class="characterDescWrap">
+								<h4>Nemo &amp; Marlin</h4>
+								<p>
+									Dory is on a mission to the California coast to track down her family, and Marlin and Nemo are there to help her. Nemo may just be a young clownfish with a lucky fin, but he wholeheartedly believes in Dory. And Marlin, who of course knows how it feels to lose family, realizes he has no choice but to pack up his nervous energy and skepticism and embark on yet another adventure.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/dory/nemoMarlyn00.jpg" alt="니모말린이미지00"/></p>
+								<p><img src="../img/character/dory/nemoMarlyn01.jpg" alt="니모말린이미지01"/></p>
+								<p><img src="../img/character/dory/nemoMarlyn02.jpg" alt="니모말린이미지02"/></p>
+								<p><img src="../img/character/dory/nemoMarlyn03.jpg" alt="니모말린이미지03"/></p>
+							</div>
+						</li>
+						<li class="dory">
+							<div class="characterDescWrap">
+								<h4>Hank</h4>
+								<p>
+									Hank is an octopus. Actually, he’s a “septopus”: he lost a tentacle—along with his sense of humor—somewhere along the way. An accomplished escape artist with camouflaging capabilities to boot, Hank is the first to greet Dory when she finds herself in the Marine Life Institute. Hank is after one thing—a ticket on a transport truck to a cozy Cleveland facility where he’ll be able to enjoy a peaceful life of solitude.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/dory/hank00.jpg" alt="행크이미지00"/></p>
+								<p><img src="../img/character/dory/hank01.jpg" alt="행크이미지01"/></p>
+								<p><img src="../img/character/dory/hank02.jpg" alt="행크이미지02"/></p>
+								<p><img src="../img/character/dory/hank03.jpg" alt="행크이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter dory">
+							<div class="characterDescWrap">
+								<h4>Bailey</h4>
+								<p>
+									Bailey is the Marine Life Institute’s resident beluga whale who is convinced his biological sonar skills are on the fritz. The good news—or bad news, depending on who you ask—is that doctors at the MLI can’t seem to find anything wrong with him. Bailey’s flair for the dramatic never ceases to push his neighbor’s buttons: whale shark Destiny can’t seem to get through to him.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/dory/bailey00.jpg" alt="베일리이미지00"/></p>
+								<p><img src="../img/character/dory/bailey01.jpg" alt="베일리이미지01"/></p>
+								<p><img src="../img/character/dory/bailey02.jpg" alt="베일리이미지02"/></p>
+								<p><img src="../img/character/dory/bailey03.jpg" alt="베일리이미지03"/></p>
+							</div>
+						</li>
+						<li class="dory">
+							<div class="characterDescWrap">
+								<h4>Destiny</h4>
+								<p>
+									Destiny may be a clumsy swimmer, but she has a big heart. She has a big everything, actually—whale sharks are the biggest fish in the sea. Destiny resides in the Marine Life Institute, where one day an oddly familiar blue tang named Dory falls into her pool. Destiny is admittedly embarrassed by her obvious lack of grace, a product of poor eyesight, but Dory thinks she swims beautifully.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/dory/destiny00.jpg" alt="데스티니이미지00"/></p>
+								<p><img src="../img/character/dory/destiny01.jpg" alt="데스티니이미지01"/></p>
+								<p><img src="../img/character/dory/destiny02.jpg" alt="데스티니이미지02"/></p>
+								<p><img src="../img/character/dory/destiny03.jpg" alt="데스티니이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap dinosaur"><h3>THE GOOD DINOSAUR</h3></li>
+						<li class="dinosaur">
+							<div class="characterDescWrap">
+								<h4>Arlo</h4>
+								<p>
+									The last to hatch among his siblings, 11-year-old Arlo has yet to make his mark on his family’s farm. Though he is eager to help out with chores, this sheltered Apatosaurus just can’t seem to get past his fear of everything.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/goodDinosaur/arlo00.jpg" alt="알로이미지00"/></p>
+								<p><img src="../img/character/goodDinosaur/arlo01.jpg" alt="알로이미지01"/></p>
+								<p><img src="../img/character/goodDinosaur/arlo02.jpg" alt="알로이미지02"/></p>
+								<p><img src="../img/character/goodDinosaur/arlo03.jpg" alt="알로이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter dinosaur">
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/goodDinosaur/poppa00.jpg" alt="알로아빠이미지00"/></p>
+								<p><img src="../img/character/goodDinosaur/poppa01.jpg" alt="알로아빠이미지01"/></p>
+								<p><img src="../img/character/goodDinosaur/momma00.jpg" alt="알로엄마이미지02"/></p>
+								<p><img src="../img/character/goodDinosaur/momma01.jpg" alt="알로엄마이미지03"/></p>
+							</div>
+							<div class="characterDescWrap">
+								<h4>Poppa &amp; Momma</h4>
+								<p>
+									Brave and selfless, Poppa is a devoted husband and father, working tirelessly to make a life for his family on their farm. He has a soft spot for Arlo, his small and fearful son, and takes special care of him as he grows up.
+									A loving wife and mother, Momma is smart and quick-witted. She’s a hard worker with a lot of love for her family, and she keeps her children and their farm in order.
+								</p>
+							</div>
+						</li>
+						<li class="dinosaur">
+							<div class="characterDescWrap">
+								<h4>Spot</h4>
+								<p>
+									Spot is a wild, tough and tenacious human boy who has lived alone in the wilderness for much of his life. He speaks in only grunts and growls, but his strengths are clear: he’s fearless and confident.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/goodDinosaur/spot00.jpg" alt="스팟이미지00"/></p>
+								<p><img src="../img/character/goodDinosaur/spot01.jpg" alt="스팟이미지01"/></p>
+								<p><img src="../img/character/goodDinosaur/spot02.jpg" alt="스팟이미지02"/></p>
+								<p><img src="../img/character/goodDinosaur/spot03.jpg" alt="스팟이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter dinosaur">
+							<div class="characterDescWrap">
+								<h4>Buck &amp; Libby</h4>
+								<p>
+									Buck is Arlo’s brother: they’re the same age, but Buck is bigger, stronger and a little rambunctious. Arlo's sister Libby is a capable and willful girl who can plow a mean field.
+									<br/>
+									“We wanted Buck and Libby to be more capable, more brave than Arlo,” says Story Supervisor Kelsey Mann. “Everything comes more easily, despite the fact that they’re all the same age.”
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/goodDinosaur/buck00.jpg" alt="벅이미지00"/></p>
+								<p><img src="../img/character/goodDinosaur/buck01.jpg" alt="벅이미지01"/></p>
+								<p><img src="../img/character/goodDinosaur/libby00.jpg" alt="리비이미지02"/></p>
+								<p><img src="../img/character/goodDinosaur/libby01.jpg" alt="리비이미지03"/></p>
+							</div>
+						</li>
+						<li class="dinosaur">
+							<div class="characterDescWrap">
+								<h4>Pet Collector</h4>
+								<p>
+									Pet Collector is a mysterious Styracosaurus who lives in the wilderness. Like Arlo, he harbors unreasonable fears. His ability to blend into his surroundings helps—along with an unusual (but not exactly fierce) collection of forest critters he’s recruited to protect him.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/goodDinosaur/petCollector00.jpg" alt="펫콜렉터이미지00"/></p>
+								<p><img src="../img/character/goodDinosaur/petCollector01.jpg" alt="펫콜렉터이미지01"/></p>
+								<p><img src="../img/character/goodDinosaur/petCollector02.jpg" alt="펫콜렉터이미지02"/></p>
+								<p><img src="../img/character/goodDinosaur/petCollector03.jpg" alt="펫콜렉터이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter dinosaur">
+							<div class="characterDescWrap">
+								<h4>Nash &amp; Ramsey</h4>
+								<p>
+									Nash, who isn’t the sharpest of spurs and has trouble keeping track of their herd, exhibits a mischievous charm and positive attitude that makes him good company out on the range.
+									<br/>
+									Ramsey loves the challenge of driving a herd of longhorns with her father, Butch, and her little brother Nash. Ramsey has a lively, outgoing personality—she likes good jokes.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/goodDinosaur/nashRamsey00.jpg" alt="내쉬람세이이미지00"/></p>
+								<p><img src="../img/character/goodDinosaur/nashRamsey01.jpg" alt="내쉬람세이이미지01"/></p>
+								<p><img src="../img/character/goodDinosaur/nashRamsey02.jpg" alt="내쉬람세이이미지02"/></p>
+								<p><img src="../img/character/goodDinosaur/nashRamsey03.jpg" alt="내쉬람세이이미지03"/></p>
+							</div>
+						</li>
+						<li class="dinosaur">
+							<div class="characterDescWrap">
+								<h4>Butch</h4>
+								<p>
+									According to production designer Harley Jessup, the filmmakers did a deep dive into what’s known about the size of a real Apatosaurus in an effort to add authenticity to Arlo and his family. “We created a life-size printout of Arlo to help imagine his gigantic scale,” says Jessup.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/goodDinosaur/butch00.jpg" alt="버치이미지00"/></p>
+								<p><img src="../img/character/goodDinosaur/butch01.jpg" alt="버치이미지01"/></p>
+								<p><img src="../img/character/goodDinosaur/butch02.jpg" alt="버치이미지02"/></p>
+								<p><img src="../img/character/goodDinosaur/butch03.jpg" alt="버치이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap incredibles"><h3>THE INCREDIBLES</h3></li>
+						<li class="incredibles">
+							<div class="characterDescWrap">
+								<h4>Mr. Incredible</h4>
+								<p>
+									Once the best-known, most popular superhero alive, Bob Parr is now fifteen years older and is bolder and heavier. As a claims adjuster at possibly the world’s worst insurance company, Insuricare, the former Mr. Incredible’s heroics are limited to helping people navigate the intricacies of the appeals system. Bob’s unhappiness has taken a toll and he and his family have become disconnected.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/incredibles/incredible00.jpg" alt="incredible이미지00"/></p>
+								<p><img src="../img/character/incredibles/incredible01.jpg" alt="incredible이미지01"/></p>
+								<p><img src="../img/character/incredibles/incredible02.jpg" alt="incredible이미지02"/></p>
+								<p><img src="../img/character/incredibles/incredible03.jpg" alt="incredible이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter incredibles">
+							<div class="characterDescWrap">
+								<h4>Elastigirl</h4>
+								<p>
+									Helen Parr, the former super-stretching superhero, has adjusted to normal life, and is busily focused on caring for her three children. While she occasionally uses her amazing ability to stretch to meet the daily challenges of modern motherhood, she is careful to do so only behind the closed doors of their suburban home. She misses the old days, but doesn’t dwell on those times as she has a wonderful family.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/incredibles/elasti00.jpg" alt="elasti이미지00"/></p>
+								<p><img src="../img/character/incredibles/elasti01.jpg" alt="elasti이미지01"/></p>
+								<p><img src="../img/character/incredibles/elasti02.jpg" alt="elasti이미지02"/></p>
+								<p><img src="../img/character/incredibles/elasti03.jpg" alt="elasti이미지03"/></p>
+							</div>
+						</li>
+						<li class="incredibles">
+							<div class="characterDescWrap">
+								<h4>Dash</h4>
+								<p>
+									At age ten, Dash seems to be moving even when standing still. Full of restless energy, he has the power of super-speed – a power so useful for playing pranks that he has difficulty keeping it in check. Dash doesn’t understand why superheroes should hide their powers – why would they have them if they weren’t supposed to use them?
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/incredibles/dash00.jpg" alt="dash이미지00"/></p>
+								<p><img src="../img/character/incredibles/dash01.jpg" alt="dash이미지01"/></p>
+								<p><img src="../img/character/incredibles/dash02.jpg" alt="dash이미지02"/></p>
+								<p><img src="../img/character/incredibles/dash03.jpg" alt="dash이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter incredibles">
+							<div class="characterDescWrap">
+								<h4>Violet</h4>
+								<p>
+									Violet Parr is, in many ways, a typical shy, insecure teenage girl stuck at the crossroads between child and woman. She, like her parents and brother Dash, has special powers, and it seems only right that hers allow her to turn invisible and protect herself with a secure force field. For what would be better for an awkward young woman but to be able to disappear from her problems at a moments notice?
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/incredibles/violet00.jpg" alt="violet이미지00"/></p>
+								<p><img src="../img/character/incredibles/violet01.jpg" alt="violet이미지01"/></p>
+								<p><img src="../img/character/incredibles/violet02.jpg" alt="violet이미지02"/></p>
+								<p><img src="../img/character/incredibles/violet03.jpg" alt="violet이미지03"/></p>
+							</div>
+						</li>
+						<li class="incredibles">
+							<div class="characterDescWrap">
+								<h4>Jack-Jack</h4>
+								<p>
+									Jack-Jack is the black sheep of the family. He is nearly two years old, and it seems the only thing incredible that he can do is jabber in gibberish. He’s very good at that— as well as throwing food at dinnertime. Hey, that’s what being a baby is all about! But who knows, maybe someday…He is an Incredible after all…
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/incredibles/jack00.jpg" alt="jack이미지00"/></p>
+								<p><img src="../img/character/incredibles/jack01.jpg" alt="jack이미지01"/></p>
+								<p><img src="../img/character/incredibles/jack02.jpg" alt="jack이미지02"/></p>
+								<p><img src="../img/character/incredibles/jack03.jpg" alt="jack이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter incredibles">
+							<div class="characterDescWrap">
+								<h4>Frozone</h4>
+								<p>
+									Lucius Best used to be known as the coolest superhero on the planet – and not just because he was best friends with Mr. Incredible. His style, wit and attitude made Frozone, as he was known then, the hippest of the lot. Of course his powers made him cool too, literally. Lucius’ ability to create ice from moisture in the air, made him the envy of every gadget-loving little boy.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/incredibles/frozoen00.jpg" alt="frozoen이미지00"/></p>
+								<p><img src="../img/character/incredibles/frozoen01.jpg" alt="frozoen이미지01"/></p>
+								<p><img src="../img/character/incredibles/frozoen02.jpg" alt="frozoen이미지02"/></p>
+								<p><img src="../img/character/incredibles/frozoen03.jpg" alt="frozoen이미지03"/></p>
+							</div>
+						</li>
+						<li class="incredibles">
+							<div class="characterDescWrap">
+								<h4>Syndrome</h4>
+								<p>
+									Syndrome wasn’t born with superpowers, but envied the attention and admiration the Supers received. Of all the Supers, Mr. Incredible embodied everything Syndrome desired: strength, fame, and popularity. Highly intelligent and cunning, Syndrome now spends his days on a remote island on the other side of the world inventing gadgets and robots to carry out a diabolical plot.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/incredibles/syndrome00.jpg" alt="syndrome이미지00"/></p>
+								<p><img src="../img/character/incredibles/syndrome01.jpg" alt="syndrome이미지01"/></p>
+								<p><img src="../img/character/incredibles/syndrome02.jpg" alt="syndrome이미지02"/></p>
+								<p><img src="../img/character/incredibles/syndrome03.jpg" alt="syndrome이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter incredibles">
+							<div class="characterDescWrap">
+								<h4>Edna "E" Mode</h4>
+								<p>
+									Brilliant and successful, Edna Mode got her start in the industry as the world’s leading superhero costume designer. With her now-mature sense of design, she remains the top designer in the field, taking her clothing designs to Milan, Paris and other internationally important fashion centers. However, E longs for the return of the superheroes, for a real design challenge.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/incredibles/edna00.jpg" alt="edna이미지00"/></p>
+								<p><img src="../img/character/incredibles/edna01.jpg" alt="edna이미지01"/></p>
+								<p><img src="../img/character/incredibles/edna02.jpg" alt="edna이미지02"/></p>
+								<p><img src="../img/character/incredibles/edna03.jpg" alt="edna이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap insideOut"><h3>INSIDE OUT</h3></li>
+						<li class="insideOut">
+							<div class="characterDescWrap">
+								<h4>Joy</h4>
+								<p>
+									Joy’s goal has always been to make sure Riley stays happy. She is lighthearted, optimistic and determined to find the fun in every situation. Joy sees challenges in Riley’s life as opportunities, and the less happy moments as hiccups on the way back to something great. As long as Riley is happy, so is Joy.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/insideOut/joy00.jpg" alt="joy이미지00"/></p>
+								<p><img src="../img/character/insideOut/joy01.jpg" alt="joy이미지01"/></p>
+								<p><img src="../img/character/insideOut/joy02.jpg" alt="joy이미지02"/></p>
+								<p><img src="../img/character/insideOut/joy03.jpg" alt="joy이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter insideOut">
+							<div class="characterDescWrap">
+								<h4>Sadness</h4>
+								<p>
+									None of the other Emotions really understand what Sadness’s role is. Sadness would love to be more optimistic and helpful in keeping Riley happy, but she finds it so hard to be positive. Sometimes it seems like the best thing to do is just lie on the floor and have a good cry.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/insideOut/sadness00.jpg" alt="sadness이미지00"/></p>
+								<p><img src="../img/character/insideOut/sadness01.jpg" alt="sadness이미지01"/></p>
+								<p><img src="../img/character/insideOut/sadness02.jpg" alt="sadness이미지02"/></p>
+								<p><img src="../img/character/insideOut/sadness03.jpg" alt="sadness이미지03"/></p>
+							</div>
+						</li>
+						<li class="insideOut">
+							<div class="characterDescWrap">
+								<h4>Anger</h4>
+								<p>
+									Anger feels very passionately about making sure things are fair for Riley. He has a fiery spirit and tends to explode (literally) when things don’t go as planned. He is quick to overreact and has little patience for life’s imperfections.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/insideOut/anger00.jpg" alt="anger이미지00"/></p>
+								<p><img src="../img/character/insideOut/anger01.jpg" alt="anger이미지01"/></p>
+								<p><img src="../img/character/insideOut/anger02.jpg" alt="anger이미지02"/></p>
+								<p><img src="../img/character/insideOut/anger03.jpg" alt="anger이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter insideOut">
+							<div class="characterDescWrap">
+								<h4>Disgust</h4>
+								<p>
+									Disgust is highly opinionated, extremely honest and prevents Riley from getting poisoned – both physically and socially. She keeps a careful eye on the people, places and things that Riley comes into contact with – whether that’s broccoli or last year’s fashion trend. Disgust always has the best of intentions and refuses to lower her standards.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/insideOut/disgust00.jpg" alt="disgust이미지00"/></p>
+								<p><img src="../img/character/insideOut/disgust01.jpg" alt="disgust이미지01"/></p>
+								<p><img src="../img/character/insideOut/disgust02.jpg" alt="disgust이미지02"/></p>
+								<p><img src="../img/character/insideOut/disgust03.jpg" alt="disgust이미지03"/></p>
+							</div>
+						</li>
+						<li class="insideOut">
+							<div class="characterDescWrap">
+								<h4>Fear</h4>
+								<p>
+									Fear’s main job is to protect Riley and keep her safe. He is constantly on the lookout for potential disasters, and spends time evaluating the possible dangers, pitfalls and risk involved in Riley’s everyday activities. There are very few activities and events that Fear does not find to be dangerous and possibly fatal.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/insideOut/fear00.jpg" alt="fear이미지00"/></p>
+								<p><img src="../img/character/insideOut/fear01.jpg" alt="fear이미지01"/></p>
+								<p><img src="../img/character/insideOut/fear02.jpg" alt="fear이미지02"/></p>
+								<p><img src="../img/character/insideOut/fear03.jpg" alt="fear이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter insideOut">
+							<div class="characterDescWrap">
+								<h4>Riley</h4>
+								<p>
+									Riley Andersen is an eternally happy kid, at least until she turns eleven and her dad gets a job across the country, forcing the family to relocate to San Francisco. As she struggles to navigate a new home and school, Riley experiences an unfamiliar mix of emotions.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/insideOut/riley00.jpg" alt="riley이미지00"/></p>
+								<p><img src="../img/character/insideOut/riley01.jpg" alt="riley이미지01"/></p>
+								<p><img src="../img/character/insideOut/riley02.jpg" alt="riley이미지02"/></p>
+								<p><img src="../img/character/insideOut/riley03.jpg" alt="riley이미지03"/></p>
+							</div>
+						</li>
+						<li class="insideOut">
+							<div class="characterDescWrap">
+								<h4>Bing Bong</h4>
+								<p>
+									With the trunk of an elephant, the tail of a cat, and body of cotton candy, Bing Bong is Riley’s imaginary friend. (You have to remember, when Riley was three animals were all the rage.) Unfortunately, he’s been out of work since Riley turned four, and he’s desperate to not be left behind as Riley grows up.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/insideOut/bingbong00.jpg" alt="bingbong이미지00"/></p>
+								<p><img src="../img/character/insideOut/bingbong01.jpg" alt="bingbong이미지01"/></p>
+								<p><img src="../img/character/insideOut/bingbong02.jpg" alt="bingbong이미지02"/></p>
+								<p><img src="../img/character/insideOut/bingbong03.jpg" alt="bingbong이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap monsters"><h3>MONSTERS INC</h3></li>
+						<li class="monsters">
+							<div class="characterDescWrap">
+								<h4>Mike Wazowski</h4>
+								<p>
+									Sulley's scare assistant, best friend, and roommate doesn't want any interruptions in his life—especially in his relationships. Although Mike thinks Boo is a "killing machine" at first, he later finds she's a great audience for his natural comedic talent.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/monsters/mike00.jpg" alt="mike이미지00"/></p>
+								<p><img src="../img/character/monsters/mike01.jpg" alt="mike이미지01"/></p>
+								<p><img src="../img/character/monsters/mike02.jpg" alt="mike이미지02"/></p>
+								<p><img src="../img/character/monsters/mike03.jpg" alt="mike이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter monsters">
+							<div class="characterDescWrap">
+								<h4>James P. “Sulley” Sullivan</h4>
+								<p>
+									James P. “Sulley” Sullivan may be the most celebrated Scarer in Monstropolis, but that doesn't make him mean. When the softhearted monster has to care for Boo, he discovers that love and laughter are more powerful than making kids scream.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/monsters/sulley00.jpg" alt="sulley이미지00"/></p>
+								<p><img src="../img/character/monsters/sulley01.jpg" alt="sulley이미지01"/></p>
+								<p><img src="../img/character/monsters/sulley02.jpg" alt="sulley이미지02"/></p>
+								<p><img src="../img/character/monsters/sulley03.jpg" alt="sulley이미지03"/></p>
+							</div>
+						</li>
+						<li class="monsters">
+							<div class="characterDescWrap">
+								<h4>Boo</h4>
+								<p>
+									Boo has a vocabulary of about three words, but that doesn't stop this curious human girl from stealing Sulley's heart and overcoming her fear of Randall.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/monsters/boo00.jpg" alt="boo이미지00"/></p>
+								<p><img src="../img/character/monsters/boo01.jpg" alt="boo이미지01"/></p>
+								<p><img src="../img/character/monsters/boo02.jpg" alt="boo이미지02"/></p>
+								<p><img src="../img/character/monsters/boo03.jpg" alt="boo이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter monsters">
+							<div class="characterDescWrap">
+								<h4>Randall Boggs</h4>
+								<p>
+									Able to scare even his co-workers with his chameleon abilities, Randall is one of the most wicked monsters in Monstropolis. His plan to capture the all-time scare record only scratches the surface of his sinister agenda.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/monsters/randall00.jpg" alt="randall이미지00"/></p>
+								<p><img src="../img/character/monsters/randall01.jpg" alt="randall이미지01"/></p>
+								<p><img src="../img/character/monsters/randall02.jpg" alt="randall이미지02"/></p>
+								<p><img src="../img/character/monsters/randall03.jpg" alt="randall이미지03"/></p>
+							</div>
+						</li>
+						<li class="monsters">
+							<div class="characterDescWrap">
+								<h4>Henry J. Waternoose III</h4>
+								<p>
+									Monsters, Inc. has been in the Waternoose family for generations, and Henry J. Waternoose III will do anything to beat the scream shortage and make his company profitable again.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/monsters/waternoose00.jpg" alt="waternoose이미지00"/></p>
+								<p><img src="../img/character/monsters/waternoose01.jpg" alt="waternoose이미지01"/></p>
+								<p><img src="../img/character/monsters/waternoose02.jpg" alt="waternoose이미지02"/></p>
+								<p><img src="../img/character/monsters/waternoose03.jpg" alt="waternoose이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter monsters">
+							<div class="characterDescWrap">
+								<h4>Roz</h4>
+								<p>
+									Dispatch Manager Roz may be slow moving and slow talking, but the quick-witted slug has her eye on everything—including Mike Wazowski’s lack of paperwork. She's a No. 1 nut in Mike's book and a No. 1 boss to others.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/monsters/roz00.jpg" alt="roz이미지00"/></p>
+								<p><img src="../img/character/monsters/roz01.jpg" alt="roz이미지01"/></p>
+								<p><img src="../img/character/monsters/roz02.jpg" alt="roz이미지02"/></p>
+								<p><img src="../img/character/monsters/roz03.jpg" alt="roz이미지03"/></p>
+							</div>
+						</li>
+						<li class="monsters">
+							<div class="characterDescWrap">
+								<h4>Celia</h4>
+								<p>
+									The factory's one-eyed, snake-haired receptionist must put her birthday celebration on hold as she gets caught in the middle of Sulley and Mike's crazy predicament. Luckily, her love for Mike prevails and she comes to his rescue.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/monsters/celia00.jpg" alt="celia이미지00"/></p>
+								<p><img src="../img/character/monsters/celia01.jpg" alt="celia이미지01"/></p>
+								<p><img src="../img/character/monsters/celia02.jpg" alt="celia이미지02"/></p>
+								<p><img src="../img/character/monsters/celia03.jpg" alt="celia이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap monstersUniver"><h3>MONSTERS UNIVERSITY</h3></li>
+						<li class="monstersUniver">
+							<div class="characterDescWrap">
+								<h4>Mike Wazowski</h4>
+								<p>
+									Mike Wazowski’s lifelong dream is to become a Scarer at Monsters, Inc.—and he’s sure he knows just how to do it. Ever since he was a young monster, Mike’s had his eye on Monsters University, home of the world’s top Scare Program. Now a freshman and hopeful scare student, he’s well versed in the rich history, theory and technique required to reach his goal.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/monstersUniver/mike00.jpg" alt="mike이미지00"/></p>
+								<p><img src="../img/character/monstersUniver/mike01.jpg" alt="mike이미지01"/></p>
+								<p><img src="../img/character/monstersUniver/mike02.jpg" alt="mike이미지02"/></p>
+								<p><img src="../img/character/monstersUniver/mike03.jpg" alt="mike이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter monstersUniver">
+							<div class="characterDescWrap">
+								<h4>James P. Sullivan</h4>
+								<p>
+									When it comes to scaring, Sulley’s a natural—his abundant size, fierce roar and family legacy of a long line of high-achieving Scarers make him a shoo-in for the esteemed Scare Program at Monsters University. But from the moment the overly confident monster, he learns the hard way that his unfettered talent and family ties can only get him so far.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/monstersUniver/sully00.jpg" alt="sully이미지00"/></p>
+								<p><img src="../img/character/monstersUniver/sully01.jpg" alt="sully이미지01"/></p>
+								<p><img src="../img/character/monstersUniver/sully02.jpg" alt="sully이미지02"/></p>
+								<p><img src="../img/character/monstersUniver/sully03.jpg" alt="sully이미지03"/></p>
+							</div>
+						</li>
+						<li class="monstersUniver">
+							<div class="characterDescWrap">
+								<h4>Randy Boggs</h4>
+								<p>
+									Monsters University freshman Randy Boggs has big aspirations for college life. The peculiar lizard-like monster with his host of gangly arms and legs plans to major in Scaring and lead an active social life filled with fun, friends and fraternity parties. If only he could get his embarrassing disappearing habit under control, he’d be good to go.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/monstersUniver/randy00.jpg" alt="randy이미지00"/></p>
+								<p><img src="../img/character/monstersUniver/randy01.jpg" alt="randy이미지01"/></p>
+								<p><img src="../img/character/monstersUniver/randy02.jpg" alt="randy이미지02"/></p>
+								<p><img src="../img/character/monstersUniver/randy03.jpg" alt="randy이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter monstersUniver">
+							<div class="characterDescWrap">
+								<h4>Dean Hardscrabble</h4>
+								<p>
+									To Dean Hardscrabble, there are scary monsters and there are all other monsters. It’s no surprise she feels this way—she is, after all, a legendary Scarer and Dean of the School of Scaring at Monsters University. Aspiring Scare students must be up for the challenge to impress her, though she is convinced that her assessment of who is truly scary and who is not is never wrong.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/monstersUniver/hardscrabble00.jpg" alt="hardscrabble이미지00"/></p>
+								<p><img src="../img/character/monstersUniver/hardscrabble01.jpg" alt="hardscrabble이미지01"/></p>
+								<p><img src="../img/character/monstersUniver/hardscrabble02.jpg" alt="hardscrabble이미지02"/></p>
+								<p><img src="../img/character/monstersUniver/hardscrabble03.jpg" alt="hardscrabble이미지03"/></p>
+							</div>
+						</li>
+						<li class="monstersUniver">
+							<div class="characterDescWrap">
+								<h4>Scott "Squishy" Squibbles</h4>
+								<p>
+									Scott Squibbles gives new meaning to the term “undeclared.” A sophomore whose dream of becoming a Scarer was squashed in his first year at Monsters University, “Squishy” is a bit of a wide-eyed wanderer—small, sweet, naïve and quiet—who, not surprisingly, still lives with his doting mother.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/monstersUniver/squish00.jpg" alt="squish이미지00"/></p>
+								<p><img src="../img/character/monstersUniver/squish01.jpg" alt="squish이미지01"/></p>
+								<p><img src="../img/character/monstersUniver/squish02.jpg" alt="squish이미지02"/></p>
+								<p><img src="../img/character/monstersUniver/squish03.jpg" alt="squish이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter monstersUniver">
+							<div class="characterDescWrap">
+								<h4>Don Carlton</h4>
+								<p>
+									Faced with the realities of the economic downturn, Midwestern sales monster Don Carlton finds himself going back to school to learn new skills and pursue a dream career in Scaring. One of Monsters University's “mature” students and a founding member of the Oozma Kappa fraternity, Don brings his honest hardworking spirit to their endeavors.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/monstersUniver/don00.jpg" alt="don이미지00"/></p>
+								<p><img src="../img/character/monstersUniver/don01.jpg" alt="don이미지01"/></p>
+								<p><img src="../img/character/monstersUniver/don02.jpg" alt="don이미지02"/></p>
+								<p><img src="../img/character/monstersUniver/don03.jpg" alt="don이미지03"/></p>
+							</div>
+						</li>
+						<li class="monstersUniver">
+							<div class="characterDescWrap">
+								<h4>Terri &amp; Terry Perry</h4>
+								<p>
+									When it comes to Terri and Terry, it's hard not to ask, “Are two heads really better than one?”  These bickering brothers have little in common: Terri with an “i” is a real romantic who's quick to spot the silver lining in any situation, while older brother Terry with a “y” sports a more cynical outlook on life.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/monstersUniver/terri00.jpg" alt="terri이미지00"/></p>
+								<p><img src="../img/character/monstersUniver/terri01.jpg" alt="terri이미지01"/></p>
+								<p><img src="../img/character/monstersUniver/terri02.jpg" alt="terri이미지02"/></p>
+								<p><img src="../img/character/monstersUniver/terri03.jpg" alt="terri이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter monstersUniver">
+							<div class="characterDescWrap">
+								<h4>Art</h4>
+								<p>
+									The ultimate free spirit, Art is a mysterious monster with a questionable background. By far the strangest member of the Oozma Kappas, Art bowls over the competition-sometimes literally-with his unique dexterity and wild-card ways. Nothing is scarier than the unpredictable, especially when it comes to this furry ball of bad.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/monstersUniver/art00.jpg" alt="art이미지00"/></p>
+								<p><img src="../img/character/monstersUniver/art01.jpg" alt="art이미지01"/></p>
+								<p><img src="../img/character/monstersUniver/art02.jpg" alt="art이미지02"/></p>
+								<p><img src="../img/character/monstersUniver/art03.jpg" alt="art이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap nemo"><h3>FINDING NEMO</h3></li>
+						<li class="nemo">
+							<div class="characterDescWrap">
+								<h4>Marlyn</h4>
+								<p>
+									Sheltered deep within The Great Barrier reef, safe inside his anemone home, lives Marlin. After losing his wife and family to the ocean, Marlin is left alone to raise his only surviving child, Nemo. He vows never to let anything happen to his son. A loving and responsible father, Marlin keeps his noble promise throughout Nemo’s early years.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/nemo/marlyn00.jpg" alt="marlyn이미지00"/></p>
+								<p><img src="../img/character/nemo/marlyn01.jpg" alt="marlyn이미지01"/></p>
+								<p><img src="../img/character/nemo/marlyn02.jpg" alt="marlyn이미지02"/></p>
+								<p><img src="../img/character/nemo/marlyn03.jpg" alt="marlyn이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter nemo">
+							<div class="characterDescWrap">
+								<h4>Nemo</h4>
+								<p>
+									Nemo is a curious and impressionable six-year-old, only child who lives with his overprotective, single-parent father, Marlin. Having led a sheltered life, Nemo brims with the excitement of starting school and finally seeing the wonders of the Great Barrier Reef. Despite being born with a withered fin, Nemo yearns for adventure, and as fate takes him far from home, he learns he is capable of doing great things.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/nemo/nemo00.jpg" alt="니모이미지00"/></p>
+								<p><img src="../img/character/nemo/nemo01.jpg" alt="니모이미지01"/></p>
+								<p><img src="../img/character/nemo/nemo02.jpg" alt="니모이미지02"/></p>
+								<p><img src="../img/character/nemo/nemo03.jpg" alt="니모이미지03"/></p>
+							</div>
+						</li>
+						<li class="nemo">
+							<div class="characterDescWrap">
+								<h4>Dory</h4>
+								<p>
+									Throughout the vast ocean you will not find a fish more hospitable, more friendly, or more sociable than Dory. She would love to chat with you all day and tell you her life story, but she can’t. Dory suffers from short term memory loss. Dory is the aquatic Good Samaritan who offers to help Marlin on his journey to find his son. She is certainly an odd partner.
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/dory/dory00.jpg" alt="도리이미지00"/></p>
+								<p><img src="../img/character/dory/dory01.jpg" alt="도리이미지01"/></p>
+								<p><img src="../img/character/nemo/dory00.jpg" alt="도리이미지02"/></p>
+								<p><img src="../img/character/nemo/dory01.jpg" alt="도리이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter nemo">
+							<div class="characterDescWrap">
+								<h4>Gill</h4>
+								<p>
+									Gill is the maverick of the dentist’s office fish tank. He is the leader of an eclectic gang of fish, who hang on his every word and are drawn to his magnetic personality. This tough, scarred, one-finned fish was raised in the ocean, but taken at a young age to live in a tank. Surrounded by fish who have spent their entire lives in “the box,” Gill alone feels the pull to be free. Though he dreams of one day breaking out and returning to the ocean.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/nemo/gill00.jpg" alt="gill이미지00"/></p>
+								<p><img src="../img/character/nemo/gill01.jpg" alt="gill이미지01"/></p>
+								<p><img src="../img/character/nemo/gill02.jpg" alt="gill이미지02"/></p>
+								<p><img src="../img/character/nemo/gill03.jpg" alt="gill이미지03"/></p>
+							</div>
+						</li>
+						<li class="nemo">
+							<div class="characterDescWrap">
+								<h4>The Tank Gang</h4>
+								<p>
+									No matter where you're from—the ocean, eBay, Pet Palace, or mail order—being stuck in a kitschy dentist's aquarium can do things to a fish. Led by escape artist Gill, Peach, Bloat, Gurgle, Deb, Bubbles, and Jacques make life livable with tiki-inspired tank rituals, all the while dreaming of getting back into the Big Blue.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/nemo/fishTank00.jpg" alt="fishTank이미지00"/></p>
+								<p><img src="../img/character/nemo/fishTank01.jpg" alt="fishTank이미지01"/></p>
+								<p><img src="../img/character/nemo/fishTank02.jpg" alt="fishTank이미지02"/></p>
+								<p><img src="../img/character/nemo/fishTank03.jpg" alt="fishTank이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter nemo">
+							<div class="characterDescWrap">
+								<h4>Sharks</h4>
+								<p>
+									Bruce, Anchor and Chum are mates. Anchor is cynical; he hates dolphins. Chum is hyperactive; he can’t keep still. Bruce is the jolly leader of the pack. All three are members of a Fish-Eaters Anonymous Group, and are tormented by their natural urge to eat fish and their resulting unpopularity amongst the general ocean population.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/nemo/shark00.jpg" alt="shark이미지00"/></p>
+								<p><img src="../img/character/nemo/shark01.jpg" alt="shark이미지01"/></p>
+								<p><img src="../img/character/nemo/shark02.jpg" alt="shark이미지02"/></p>
+								<p><img src="../img/character/nemo/shark03.jpg" alt="shark이미지03"/></p>
+							</div>
+						</li>
+						<li class="nemo">
+							<div class="characterDescWrap">
+								<h4>Turtles</h4>
+								<p>
+									Crush and his offspring Squirt know how to chill and go with the flow, especially the one created by the East Australian Current. The two have a righteous bond that's totally sweet. After 150 years of living in the ocean, Crush knows a thing or two about being a good parent.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/nemo/turtle00.jpg" alt="turtle이미지00"/></p>
+								<p><img src="../img/character/nemo/turtle01.jpg" alt="turtle이미지01"/></p>
+								<p><img src="../img/character/nemo/turtle02.jpg" alt="turtle이미지02"/></p>
+								<p><img src="../img/character/nemo/turtle03.jpg" alt="turtle이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap ratatouille"><h3>ratatouille</h3></li>
+						<li class="ratatouille">
+							<div class="characterDescWrap">
+								<h4>Remy</h4>
+								<p>
+									Rats are no strangers to rejection, but Remy, a rat who longs to be a great chef, has more than the usual obstacles to overcome. His remarkable sense of smell and genius for combining flavors puts him head and shoulders above most human chefs. However, in the rat world he’s resigned to a life of being the “poison sniffer,” using his unique talent to pick out the safe garbage for his family to eat.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/ratatouille/remy00.jpg" alt="remy이미지00"/></p>
+								<p><img src="../img/character/ratatouille/remy01.jpg" alt="remy이미지01"/></p>
+								<p><img src="../img/character/ratatouille/remy02.jpg" alt="remy이미지02"/></p>
+								<p><img src="../img/character/ratatouille/remy03.jpg" alt="remy이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter ratatouille">
+							<div class="characterDescWrap">
+								<h4>Linguini</h4>
+								<p>
+									Linguini, a timid and well-meaning young man, is the new garbage boy at Gusteau’s. After a series of ill-fated jobs, Linguini is desperate to hold onto this one, which he sees as his last hope. A chance encounter with Remy thrusts Linguini into a highly unusual “ghost-cooking” relationship, in which he provides the gangly brawn for Remy’s culinary brains.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/ratatouille/linguini00.jpg" alt="linguini이미지00"/></p>
+								<p><img src="../img/character/ratatouille/linguini01.jpg" alt="linguini이미지01"/></p>
+								<p><img src="../img/character/ratatouille/linguini02.jpg" alt="linguini이미지02"/></p>
+								<p><img src="../img/character/ratatouille/linguini03.jpg" alt="linguini이미지03"/></p>
+							</div>
+						</li>
+						<li class="ratatouille">
+							<div class="characterDescWrap">
+								<h4>Colette</h4>
+								<p>
+									Colette is the toughest chef and the only female in the kitchen at Gusteau’s. Her grit, talent, and intimidating air have brought her far, but years of climbing the ladder in the male-dominated world of haute cuisine have made her wary and self-contained. At first, she is exasperated at being assigned to babysit Linguini as he begins his trial period as a chef.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/ratatouille/colette00.jpg" alt="colette이미지00"/></p>
+								<p><img src="../img/character/ratatouille/colette01.jpg" alt="colette이미지01"/></p>
+								<p><img src="../img/character/ratatouille/colette02.jpg" alt="colette이미지02"/></p>
+								<p><img src="../img/character/ratatouille/colette03.jpg" alt="colette이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter ratatouille">
+							<div class="characterDescWrap">
+								<h4>Auguste Gusteau</h4>
+								<p>
+									The late Auguste Gusteau, France’s all-time greatest culinary genius, is the author of Anyone Can Cook, the cookbook that inspires Remy's dream of becoming a chef. Gusteau's Paris restaurant became a landmark on the strength of his imaginative vision and masterful preparation, which simultaneously honored and played with the traditions of French cuisine.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/ratatouille/gusteau00.jpg" alt="gusteau이미지00"/></p>
+								<p><img src="../img/character/ratatouille/gusteau01.jpg" alt="gusteau이미지01"/></p>
+								<p><img src="../img/character/ratatouille/gusteau02.jpg" alt="gusteau이미지02"/></p>
+								<p><img src="../img/character/ratatouille/gusteau03.jpg" alt="gusteau이미지03"/></p>
+							</div>
+						</li>
+						<li class="ratatouille">
+							<div class="characterDescWrap">
+								<h4>Emile</h4>
+								<p>
+									Emile, Remy’s little brother, is a rat’s rat—a little overweight and good-natured, he loves life and all things edible and inedible. He doesn’t always understand the finer points of his brother’s obsession with good food, but he is always ready to support Remy on one of his harebrained errands or cheer him up when he's feeling low.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/ratatouille/emile00.jpg" alt="emile이미지00"/></p>
+								<p><img src="../img/character/ratatouille/emile01.jpg" alt="emile이미지01"/></p>
+								<p><img src="../img/character/ratatouille/emile02.jpg" alt="emile이미지02"/></p>
+								<p><img src="../img/character/ratatouille/emile03.jpg" alt="emile이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter ratatouille">
+							<div class="characterDescWrap">
+								<h4>Anton Ego</h4>
+								<p>
+									Anton Ego, the most powerful food critic in Paris, can make or break a restaurant with a single review. The sight of his dour, colorless, unsmiling face strikes fear into the heart of even the most complacently successful of culinary celebrities. Chefs have become so afraid of displeasing “The Grim Eater,” as he is commonly known, that no one dares to change a menu without his blessing.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/ratatouille/ego00.jpg" alt="ego이미지00"/></p>
+								<p><img src="../img/character/ratatouille/ego01.jpg" alt="ego이미지01"/></p>
+								<p><img src="../img/character/ratatouille/ego02.jpg" alt="ego이미지02"/></p>
+								<p><img src="../img/character/ratatouille/ego03.jpg" alt="ego이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap toyStory2"><h3>toy Story 2</h3></li>
+						<li class="toyStory2">
+							<div class="characterDescWrap">
+								<h4>Woody</h4>
+								<p>
+									Of all Andy's toys, Woody seems to be the one who most questions his existence, whether it's as Andy's favorite, a toy destined for the landfill, or a hot collectible. Luckily, Woody comes to his senses before choosing to retire to a museum in Japan.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/toyStory2/woody00.jpg" alt="woody이미지00"/></p>
+								<p><img src="../img/character/toyStory2/woody01.jpg" alt="woody이미지01"/></p>
+								<p><img src="../img/character/toyStory2/woody02.jpg" alt="woody이미지02"/></p>
+								<p><img src="../img/character/toyStory2/woody03.jpg" alt="woody이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter toyStory2">
+							<div class="characterDescWrap">
+								<h4>Buzz Lightyear</h4>
+								<p>
+									The toy gang's fearless Space Ranger has come down to Earth a bit since his last outing. In fact, Buzz finds himself in an ironic predicament when he must explain to a store display Buzz that they're "just toys."
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/toyStory2/buzz00.jpg" alt="buzz이미지00"/></p>
+								<p><img src="../img/character/toyStory2/buzz01.jpg" alt="buzz이미지01"/></p>
+								<p><img src="../img/character/toyStory2/buzz02.jpg" alt="buzz이미지02"/></p>
+								<p><img src="../img/character/toyStory2/buzz03.jpg" alt="buzz이미지03"/></p>
+							</div>
+						</li>
+						<li class="toyStory2">
+							<div class="characterDescWrap">
+								<h4>Jessie</h4>
+								<p>
+									It's no wonder this cowgirl gets the blues. Her beloved owner gave her up to charity, she was imprisoned in a dark storage box for years, and now a cowboy from her past is asking her to take risks just when life was starting to get easy. But, Jessie's a toy at heart and would do anything to give joy to a little girl again.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/toyStory2/jessie00.jpg" alt="jessie이미지00"/></p>
+								<p><img src="../img/character/toyStory2/jessie01.jpg" alt="jessie이미지01"/></p>
+								<p><img src="../img/character/toyStory2/jessie02.jpg" alt="jessie이미지02"/></p>
+								<p><img src="../img/character/toyStory2/jessie03.jpg" alt="jessie이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter toyStory2">
+							<div class="characterDescWrap">
+								<h4>Bullseye</h4>
+								<p>
+									This toy horse rides like the wind, especially when it's Woody giving the command. In a 21st-century real-life version of the 1950s TV episode "Woody's Finest Hour," Bullseye must gallop like crazy to rescue Jessie and Woody from a speeding plane.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/toyStory2/bullseye00.jpg" alt="bullseye이미지00"/></p>
+								<p><img src="../img/character/toyStory2/bullseye01.jpg" alt="bullseye이미지01"/></p>
+								<p><img src="../img/character/toyStory2/bullseye02.jpg" alt="bullseye이미지02"/></p>
+								<p><img src="../img/character/toyStory2/bullseye03.jpg" alt="bullseye이미지03"/></p>
+							</div>
+						</li>
+						<li class="toyStory2">
+							<div class="characterDescWrap">
+								<h4>Mrs. Potato Head</h4>
+								<p>
+									Mr. Potato Head®'s "sweet potato" lives up to her nickname as an affectionate and lovingly overprotective toy. She puts her spud's storage compartment to good use, making sure he has his "angry eyes" handy for the rescue mission, just in case.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/toyStory2/mrsPotato00.jpg" alt="mrsPotato이미지00"/></p>
+								<p><img src="../img/character/toyStory2/mrsPotato01.jpg" alt="mrsPotato이미지01"/></p>
+								<p><img src="../img/character/toyStory2/mrsPotato02.jpg" alt="mrsPotato이미지02"/></p>
+								<p><img src="../img/character/toyStory2/mrsPotato03.jpg" alt="mrsPotato이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter toyStory2">
+							<div class="characterDescWrap">
+								<h4>Weezy</h4>
+								<p>
+									Every toy's worst nightmare has happened to this broken squeak-toy penguin. Relegated to the dusty top shelf in Andy's room, Wheezy finds he's got a friend in Woody, who risks life and limb to come to his pal's res
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/toyStory2/weezy00.jpg" alt="weezy이미지00"/></p>
+								<p><img src="../img/character/toyStory2/weezy01.jpg" alt="weezy이미지01"/></p>
+								<p><img src="../img/character/toyStory2/weezy02.jpg" alt="weezy이미지02"/></p>
+								<p><img src="../img/character/toyStory2/weezy03.jpg" alt="weezy이미지03"/></p>
+							</div>
+						</li>
+						<li class="toyStory2">
+							<div class="characterDescWrap">
+								<h4>The Prospector</h4>
+								<p>
+									Spending a lifetime on a dime-store shelf while every other toy in the Roundup Gang gets sold can make a toy bitter. When the Prospector's waiting in boxed "mint condition" finally pays off, he won't let anything keep him from immortality.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/toyStory2/prospector00.jpg" alt="prospector이미지00"/></p>
+								<p><img src="../img/character/toyStory2/prospector01.jpg" alt="prospector이미지01"/></p>
+								<p><img src="../img/character/toyStory2/prospector02.jpg" alt="prospector이미지02"/></p>
+								<p><img src="../img/character/toyStory2/prospector03.jpg" alt="prospector이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap toyStory3"><h3>toy Story 3</h3></li>
+						<li class="toyStory3">
+							<div class="characterDescWrap">
+								<h4>Woody</h4>
+								<p>
+									Woody is a cowboy sheriff who proclaims his signature catchphrases from the 1950s TV show Woody’s Roundup every time his pull-string is pulled. He’s always been Andy’s favorite toy. Even though his owner is now grown, the loyal sheriff Woody maintains a steadfast belief that Andy still cares about his toys.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/toyStory3/woody00.jpg" alt="woody이미지00"/></p>
+								<p><img src="../img/character/toyStory3/woody01.jpg" alt="woody이미지01"/></p>
+								<p><img src="../img/character/toyStory3/woody02.jpg" alt="woody이미지02"/></p>
+								<p><img src="../img/character/toyStory3/woody03.jpg" alt="woody이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter toyStory3">
+							<div class="characterDescWrap">
+								<h4>Buzz Lightyear</h4>
+								<p>
+									Buzz Lightyear is a heroic space ranger action figure, complete with laser beam, karate-chop action, and pop-out wings. Buzz is a boy’s dream toy who becomes a quick favorite of young Andy and the closest of buddies with Woody. While Buzz’s sole mission used to be defeating the evil Emperor Zurg, what he now cares about most is keeping his toy family. Buzz’s new mission is sidetracked along the way.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/toyStory3/buzz00.jpg" alt="buzz이미지00"/></p>
+								<p><img src="../img/character/toyStory3/buzz01.jpg" alt="buzz이미지01"/></p>
+								<p><img src="../img/character/toyStory3/buzz02.jpg" alt="buzz이미지02"/></p>
+								<p><img src="../img/character/toyStory3/buzz03.jpg" alt="buzz이미지03"/></p>
+							</div>
+						</li>
+						<li class="toyStory3">
+							<div class="characterDescWrap">
+								<h4>Lotso</h4>
+								<p>
+									Lotso is a jumbo, extra-soft teddy bear with a pink and white plush body and a velvety purple nose. This lovable bear ranks fuzzy heads and shoulders above other teddy bears because he smells like sweet strawberries. With a smile that will light up your child’s face and a belly just asking to be hugged, Lotso Bear is sure to become a bedtime necessity. Stain resistant. Spot clean plush surface with a damp cloth.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/toyStory3/lotso00.jpg" alt="lotso이미지00"/></p>
+								<p><img src="../img/character/toyStory3/lotso01.jpg" alt="lotso이미지01"/></p>
+								<p><img src="../img/character/toyStory3/lotso02.jpg" alt="lotso이미지02"/></p>
+								<p><img src="../img/character/toyStory3/lotso03.jpg" alt="lotso이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter toyStory3">
+							<div class="characterDescWrap">
+								<h4>Andy's Toys</h4>
+								<p>
+									Created to be loved by generations, Andy’s toys have features that feed imaginations: the beautiful stitching on Jessie and Bullseye can survive the roughest of play; the durable pieces of Mr. and Mrs. Potato Head® offer endless combinations; the tireless spring of Slinky® Dog keeps his stretch; the pose-able limbs of Rex give him different looks; Hamm holds an appetite for saving; and the collectible Aliens emit mysterious calls.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/toyStory3/andysToys00.jpg" alt="andysToys이미지00"/></p>
+								<p><img src="../img/character/toyStory3/andysToys01.jpg" alt="andysToys이미지01"/></p>
+								<p><img src="../img/character/toyStory3/andysToys02.jpg" alt="andysToys이미지02"/></p>
+								<p><img src="../img/character/toyStory3/andysToys03.jpg" alt="andysToys이미지03"/></p>
+							</div>
+						</li>
+						<li class="toyStory3">
+							<div class="characterDescWrap">
+								<h4>Andy</h4>
+								<p>
+									Andy—Buzz and Woody’s kind, imaginative young owner—is now nearly 18 years old and just days away from heading to college. His bedroom walls, once covered with Buzz Lightyear posters, are now plastered with images of sports cars, rock bands, and skateboarders. Although Andy no longer brings his old toys out from the chest for playtime, he hasn’t been able to bring himself to get rid of them.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/toyStory3/andy00.jpg" alt="andy이미지00"/></p>
+								<p><img src="../img/character/toyStory3/andy01.jpg" alt="andy이미지01"/></p>
+								<p><img src="../img/character/toyStory3/andy02.jpg" alt="andy이미지02"/></p>
+								<p><img src="../img/character/toyStory3/andy03.jpg" alt="andy이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter toyStory3">
+							<div class="characterDescWrap">
+								<h4>Bonnie</h4>
+								<p>
+									Bonnie is a 4-year-old girl who goes to Sunnyside Daycare. Although shy when around many adults, she is full of energy and creativity. She likes her pink tutu with yellow boots and a blue backpack. She's filled with imagination that helps her create endless new games and scenarios with her toys. She can never have too many toys because those that she has will always be loved, well cared for, and—best of all—played with.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/toyStory3/bonnie00.jpg" alt="bonnie이미지00"/></p>
+								<p><img src="../img/character/toyStory3/bonnie01.jpg" alt="bonnie이미지01"/></p>
+								<p><img src="../img/character/toyStory3/bonnie02.jpg" alt="bonnie이미지02"/></p>
+								<p><img src="../img/character/toyStory3/bonnie03.jpg" alt="bonnie이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap up"><h3>up</h3></li>
+						<li class="up">
+							<div class="characterDescWrap">
+								<h4>Carl Fredricksen</h4>
+								<p>
+									Carl Fredricksen is not your average hero. He's a retired balloon salesman who, at the age of 78, is forced to leave the house he and his late wife Ellie built together. But instead of moving into the old folks' home, Carl takes action. He ties thousands of balloons to the roof, lifts the house into the air, and sets off toward South America, finally fulfilling the promise he made to his wife so many years before.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/up/carl00.jpg" alt="carl이미지00"/></p>
+								<p><img src="../img/character/up/carl01.jpg" alt="carl이미지01"/></p>
+								<p><img src="../img/character/up/carl02.jpg" alt="carl이미지02"/></p>
+								<p><img src="../img/character/up/carl03.jpg" alt="carl이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter up">
+							<div class="characterDescWrap">
+								<h4>Russell</h4>
+								<p>
+									Russell is an enthusiastic and persistent 8-year-old Junior Wilderness Explorer from Tribe 54, Sweat Lodge 12. Armed with a backpack laden with official Wilderness Explorer camping gear, Russell is ready for the wilderness! There's just one catch: he's never actually left the city. All his knowledge of the outdoors comes from books, and his sole camping experience was in his own living room.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/up/russell00.jpg" alt="russell이미지00"/></p>
+								<p><img src="../img/character/up/russell01.jpg" alt="russell이미지01"/></p>
+								<p><img src="../img/character/up/russell02.jpg" alt="russell이미지02"/></p>
+								<p><img src="../img/character/up/russell03.jpg" alt="russell이미지03"/></p>
+							</div>
+						</li>
+						<li class="up">
+							<div class="characterDescWrap">
+								<h4>Dug</h4>
+								<p>
+									Dug is a lovable golden retriever living in the wilds of Paradise Falls as part of the dog pack searching for a rare flightless bird. Like the rest of his pack, Dug is outfitted with a remarkable high-tech collar that translates his thoughts into speech. But Dug is mocked as the nerd of the pack. Sent into the jungle on a "special" mission, Dug accidentally succeeds when he discovers the bird following Carl and Russell.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/up/dug00.jpg" alt="dug이미지00"/></p>
+								<p><img src="../img/character/up/dug01.jpg" alt="dug이미지01"/></p>
+								<p><img src="../img/character/up/dug02.jpg" alt="dug이미지02"/></p>
+								<p><img src="../img/character/up/dug03.jpg" alt="dug이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter up">
+							<div class="characterDescWrap">
+								<h4>Kevin</h4>
+								<p>
+									This bird is hidden from the world in remote Paradise Falls habitat. Very few know that this scientifically invaluable creature exists, but Carl and Russell stumble upon the bird, and Russell names her Kevin after he discovers they share a sweet tooth. Kevin and Russell bond instantly, and despite the bird's propensity to swallow Carl's walker, Kevin joins the latest and most unlikely carl's pack.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/up/kevin00.jpg" alt="kevin이미지00"/></p>
+								<p><img src="../img/character/up/kevin01.jpg" alt="kevin이미지01"/></p>
+								<p><img src="../img/character/up/kevin02.jpg" alt="kevin이미지02"/></p>
+								<p><img src="../img/character/up/kevin03.jpg" alt="kevin이미지03"/></p>
+							</div>
+						</li>
+						<li class="up">
+							<div class="characterDescWrap">
+								<h4>Charles F. Muntz</h4>
+								<p>
+									In 1930s, rich, clever, and handsome muntz is a beacon of hope for a down-and-out American public. He inspires his biggest fans, youngsters Carl and Ellie, to parrot his famous mantra "adventure is out there!" Traveling the globe many times over in his massive self-designed airship, he discovers the world's treasures: priceless historic relics, amazing scientific discoveries, and exotic flora and fauna never before seen.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/up/muntz00.jpg" alt="muntz이미지00"/></p>
+								<p><img src="../img/character/up/muntz01.jpg" alt="muntz이미지01"/></p>
+								<p><img src="../img/character/up/muntz02.jpg" alt="muntz이미지02"/></p>
+								<p><img src="../img/character/up/muntz03.jpg" alt="muntz이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter up">
+							<div class="characterDescWrap">
+								<h4>Alpha Pack</h4>
+								<p>
+									Deep in the jungles of Paradise Falls resides a dog pack on a mission to capture a rare bird that their master is pursuing. Just like their rejected comrade Dug, all the pack dogs have high-tech collars that give them unusual abilities especially designed for sinister hunting expeditions, including GPS tracking and translating their thoughts into speech. Alpha, the pack leader, is a black-as-night Doberman Pinscher.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/up/alphapack00.jpg" alt="alphapack이미지00"/></p>
+								<p><img src="../img/character/up/alphapack01.jpg" alt="alphapack이미지01"/></p>
+								<p><img src="../img/character/up/alphapack02.jpg" alt="alphapack이미지02"/></p>
+								<p><img src="../img/character/up/alphapack03.jpg" alt="alphapack이미지03"/></p>
+							</div>
+						</li>
+						<li class="up">
+							<div class="characterDescWrap">
+								<h4>Ellie</h4>
+								<p>
+									Ellie is an exuberant, adventurous girl who dreams of exploring the world. She and Carl first bond over their shared admiration for legendary explorer Charles F. Muntz. They pledge to travel together to Paradise Falls—the world's tallest waterfall, deep in the South American rainforest. As the couple settle into their married life, their grandiose plans are set aside as they navigate the ups and downs of their everyday lives.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/up/ellie00.jpg" alt="ellie이미지00"/></p>
+								<p><img src="../img/character/up/ellie01.jpg" alt="ellie이미지01"/></p>
+								<p><img src="../img/character/up/ellie02.jpg" alt="ellie이미지02"/></p>
+								<p><img src="../img/character/up/ellie03.jpg" alt="ellie이미지03"/></p>
+							</div>
+						</li>
+						<li class="nameWrap wallE"><h3>WALL-E</h3></li>
+						<li class="wallE">
+							<div class="characterDescWrap">
+								<h4>WALL•E</h4>
+								<p>
+									WALL•E (Waste Allocation Load Lifter Earth-Class) is the last robot left on Earth, programmed to clean up the planet, one trash cube at a time. However, after 700 years, he’s developed one little glitch—a personality. He’s extremely curious, highly inquisitive, and a little lonely.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/wallE/wallE00.jpg" alt="wallE이미지00"/></p>
+								<p><img src="../img/character/wallE/wallE01.jpg" alt="wallE이미지01"/></p>
+								<p><img src="../img/character/wallE/wallE02.jpg" alt="wallE이미지02"/></p>
+								<p><img src="../img/character/wallE/wallE03.jpg" alt="wallE이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter wallE">
+							<div class="characterDescWrap">
+								<h4>EVE</h4>
+								<p>
+									EVE (Extra-Terrestrial Vegetation Evaluator) is a sleek, state-of-the-art probe-droid. She’s fast, she flies, and she’s equipped with a laser gun. EVE, also called Probe One by the captain of the Axiom (the enormous luxury mother ship), is one of a fleet of similar robots sent to Earth on an undisclosed scanning mission.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/wallE/eve00.jpg" alt="eve이미지00"/></p>
+								<p><img src="../img/character/wallE/eve01.jpg" alt="eve이미지01"/></p>
+								<p><img src="../img/character/wallE/eve02.jpg" alt="eve이미지02"/></p>
+								<p><img src="../img/character/wallE/eve03.jpg" alt="eve이미지03"/></p>
+							</div>
+						</li>
+						<li class="wallE">
+							<div class="characterDescWrap">
+								<h4>M-O</h4>
+								<p>
+									M-O (Microbe-Obliterator) is a cleaner-bot programmed to clean anything that comes aboard the Axiom that is deemed a “foreign contaminant.” M-O travels speedily around the Axiom on his roller ball, cleaning the dirty objects he encounters.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/wallE/mo00.jpg" alt="mo이미지00"/></p>
+								<p><img src="../img/character/wallE/mo01.jpg" alt="mo이미지01"/></p>
+								<p><img src="../img/character/wallE/mo02.jpg" alt="mo이미지02"/></p>
+								<p><img src="../img/character/wallE/mo03.jpg" alt="mo이미지03"/></p>
+							</div>
+						</li>
+						<li class="eventCharacter wallE">
+							<div class="characterDescWrap">
+								<h4>Auto</h4>
+								<p>
+									Auto is the Axiom’s autopilot, who has piloted the ship through all of its 700 years in space. A carefully programmed robot in the form of the ship’s steering wheel, Auto’s manner is cold, mechanical, and seemingly dutiful to the captain. Unknown to all the Axiom crew, a hidden mandate exists in Auto’s programming.
+								</p>
+							</div>
+							<div class="characterImgWrap">
+								<p><img src="../img/character/wallE/auto00.jpg" alt="auto이미지00"/></p>
+								<p><img src="../img/character/wallE/auto01.jpg" alt="auto이미지01"/></p>
+								<p><img src="../img/character/wallE/auto02.jpg" alt="auto이미지02"/></p>
+								<p><img src="../img/character/wallE/auto03.jpg" alt="auto이미지03"/></p>
+							</div>
+						</li>
+						<li class="wallE">
+							<div class="characterDescWrap">
+								<h4>Captain</h4>
+								<p>
+									Captain is the current commander of the Axiom. His uneventful duties are simply checking and rechecking the ship’s status with Auto, the autopilot. When he is informed of a long-awaited discovery by one of the probe-droids, he discovers his inner calling to become the courageous leader he never could have imagined and plots a new course for humanity.
+								</p>
+							</div>
+							<div  class="characterImgWrap">
+								<p><img src="../img/character/wallE/captain00.jpg" alt="captain이미지00"/></p>
+								<p><img src="../img/character/wallE/captain01.jpg" alt="captain이미지01"/></p>
+								<p><img src="../img/character/wallE/captain02.jpg" alt="captain이미지02"/></p>
+								<p><img src="../img/character/wallE/captain03.jpg" alt="captain이미지03"/></p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+  		<footer id="footer">
+			<h1>FOOTER영역</h1>
+  			<div>
+				<h2>회사 소개</h2>
+  				<h3>PIXAR STUDIOS</h3>
+  				<p>about company</p>
+  				<p class="textArea">
+  					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+  				</p>
+				<a href="about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+  			</div>
+  			<div>
+				<h2>회사 CONTACT</h2>
+  				<h3>CONTACT US</h3>
+  				<p>Pixar Animation Studios</p>
+  				<p class="textArea">
+  					1200 Park Avenue Emeryville, California 94608<br/>
+  					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+  				</p>
+  				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+  			</div>
+  		</footer>
+    </div>
+  </body>
+</html>

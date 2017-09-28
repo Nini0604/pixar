@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR BRAVE</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/header.js"></script>
+		<script src="../../js/film.js"></script>
+		<link href="../../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/film.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+		<style type="text/css">
+			#container #visual{width:100%;height:700px;background-size:cover;background:url("../../img/bg/brave_head.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:center;background-color:#000;}
+			#container #movieContent #trailerContent .videoWrap{height:540px;}
+
+			@media all and (min-width:481px) and (max-width:767px){
+				#container #visual{height:500px;}
+				#container #movieContent #trailerContent .videoWrap{height:350px;}
+			}
+
+			@media all and (min-width:320px) and (max-width:480px){
+				#container #visual{height:450px;background-size:250%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:240px;}
+			}
+		</style>
+	</head>
+<body>
+	<div id="mobileNavWrap">
+		<a href="#none" title="menu" class="menu">
+			<span class="firstLine"></span>
+			<span class="secondLine"></span>
+			<span class="lastLine"></span>
+		</a>
+		<p id="mobileNavBg"></p>
+		<div id="mobileNav">
+			<p class="profileWrap">
+				<img src="../../img/icon/piper.png" alt="사용자이미지"/>
+			</p>
+			<p class="loginJoinWrap">
+				<a href="../login.html" title="LOGIN">LOGIN</a>
+				<a href="../join.html" title="JOIN">JOIN</a>
+			</p>
+			<ul>
+				<li><a href="../../index.html" title="HOME">HOME</a></li>
+				<li><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+				<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+				<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+				<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+				<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header id="header">
+			<div id="headerWrap">
+				<h1>
+					<a href="../../index.html" title="home">
+						<img src="../../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+					</a>
+				</h1>
+				<nav id="nav">
+					<h2>NAV영역</h2>
+					<a href="#none" title="menu" class="menu">
+						<span class="firstLine"></span>
+						<span class="secondLine"></span>
+						<span class="lastLine"></span>
+					</a>
+					<ul>
+						<li class="select"><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+						<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+						<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+						<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+						<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+						<li><a href="../login.html" title="LOGIN">LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual"></div>
+			</div>
+			<section id="movieContent">
+				<div class="movieHead">
+					<div class="movieLogo">
+						<img src="../../img/logo/brave_logo.png" alt="메리다로고이미지"/>
+					</div>
+					<div class="movieDesc">
+						<h3>Brave</h3>
+						<p>
+							Since ancient times, stories of epic battles and mystical legends have been passed through the generations across the rugged and mysterious Highlands of Scotland. A new tale joins the lore when the courageous Merida confronts tradition and challenges witch to change her fate.
+						</p>
+					</div>
+				</div>
+				<div class="tabWrap">
+					<ul id="tab">
+						<li class="first">
+							<a href="#trailerContent" title="trailer" class="selected">Trailer</a>
+						</li>
+						<li>
+							<a href="#characterContent" title="character">Character</a>
+						</li>
+						<li>
+							<a href="#designContent" title="design">World Design</a>
+						</li>
+						<li>
+							<a href="#creditsContent" title="credits">Credits</a>
+						</li>
+					</ul>
+				</div>
+				<ul id="content">
+					<li id="trailerContent" class="contentWrap">
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/V3qYadEBAnU"></iframe>
+						</div>
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/tcXVWL_xtgc"></iframe>
+						</div>
+					</li>
+					<li id="characterContent" class="contentWrap">
+						<div class="characterWrap">
+							<ul>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Merida</h4>
+										<p>
+											Passionate and fiery, Merida is a headstrong teenager of royal upbringing who is struggling to take control of her own witch. She feels most at home in the outdoors honing her impressive athletic skills as an archer and swordfighter, and racing across the magnificent Highland countryside with her faithful horse, Angus. With a spirit as vibrant as her untamed hair.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/brave/merida00.jpg" alt="merida이미지00"/></p>
+										<p><img src="../../img/character/brave/merida01.jpg" alt="merida이미지01"/></p>
+										<p><img src="../../img/character/brave/merida02.jpg" alt="merida이미지02"/></p>
+										<p><img src="../../img/character/brave/merida03.jpg" alt="merida이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Queen Elinor</h4>
+										<p>
+											A vision of grace of character, Queen Elinor is fiercely dedicated to the well being of her family and kingdom. Elinor strives to instill in Merida the knowledge and manner of a royal, expecting complete commitment to Elinor’s standards. But her vision of her daughter’s future is at odds with Merida’s rebellious spirit and desire to forge her own path., which ultimately causes Elinor to face calamitous consequences.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/brave/queen00.jpg" alt="queen이미지00"/></p>
+										<p><img src="../../img/character/brave/queen01.jpg" alt="queen이미지01"/></p>
+										<p><img src="../../img/character/brave/queen02.jpg" alt="queen이미지02"/></p>
+										<p><img src="../../img/character/brave/queen03.jpg" alt="queen이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>King Fergus</h4>
+										<p>
+											King Fergus is a heroic warrior with a majestic bear cape, broad sword and a knobby peg leg – the result of his much-regaled skirmish with the demon bear Mor’du. His vendetta against the beast who took his leg makes Fergus a ferocious and determined bear hunter. His pride for his first-born daughter Merida is unmatched, and he has gifted her his great skill and passion for the sword and the bow.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/brave/king00.jpg" alt="king이미지00"/></p>
+										<p><img src="../../img/character/brave/king01.jpg" alt="king이미지01"/></p>
+										<p><img src="../../img/character/brave/king02.jpg" alt="king이미지02"/></p>
+										<p><img src="../../img/character/brave/king03.jpg" alt="king이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Triplets</h4>
+										<p>
+											Identical triplets Harris, Hubert and Hamish are adorable, redheaded, and always ready to stir up a bit of mischief, especially if sweets are at stake. This troublemaking trio is particularly keen on sneaking through the secret passages of the castle, mysteriously appearing out of walls, and playing clever tricks on everyone, especially their father, King Fergus. They share an extra special bond with their big sister, Merida.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/brave/triple00.jpg" alt="triple이미지00"/></p>
+										<p><img src="../../img/character/brave/triple01.jpg" alt="triple이미지01"/></p>
+										<p><img src="../../img/character/brave/triple02.jpg" alt="triple이미지02"/></p>
+										<p><img src="../../img/character/brave/triple03.jpg" alt="triple이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>The Witch</h4>
+										<p>
+											Deep in the overgrown Highland forest, a ramshackle blackhouse cottage is home to the Crafty Carver. This seemingly long-in-the-tooth crone specializes in the whittling of wooden bear trinkets, figurines and curios. When Merida sees through the guise and reveals her as the Witch she truly is, Merida begs for a magical solution to her problems. The Witch begrudgingly gives in, conjuring a haphazard spell with an obscure riddle.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/brave/witch00.jpg" alt="witch이미지00"/></p>
+										<p><img src="../../img/character/brave/witch01.jpg" alt="witch이미지01"/></p>
+										<p><img src="../../img/character/brave/witch02.jpg" alt="witch이미지02"/></p>
+										<p><img src="../../img/character/brave/witch03.jpg" alt="witch이미지03"/></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="designContent" class="contentWrap">
+						<ul>
+							<li>
+								<h3>Castle DunBroch</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/brave/design00.jpg" alt="merida디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									Castle DunBroch was deliberately designed to be almost part of the promontory on which it sits. “We didn’t want the castle to be a new castle,” says production designer Steve Pilcher.  “No way!  We wanted it to have been there a few hundred years before the film took place.”
+								</p>
+							</li>
+							<li>
+								<h3>The Highlands</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/brave/design01.jpg" alt="merida디자인이미지01"/>
+								</p>
+								<p class="textWrap">
+									Brave's creative team made multiple trips to Scotland, determined to get the details just right.  They returned with notebooks full of drawings and memories, and cameras filled with pictures—everything from majestic panoramas to careful studies of lichens and mosses.
+								</p>
+							</li>
+							<li>
+								<h3>Research Trips</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/brave/design01.jpg" alt="merida디자인이미지01"/>
+								</p>
+								<p class="textWrap">
+									Brave's creative team made multiple trips to Scotland, determined to get the details just right.  They returned with notebooks full of drawings and memories, and cameras filled with pictures—everything from majestic panoramas to careful studies of lichens and mosses.
+								</p>
+							</li>
+							<li>
+								<h3>The Standing Stones</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/brave/design02.jpg" alt="merida디자인이미지02"/>
+								</p>
+								<p class="textWrap">Merida’s fate changes when will-o’-the-wisps lead her to a mysterious ring of ancient stones.  The Standing Stones, which became the film’s visual anchor, were inspired by the real-life Callanish Stones on the Isle of Lewis in Scotland’s Outer Hebrides. </p>
+							</li>
+						</ul>
+					</li>
+					<li id="creditsContent" class="contentWrap">
+						<p class="nameWrap">
+							<strong>DIRECTED BY</strong>
+							<em>MARK ANDREWS, BRENDA CHAPMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CO-DIRECTED BY</strong>
+							<em>STEVE PURCELL</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCED BY</strong>
+							<em>KATHERINE SARAFIAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EXECUTIVE PRODUCER</strong>
+							<em>
+								JOHN LASSETER,<br/>
+								ANDREW STANTON, PETE DOCTER
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ASSOCIATE PRODUCER</strong>
+							<em>MARY ALICE DRUMM</em>
+						</p>
+						<p class="nameWrap">
+							<strong>STORY BY</strong>
+							<em>BRENDA CHAPMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SCREENPLAY BY</strong>
+							<em>
+								MARK ANDREWS, STEVE PURCELL,<br/>
+								BRENDA CHAPMAN &amp; IRENE MECCHI<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ORIGINAL SCORE COMPOSED BY</strong>
+							<em>PATRICK DOYLE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>STORY SUPERVISOR</strong>
+							<em>BRIAN LARSEN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FILM EDITOR</strong>
+							<em>NICHOLAS C. SMITH, A.C.E.</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTOR</strong>
+							<em>BILL WISE, STEVE MAY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION DESIGNERS</strong>
+							<em>STEVE PILCHER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION MANAGER</strong>
+							<em>ANDREA WARREN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATOR</strong>
+							<em>
+								ALAN BARILLARO, STEVEN CLAY HUNTER
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY</strong>
+							<em>
+								CAMERA<br/>
+								ROBERT ANDERSON<br/><br/>
+								LIGHTING<br/>
+								DANIELLE FEINBERG<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER SUPERVISORS</strong>
+							<em>
+								BILL SHEFFLER,<br/>
+								COLIN HAYES THOMPSON, THOMAS JORDAN<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS SUPERVISOR</strong>
+							<em>DEREK WILLIAMS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SIMULATION SUPERVISOR</strong>
+							<em>CLAUDIA CHUNG SANII</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EFFECTS SUPERVISOR</strong>
+							<em>DAVID MACCARTHY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER ART DIRECTOR</strong>
+							<em>MATT NOLTE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SHADING ART DIRECTOR</strong>
+							<em>TIA WALLACE KRATTER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>GLOBAL TECHNOLOGY SUPERVISOR</strong>
+							<em>GORDON CAMERON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>RENDERING SUPERVISOR</strong>
+							<em>HUMERA YASMIN KHAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CROWD LEADS</strong>
+							<em>PAUL KANYUK, PAUL MENDOZA</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SOUND DESIGNER</strong>
+							<em>GARY RYDSTROM</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CASTING</strong>
+							<em>
+								KEVIN REHER, C.S.A.<br/>
+								NATALIE LYON, C.S.A.<br/>
+							</em>
+						</p>
+						<h3>CAST</h3>
+						<p class="nameWrap">
+							<strong>MERIDA</strong>
+							<em>KELLY MACDONALD</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FERGUS</strong>
+							<em>BILLY CONNOLLY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ELINOR</strong>
+							<em>EMMA THOMPSON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>THE WITCH</strong>
+							<em>JULIE WALTERS</em>
+						</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<h1>FOOTER영역</h1>
+			<div>
+				<h2>회사 소개</h2>
+				<h3>PIXAR STUDIOS</h3>
+				<p>about company</p>
+				<p class="textArea">
+					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+				</p>
+				<a href="../about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+			</div>
+			<div>
+				<h2>회사 CONTACT</h2>
+				<h3>CONTACT US</h3>
+				<p>Pixar Animation Studios</p>
+				<p class="textArea">
+					1200 Park Avenue Emeryville, California 94608<br/>
+					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+				</p>
+				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

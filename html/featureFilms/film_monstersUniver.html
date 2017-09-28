@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR MONSTERS UNIVERSITY</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/header.js"></script>
+		<script src="../../js/film.js"></script>
+		<link href="../../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/film.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Trandyine" rel="stylesheet">
+		<style type="text/css">
+			#container #visual{width:100%;height:700px;background-size:cover;background:url("../../img/bg/monsterUniver_head.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:center;background-color:#000;}
+			#container #movieContent #trailerContent .videoWrap{height:540px;}
+
+			@media all and (min-width:481px) and (max-width:767px){
+				#container #visual{height:500px;background-size:200%;;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:345px;}
+			}
+
+			@media all and (min-width:320px) and (max-width:480px){
+				#container #visual{height:450px;background-size:250%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:245px;}
+			}
+		</style>
+	</head>
+<body>
+	<div id="mobileNavWrap">
+		<a href="#none" title="menu" class="menu">
+			<span class="firstLine"></span>
+			<span class="secondLine"></span>
+			<span class="lastLine"></span>
+		</a>
+		<p id="mobileNavBg"></p>
+		<div id="mobileNav">
+			<p class="profileWrap">
+				<img src="../../img/icon/piper.png" alt="사용자이미지"/>
+			</p>
+			<p class="loginJoinWrap">
+				<a href="../login.html" title="LOGIN">LOGIN</a>
+				<a href="../join.html" title="JOIN">JOIN</a>
+			</p>
+			<ul>
+				<li><a href="../../index.html" title="HOME">HOME</a></li>
+				<li><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+				<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+				<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+				<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+				<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header id="header">
+			<div id="headerWrap">
+				<h1>
+					<a href="../../index.html" title="home">
+						<img src="../../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+					</a>
+				</h1>
+				<nav id="nav">
+					<h2>NAV영역</h2>
+					<a href="#none" title="menu" class="menu">
+						<span class="firstLine"></span>
+						<span class="secondLine"></span>
+						<span class="lastLine"></span>
+					</a>
+					<ul>
+						<li class="select"><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+						<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+						<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+						<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+						<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+						<li><a href="../login.html" title="LOGIN">LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual"></div>
+			</div>
+			<section id="movieContent">
+				<div class="movieHead">
+					<div class="movieLogo">
+						<img src="../../img/logo/monsters_university_logo.png" alt="몬스터대학교로고이미지"/>
+					</div>
+					<div class="movieDesc">
+						<h3>Monsters University</h3>
+						<p>
+						  We all know Mike Wazowski and James P. Sullivan to be an inseparable pair, but that wasn’t always the case. From the moment these two mismatched monsters met they couldn't stand each other. Monsters University unlocks the door to how Mike and Sulley overcame their differences and became the best of friends.
+						</p>
+					</div>
+				</div>
+				<div class="tabWrap">
+					<ul id="tab">
+						<li class="first">
+							<a href="#trailerContent" title="trailer" class="selected">Trailer</a>
+						</li>
+						<li>
+							<a href="#characterContent" title="character">Character</a>
+						</li>
+						<li>
+							<a href="#designContent" title="design">World Design</a>
+						</li>
+						<li>
+							<a href="#creditsContent" title="credits">Credits</a>
+						</li>
+					</ul>
+				</div>
+				<ul id="content">
+					<li id="trailerContent" class="contentWrap">
+						<div class="videoWrap">
+						  <iframe src="https://www.youtube.com/embed/TmTmOHW3mvA"></iframe>
+						</div>
+						<div class="videoWrap">
+						  <iframe src="https://www.youtube.com/embed/5fkQArST1Yo"></iframe>
+						</div>
+					</li>
+					<li id="characterContent" class="contentWrap">
+						<div class="characterWrap">
+							<ul>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Mike Wazowski</h4>
+										<p>
+										  Mike Wazowski’s lifelong dream is to become a Scarer at Monsters, Inc.—and he’s sure he knows just how to do it. Ever since he was a young monster, Mike’s had his eye on Monsters University, home of the world’s top Scare Program. Now a freshman and hopeful scare student, he’s well versed in the rich history, theory and technique required to reach his goal.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/monstersUniver/mike00.jpg" alt="mike이미지00"/></p>
+										<p><img src="../../img/character/monstersUniver/mike01.jpg" alt="mike이미지01"/></p>
+										<p><img src="../../img/character/monstersUniver/mike02.jpg" alt="mike이미지02"/></p>
+										<p><img src="../../img/character/monstersUniver/mike03.jpg" alt="mike이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>James P. Sullivan</h4>
+										<p>
+										  When it comes to scaring, Sulley’s a natural—his abundant size, fierce roar and family legacy of a long line of high-achieving Scarers make him a shoo-in for the esteemed Scare Program at Monsters University. But from the moment the overly confident monster, he learns the hard way that his unfettered talent and family ties can only get him so far.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/monstersUniver/sully00.jpg" alt="sully이미지00"/></p>
+										<p><img src="../../img/character/monstersUniver/sully01.jpg" alt="sully이미지01"/></p>
+										<p><img src="../../img/character/monstersUniver/sully02.jpg" alt="sully이미지02"/></p>
+										<p><img src="../../img/character/monstersUniver/sully03.jpg" alt="sully이미지03"/></p>
+									</div>
+								</li>
+                <li>
+									<div class="characterDescWrap">
+										<h4>Randy Boggs</h4>
+										<p>
+										  Monsters University freshman Randy Boggs has big aspirations for college life. The peculiar lizard-like monster with his host of gangly arms and legs plans to major in Scaring and lead an active social life filled with fun, friends and fraternity parties. If only he could get his embarrassing disappearing habit under control, he’d be good to go.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/monstersUniver/randy00.jpg" alt="randy이미지00"/></p>
+										<p><img src="../../img/character/monstersUniver/randy01.jpg" alt="randy이미지01"/></p>
+										<p><img src="../../img/character/monstersUniver/randy02.jpg" alt="randy이미지02"/></p>
+										<p><img src="../../img/character/monstersUniver/randy03.jpg" alt="randy이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Dean Hardscrabble</h4>
+										<p>
+											To Dean Hardscrabble, there are scary monsters and there are all other monsters. It’s no surprise she feels this way—she is, after all, a legendary Scarer and Dean of the School of Scaring at Monsters University. Aspiring Scare students must be up for the challenge to impress her, though she is convinced that her assessment of who is truly scary and who is not is never wrong.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/monstersUniver/hardscrabble00.jpg" alt="hardscrabble이미지00"/></p>
+										<p><img src="../../img/character/monstersUniver/hardscrabble01.jpg" alt="hardscrabble이미지01"/></p>
+										<p><img src="../../img/character/monstersUniver/hardscrabble02.jpg" alt="hardscrabble이미지02"/></p>
+										<p><img src="../../img/character/monstersUniver/hardscrabble03.jpg" alt="hardscrabble이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Scott "Squishy" Squibbles</h4>
+										<p>
+                      Scott Squibbles gives new meaning to the term “undeclared.” A sophomore whose dream of becoming a Scarer was squashed in his first year at Monsters University, “Squishy” is a bit of a wide-eyed wanderer—small, sweet, naïve and quiet—who, not surprisingly, still lives with his doting mother.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/monstersUniver/squish00.jpg" alt="squish이미지00"/></p>
+										<p><img src="../../img/character/monstersUniver/squish01.jpg" alt="squish이미지01"/></p>
+										<p><img src="../../img/character/monstersUniver/squish02.jpg" alt="squish이미지02"/></p>
+										<p><img src="../../img/character/monstersUniver/squish03.jpg" alt="squish이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Don Carlton</h4>
+										<p>
+											Faced with the realities of the economic downturn, Midwestern sales monster Don Carlton finds himself going back to school to learn new skills and pursue a dream career in Scaring. One of Monsters University's “mature” students and a founding member of the Oozma Kappa fraternity, Don brings his honest hardworking spirit to their endeavors.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/monstersUniver/don00.jpg" alt="don이미지00"/></p>
+										<p><img src="../../img/character/monstersUniver/don01.jpg" alt="don이미지01"/></p>
+										<p><img src="../../img/character/monstersUniver/don02.jpg" alt="don이미지02"/></p>
+										<p><img src="../../img/character/monstersUniver/don03.jpg" alt="don이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Terri &amp; Terry Perry</h4>
+										<p>
+										  When it comes to Terri and Terry, it's hard not to ask, “Are two heads really better than one?”  These bickering brothers have little in common: Terri with an “i” is a real romantic who's quick to spot the silver lining in any situation, while older brother Terry with a “y” sports a more cynical outlook on life.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/monstersUniver/terri00.jpg" alt="terri이미지00"/></p>
+										<p><img src="../../img/character/monstersUniver/terri01.jpg" alt="terri이미지01"/></p>
+										<p><img src="../../img/character/monstersUniver/terri02.jpg" alt="terri이미지02"/></p>
+										<p><img src="../../img/character/monstersUniver/terri03.jpg" alt="terri이미지03"/></p>
+									</div>
+								</li>
+                <li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Art</h4>
+										<p>
+										  The ultimate free spirit, Art is a mysterious monster with a questionable background. By far the strangest member of the Oozma Kappas, Art bowls over the competition-sometimes literally-with his unique dexterity and wild-card ways. Nothing is scarier than the unpredictable, especially when it comes to this furry ball of bad.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/monstersUniver/art00.jpg" alt="art이미지00"/></p>
+										<p><img src="../../img/character/monstersUniver/art01.jpg" alt="art이미지01"/></p>
+										<p><img src="../../img/character/monstersUniver/art02.jpg" alt="art이미지02"/></p>
+										<p><img src="../../img/character/monstersUniver/art03.jpg" alt="art이미지03"/></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="designContent" class="contentWrap">
+						<ul>
+							<li>
+								<h3>Campus</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/monstersUniver/design00.jpg" alt="몬스터대학교디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+								  The Monsters University campus is huge, and was created to feel like there’s a new possibility around every corner, as life should feel at that age. It also contains some of the most incredible works of architecture ever made including the School of Scaring. Monumental and awe-inspiring, the School of Scaring is the centerpiece of MU.
+								</p>
+							</li>
+							<li>
+								<h3>Greek House</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/monstersUniver/design01.jpg" alt="몬스터대학교디자인이미지01"/>
+								</p>
+								<p class="textWrap">
+                  Each Greek House at Monsters University reflects the attitude of the fraternity or sorority members living in it. Roar Omega Roar has history, Eta Hiss Hiss is more gothic, and Jaws Theta Chi is, as sets art director Robert Kondo puts it, "as junky as possible without actually
+                  being disgusting."
+								</p>
+							</li>
+							<li>
+								<h3>The Scare Games</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/monstersUniver/design02.jpg" alt="몬스터대학교디자인이미지02"/>
+								</p>
+								<p class="textWrap">
+								  The Scare Games is an annual competition between the fraternities and sororities to prove who are the scariest monsters.
+								</p>
+							</li>
+              <li>
+								<h3>Field Trip</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/monstersUniver/design03.jpg" alt="몬스터대학교디자인이미지03"/>
+								</p>
+								<p class="textWrap">
+								  One of the most pivotal scenes in the film is when the Oozma Kappas (OK) take a field trip, and sneak onto the premises of Monsters, Inc. Peering in through a window, they catch a glimpse of a scare floor where all of their heroes are performing actual scares. "Whether they realize it or not," says Director Dan Scanlon, "it's the first time [Mike and Sulley] start to see that they both want the same thing."
+								</p>
+							</li>
+							<li>
+								<h3>Train Of Thought</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/monstersUniver/design04.jpg" alt="몬스터대학교디자인이미지04"/>
+								</p>
+								<p class="textWrap">
+									The Train of Thought is an all-terrain choo-choo with a self-generating track that delivers daydreams, ideas and other thoughts to Headquarters. It’s also used to transfer memories to different regions of don’s mind. But take note: When don sleeps, so do the operators.
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li id="creditsContent" class="contentWrap">
+						<p class="nameWrap">
+							<strong>DIRECTED BY</strong>
+							<em>DAN SCANLON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCED BY</strong>
+							<em>KORI RAE, P.G.A.</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EXECUTIVE PRODUCER</strong>
+							<em>
+                JOHN LASSETER, ANDREW STANTON,<br/>
+                PETE DOCTER, LEE UNKRICH<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ASSOCIATE PRODUCER</strong>
+							<em>NICOLE PARADIS GRINDLE</em>
+						</p>
+            <p class="nameWrap">
+							<strong>STORY BY</strong>
+							<em>
+                DAN SCANLON<br/>
+                DANIEL GERSON &amp; ROBERT L. BAIRD<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SCREENPLAY BY</strong>
+							<em>
+                DAN SCANLON<br/>
+                DANIEL GERSON &amp; ROBERT L. BAIRD<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ORIGINAL SCORE COMPOSED BY</strong>
+							<em>RANDY NEWMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>STORY SUPERVISOR</strong>
+							<em>KELSEY MANN, JASON KATZ</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FILM EDITOR</strong>
+							<em>GREG SNYDER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION DESIGNER</strong>
+							<em>RICKY NIERVA</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTOR</strong>
+							<em>SANJAY BAKSHI, GUIDO QUARONI</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION MANAGER</strong>
+							<em>DAVID PARK</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATORS</strong>
+							<em>SCOTT CLARK</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-CAMERA</strong>
+							<em>MATT ASPBURY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-LIGHTING</strong>
+							<em>JEAN-CLAUDE KALACHE</em>
+						</p>
+            <p class="nameWrap">
+							<strong>CHARACTER SUPERVISOR</strong>
+							<em>
+                CHRISTIAN HOFFMAN<br/>
+                SANJAY BAKSHI<br/>
+                KELSEY MANN<br/>
+              </em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS SUPERVISOR</strong>
+							<em>ROBERT MOYER</em>
+						</p>
+            <p class="nameWrap">
+							<strong>SIMULATION SUPERVISOR</strong>
+							<em>CHRISTINE WAGGONER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EFFECTS SUPERVISOR</strong>
+							<em>JON REISCH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER ART DIRECTOR</strong>
+							<em>JASON DEAMER</em>
+						</p>
+            <p class="nameWrap">
+							<strong>SET DESIGN &amp; SHADING ART DIRECTOR</strong>
+							<em>ROBERT KONDO</em>
+						</p>
+            <p class="nameWrap">
+							<strong>LIGHTING DESIGN &amp; CHARACTER SHADING </strong>
+							<em>DAISUKE "DICE" TSUTSUMI</em>
+						</p>
+						<p class="nameWrap">
+							<strong>GLOBAL TECHNOLOGY SUPERVISOR</strong>
+							<em>DAVID RYU</em>
+						</p>
+						<p class="nameWrap">
+							<strong>RENDERING SUPERVISOR</strong>
+							<em>ALEXANDER KOLLIOPOULOS</em>
+						</p>
+            <p class="nameWrap">
+							<strong>CROWD LEADS</strong>
+							<em>ADAM BURKE</em>
+						</p>
+            <p class="nameWrap">
+              <strong>CROWD TECHNICAL SUPERVISOR</strong>
+              <em>J.D. NORTHRUP</em>
+            </p>
+						<p class="nameWrap">
+							<strong>SOUND DESIGNER</strong>
+							<em>TOM MYERS</em>
+						</p>
+						<h3>CAST</h3>
+						<p class="nameWrap">
+							<strong>MIKE</strong>
+							<em>BILLY CRYSTAL</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SULLIVAN</strong>
+							<em>JOHN GOODMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>RANDY</strong>
+							<em>STEVE BUSCEMI</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DEAN HARDSCRABBLE</strong>
+							<em>HELEN MIRREN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SQUISHY</strong>
+							<em>PETER SOHN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DON</strong>
+							<em>JOEL MURRAY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>TERRI</strong>
+							<em>SEAN P. HAYES</em>
+						</p>
+						<p class="nameWrap">
+							<strong>TERRY</strong>
+							<em>DAVE FOLEY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ART</strong>
+							<em>CHARLIE DAY</em>
+						</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<h1>FOOTER영역</h1>
+			<div>
+				<h2>회사 소개</h2>
+				<h3>PIXAR STUDIOS</h3>
+				<p>about company</p>
+				<p class="textArea">
+					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+				</p>
+				<a href="../about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+			</div>
+			<div>
+				<h2>회사 CONTACT</h2>
+				<h3>CONTACT US</h3>
+				<p>Pixar Animation Studios</p>
+				<p class="textArea">
+					1200 Park Avenue Emeryville, California 94608<br/>
+					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+				</p>
+				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

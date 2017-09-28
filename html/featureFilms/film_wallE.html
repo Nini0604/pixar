@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR WALL-E</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/header.js"></script>
+		<script src="../../js/film.js"></script>
+		<link href="../../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/film.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tmoine" rel="stylesheet">
+		<style type="text/css">
+			#container #visual{width:100%;height:700px;background-size:cover;background:url("../../img/bg/wallE_head.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:center left;background-color:#000;}
+			#container #movieContent #trailerContent .videoWrap{height:540px;}
+
+			@media all and (min-width:481px) and (max-width:767px){
+				#container #visual{height:500px;background-position:25% center;}
+				#container #movieContent #trailerContent .videoWrap{height:345px;}
+			}
+
+			@media all and (min-width:320px) and (max-width:480px){
+				#container #visual{height:450px;background-size:250%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:245px;}
+			}
+		</style>
+	</head>
+<body>
+	<div id="mobileNavWrap">
+		<a href="#none" title="menu" class="menu">
+			<span class="firstLine"></span>
+			<span class="secondLine"></span>
+			<span class="lastLine"></span>
+		</a>
+		<p id="mobileNavBg"></p>
+		<div id="mobileNav">
+			<p class="profileWrap">
+				<img src="../../img/icon/piper.png" alt="사용자이미지"/>
+			</p>
+			<p class="loginJoinWrap">
+				<a href="../login.html" title="LOGIN">LOGIN</a>
+				<a href="../join.html" title="JOIN">JOIN</a>
+			</p>
+			<ul>
+				<li><a href="../../index.html" title="HOME">HOME</a></li>
+				<li><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+				<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+				<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+				<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+				<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header id="header">
+			<div id="headerWrap">
+				<h1>
+					<a href="../../index.html" title="home">
+						<img src="../../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+					</a>
+				</h1>
+				<nav id="nav">
+					<h2>NAV영역</h2>
+					<a href="#none" title="menu" class="menu">
+						<span class="firstLine"></span>
+						<span class="secondLine"></span>
+						<span class="lastLine"></span>
+					</a>
+					<ul>
+						<li class="select"><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+						<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+						<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+						<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+						<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+						<li><a href="../login.html" title="LOGIN">LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual"></div>
+			</div>
+			<section id="movieContent">
+				<div class="movieHead">
+					<div class="movieLogo">
+						<img src="../../img/logo/wallE_logo.png" alt="wallE로고이미지"/>
+					</div>
+					<div class="movieDesc">
+						<h3>Wall-E</h3>
+						<p>
+							What if mankind had to leave Earth and somebody forgot to turn the last robot off? After hundreds of years doing what he was built for, WALL•E discovers a new purpose in life when he meets a sleek search robot named EVE. EVE comes to realize that WALL•E has inadvertently stumbled upon the key to the planet's future, and races back to space to report to the humans. Meanwhile, WALL•E chases EVE across the galaxy and sets into motion one of the most imaginative adventures ever brought to the big screen.
+						</p>
+					</div>
+				</div>
+				<div class="tabWrap">
+					<ul id="tab">
+						<li class="first">
+							<a href="#trailerContent" title="trailer" class="selected">Trailer</a>
+						</li>
+						<li>
+							<a href="#characterContent" title="character">Character</a>
+						</li>
+						<li>
+							<a href="#designContent" title="design">World Design</a>
+						</li>
+						<li>
+							<a href="#creditsContent" title="credits">Credits</a>
+						</li>
+					</ul>
+				</div>
+				<ul id="content">
+					<li id="trailerContent" class="contentWrap">
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/4HaQgnPZ4Lo"></iframe>
+						</div>
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/5O9ikywnW6M"></iframe>
+						</div>
+					</li>
+					<li id="characterContent" class="contentWrap">
+						<div class="characterWrap">
+							<ul>
+								<li>
+									<div class="characterDescWrap">
+										<h4>WALL•E</h4>
+										<p>
+											WALL•E (Waste Allocation Load Lifter Earth-Class) is the last robot left on Earth, programmed to clean up the planet, one trash cube at a time. However, after 700 years, he’s developed one little glitch—a personality. He’s extremely curious, highly inquisitive, and a little lonely.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/wallE/wallE00.jpg" alt="wallE이미지00"/></p>
+										<p><img src="../../img/character/wallE/wallE01.jpg" alt="wallE이미지01"/></p>
+										<p><img src="../../img/character/wallE/wallE02.jpg" alt="wallE이미지02"/></p>
+										<p><img src="../../img/character/wallE/wallE03.jpg" alt="wallE이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>EVE</h4>
+										<p>
+											EVE (Extra-Terrestrial Vegetation Evaluator) is a sleek, state-of-the-art probe-droid. She’s fast, she flies, and she’s equipped with a laser gun. EVE, also called Probe One by the captain of the Axiom (the enormous luxury mother ship), is one of a fleet of similar robots sent to Earth on an undisclosed scanning mission.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/wallE/eve00.jpg" alt="eve이미지00"/></p>
+										<p><img src="../../img/character/wallE/eve01.jpg" alt="eve이미지01"/></p>
+										<p><img src="../../img/character/wallE/eve02.jpg" alt="eve이미지02"/></p>
+										<p><img src="../../img/character/wallE/eve03.jpg" alt="eve이미지03"/></p>
+									</div>
+								</li>
+                <li>
+									<div class="characterDescWrap">
+										<h4>M-O</h4>
+										<p>
+											M-O (Microbe-Obliterator) is a cleaner-bot programmed to clean anything that comes aboard the Axiom that is deemed a “foreign contaminant.” M-O travels speedily around the Axiom on his roller ball, cleaning the dirty objects he encounters.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/wallE/mo00.jpg" alt="mo이미지00"/></p>
+										<p><img src="../../img/character/wallE/mo01.jpg" alt="mo이미지01"/></p>
+										<p><img src="../../img/character/wallE/mo02.jpg" alt="mo이미지02"/></p>
+										<p><img src="../../img/character/wallE/mo03.jpg" alt="mo이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Auto</h4>
+										<p>
+											Auto is the Axiom’s autopilot, who has piloted the ship through all of its 700 years in space. A carefully programmed robot in the form of the ship’s steering wheel, Auto’s manner is cold, mechanical, and seemingly dutiful to the captain. Unknown to all the Axiom crew, a hidden mandate exists in Auto’s programming.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/wallE/auto00.jpg" alt="auto이미지00"/></p>
+										<p><img src="../../img/character/wallE/auto01.jpg" alt="auto이미지01"/></p>
+										<p><img src="../../img/character/wallE/auto02.jpg" alt="auto이미지02"/></p>
+										<p><img src="../../img/character/wallE/auto03.jpg" alt="auto이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Captain</h4>
+										<p>
+											Captain is the current commander of the Axiom. His uneventful duties are simply checking and rechecking the ship’s status with Auto, the autopilot. When he is informed of a long-awaited discovery by one of the probe-droids, he discovers his inner calling to become the courageous leader he never could have imagined and plots a new course for humanity.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/wallE/captain00.jpg" alt="captain이미지00"/></p>
+										<p><img src="../../img/character/wallE/captain01.jpg" alt="captain이미지01"/></p>
+										<p><img src="../../img/character/wallE/captain02.jpg" alt="captain이미지02"/></p>
+										<p><img src="../../img/character/wallE/captain03.jpg" alt="captain이미지03"/></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="designContent" class="contentWrap">
+						<ul>
+							<li>
+								<h3>Earth</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/wallE/design00.jpg" alt="wallE디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									The dystopian planet of WALL•E was a blend of the fantastic and familiar. Audiences needed to recognize Earth but also understand how things had gone wrong on such a massive scale. In a short scene that followed WALL•E on his daily routine, the filmmakers wanted to reveal the planet's history in entirely visual terms. Dubbed “The Walk Home,” the segment used 10 of the most complicated sets ever created by Pixar, at the time, to tell a wordless, one-minute story.
+								</p>
+							</li>
+							<li>
+								<h3>Truck</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/wallE/design01.jpg" alt="wallE디자인이미지01"/>
+								</p>
+								<p class="textWrap">
+									Even a robot on a dystopian planet needs a place to call home. At first WALL•E’s truck is enlivened only by a cockroach and a Hello, Dolly! video. The atmosphere changes when EVE comes in. “We wanted it to feel really romantic,” explains Danielle Feinberg, director of photography for lighting. “So he plugs in a cord and turns on the Christmas lights he’s got strung all over and you immediately feel we’re in this nice, cozy intimate interior and this is WALL•E’s date night.“
+								</p>
+							</li>
+							<li>
+								<h3>Space</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/wallE/design02.jpg" alt="wallE디자인이미지02"/>
+								</p>
+								<p class="textWrap">
+									Every film presents new opportunities for Pixar to interpret and design environments, imaginary or not. Using computers makes the art design choices as limitless as outer space. For WALL•E, the goal was not to reinvent space but to make design choices to enhance the story. The filmmakers wanted to ensure the audiences would be immersed in the story's action so they made a design choice to cheat the stars closer to camera than they would actually be in space so that the stars would move in the frame and allow the viewer to easily perceive the movement
+									of the characters.
+								</p>
+							</li>
+              <li>
+								<h3>Axiom</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/wallE/design03.jpg" alt="wallE디자인이미지03"/>
+								</p>
+								<p class="textWrap">
+									The luxury spaceship Axiom cuts an impressive profile. But unlike the mammoth space vehicles in most science fiction epics, it wasn’t designed to inspire fear or engage in deep space battle. Instead the Pixar team envisioned the last refuge of a consumer culture, a self-contained world built by the Buy n' Large Corporation, loaded with excess and wandering adrift with the remnants of human race.
+								</p>
+							</li>
+							<li>
+								<h3>Colorscripts</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/wallE/design04.jpg" alt="wallE디자인이미지04"/>
+								</p>
+								<p class="textWrap">
+									A colorscript is a sequence of small pastel drawings or paintings used to emphasize color in each scene and establish a
+									film's visual language.
+									<br/><br/>
+									"I started by separating the two worlds using color. Earth is dusty, high contrast, and monochromatic, to support the idea that WAL•E’s life is drab and never changing. Then as EVE arrives and WALL•E cozies up to her, the colors become a little warmer. When we get to the Axiom it’s all about sterility…the passengers don’t have to think. The colors are more artificial, more planned, more consumer oriented. It’s not gaudy, but there’s a lot more color in Act Two  than most people anticipate," explains production designer Ralph Eggleston.
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li id="creditsContent" class="contentWrap">
+						<p class="nameWrap">
+							<strong>DIRECTED BY</strong>
+							<em>ANDREW STANTON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CO-DIRECTED BY</strong>
+							<em>LINDSEY COLLINS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCED BY</strong>
+							<em>JIM MORRIS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EXECUTIVE PRODUCER</strong>
+							<em>JOHN LASSETER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ASSOCIATE PRODUCER</strong>
+							<em>THOMAS PORTER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ORIGINAL SCORE COMPOSED &amp; CONDUCTED BY</strong>
+							<em>THOMAS NEWMAN</em>
+						</p>
+            <p class="nameWrap">
+							<strong>STORY BY</strong>
+							<em>ANDREW STANTON, PETE DOCTER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SCREENPLAY BY</strong>
+							<em>ANDREW STANTON, JIM REARDON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION DESIGNER</strong>
+							<em>RALPH EGGLESTON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FILM EDITOR</strong>
+							<em>STEPHEN SCHAFFER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTOR</strong>
+							<em>NIGEL HARDWIDGE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATORS</strong>
+							<em>ALAN BARILLARO, STEVEN CLAY HUNTER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-CAMERA</strong>
+							<em>JEREMY LASKY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-LIGHTING</strong>
+							<em>DANIELLE FEINBERG</em>
+						</p>
+            <p class="nameWrap">
+							<strong>SOUND &amp; CHARACTER VOICE DESIGNER</strong>
+							<em>BEN BURTT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION MANAGER</strong>
+							<em>ANDREA WARREN</em>
+						</p>
+            <p class="nameWrap">
+							<strong>CHARACTER ART DIRECTOR</strong>
+							<em>JASON DEAMER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS ART DIRECTOR</strong>
+							<em>ANTHONY CHRISTOV</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SHADER ART DIRECTOR</strong>
+							<em>BERT BERRY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>GRAPHICS ART DIRECTOR</strong>
+							<em>MARK CORDELL HOLMES</em>
+						</p>
+            <p class="nameWrap">
+							<strong>CHARACTER SUPERVISOR</strong>
+							<em>BILL WISE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS SUPERVISOR</strong>
+							<em>DAVID MUNIER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EFFECTS SUPERVISOR</strong>
+							<em>DAVID MACCARTHY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>TECHNICAL PIPELINE SUPERVISOR</strong>
+							<em>JOHN WARREN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER MODELING LEAD</strong>
+							<em>JASON BICKERSTAFF</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER SHADING LEAD</strong>
+							<em>ATHENA XENAKIS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SET MODELING LEAD</strong>
+							<em>KRISTIFIR KLEIN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SET SHADING LEAD</strong>
+							<em>CHRISTOPHER M. BURROWS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SET DRESSING LEAD</strong>
+							<em>DEREK WILLIAMS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CROWDS SUPERVISOR</strong>
+							<em>MARK T. HENNE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>RENDERING SUPERVISOR</strong>
+							<em>SUSAN FISHER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>"DOWN TO EARTH" MUSIC BY</strong>
+							<em>PETER GABRIEL AND THOMAS NEWMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>LYRICS BY</strong>
+							<em>PETER GABRIEL</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PERFORMED BY</strong>
+							<em>PETER GABRIEL, FEATURING THE SOWETO GOSPEL CHOIR</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CASTING BY</strong>
+							<em>KEVIN REHER, NATALIE LYON</em>
+						</p>
+						<h3>CAST</h3>
+						<p class="nameWrap">
+							<strong>WALL•E</strong>
+							<em>BEN BURTT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EVE</strong>
+							<em>ELISSA KNIGHT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CAPTAIN</strong>
+							<em>JEFF GARLIN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SHELBY FORTHRIGHT, BNL CEO</strong>
+							<em>FRED WILLARD</em>
+						</p>
+						<p class="nameWrap">
+							<strong>AUTO</strong>
+							<em>MACINTALK</em>
+						</p>
+						<p class="nameWrap">
+							<strong>M-O</strong>
+							<em>BEN BURTT</em>
+						</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<h1>FOOTER영역</h1>
+			<div>
+				<h2>회사 소개</h2>
+				<h3>PIXAR STUDIOS</h3>
+				<p>about company</p>
+				<p class="textArea">
+					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+				</p>
+				<a href="../about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+			</div>
+			<div>
+				<h2>회사 CONTACT</h2>
+				<h3>CONTACT US</h3>
+				<p>Pixar Animation Studios</p>
+				<p class="textArea">
+					1200 Park Avenue Emeryville, California 94608<br/>
+					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+				</p>
+				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

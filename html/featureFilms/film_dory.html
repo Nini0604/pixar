@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR FINDING DORY</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/header.js"></script>
+		<script src="../../js/film.js"></script>
+		<link href="../../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/film.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+		<style type="text/css">
+			#container #visual{width:100%;height:700px;background-size:cover;background:url("../../img/bg/dory_head.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:center 70%;background-color:#000;}
+			#container #movieContent #trailerContent .videoWrap{height:540px;}
+
+			@media all and (min-width:481px) and (max-width:767px){
+				#container #visual{height:500px;background-size:190%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:340px;}
+			}
+
+			@media all and (min-width:320px) and (max-width:480px){
+				#container #visual{height:450px;background-size:250%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:240px;}
+			}
+		</style>
+	</head>
+<body>
+	<div id="mobileNavWrap">
+		<a href="#none" title="menu" class="menu">
+			<span class="firstLine"></span>
+			<span class="secondLine"></span>
+			<span class="lastLine"></span>
+		</a>
+		<p id="mobileNavBg"></p>
+		<div id="mobileNav">
+			<p class="profileWrap">
+				<img src="../../img/icon/piper.png" alt="사용자이미지"/>
+			</p>
+			<p class="loginJoinWrap">
+				<a href="../login.html" title="LOGIN">LOGIN</a>
+				<a href="../join.html" title="JOIN">JOIN</a>
+			</p>
+			<ul>
+				<li><a href="../../index.html" title="HOME">HOME</a></li>
+				<li><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+				<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+				<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+				<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+				<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header id="header">
+			<div id="headerWrap">
+				<h1>
+					<a href="../../index.html" title="home">
+						<img src="../../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+					</a>
+				</h1>
+				<nav id="nav">
+					<h2>NAV영역</h2>
+					<a href="#none" title="menu" class="menu">
+						<span class="firstLine"></span>
+						<span class="secondLine"></span>
+						<span class="lastLine"></span>
+					</a>
+					<ul>
+						<li class="select"><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+						<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+						<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+						<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+						<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+						<li><a href="../login.html" title="LOGIN">LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual"></div>
+			</div>
+			<section id="movieContent">
+				<div class="movieHead">
+					<div class="movieLogo">
+						<img src="../../img/logo/finding_dory_logo.png" alt="도리로고이미지"/>
+					</div>
+					<div class="movieDesc">
+						<h3>Finding Dory</h3>
+						<p>
+							Forgetful blue tang Dory is living happily in the reef with Marlin and Nemo. When Dory suddenly remembers that she has a family out there who may be looking for her, the trio takes off on a life-changing adventure across the ocean to California’s prestigious Marine Life Institute, a rehabilitation center and aquarium. In an effort to find her mom and dad, Dory enlists the help of three of the MLI’s most intriguing residents: Hank, a cantankerous “septopus" who frequently gives employees the slip; Bailey, a beluga whale who is convinced his biological sonar skills are on the fritz; and Destiny, a nearsighted whale shark. Deftly navigating the complex inner workings of the MLI, Dory and her friends discover the magic within their flaws, friendships and family.
+						</p>
+					</div>
+				</div>
+				<div class="tabWrap">
+					<ul id="tab">
+						<li class="first">
+							<a href="#trailerContent" title="trailer" class="selected">Trailer</a>
+						</li>
+						<li>
+							<a href="#characterContent" title="character">Character</a>
+						</li>
+						<li>
+							<a href="#designContent" title="design">World Design</a>
+						</li>
+						<li>
+							<a href="#creditsContent" title="credits">Credits</a>
+						</li>
+					</ul>
+				</div>
+				<ul id="content">
+					<li id="trailerContent" class="contentWrap">
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/iG0P6bjyUNI"></iframe>
+						</div>
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/JhvrQeY3doI"></iframe>
+						</div>
+					</li>
+					<li id="characterContent" class="contentWrap">
+						<div class="characterWrap">
+							<ul>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Dory</h4>
+										<p>
+											Dory is a bright blue tang with a sunny personality. She suffers from short-term memory loss, which normally doesn’t upset her upbeat attitude—until she realizes she’s forgotten something big: her family. She’s found a new family in Marlin and Nemo, but she’s haunted by the belief that someone out there is looking for her.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/dory/dory00.jpg" alt="도리이미지00"/></p>
+										<p><img src="../../img/character/dory/dory01.jpg" alt="도리이미지01"/></p>
+										<p><img src="../../img/character/dory/dory02.jpg" alt="도리이미지02"/></p>
+										<p><img src="../../img/character/dory/dory03.jpg" alt="도리이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Nemo &amp; Marlin</h4>
+										<p>
+											Dory is on a mission to the California coast to track down her family, and Marlin and Nemo are there to help her. Nemo may just be a young clownfish with a lucky fin, but he wholeheartedly believes in Dory. And Marlin, who of course knows how it feels to lose family, realizes he has no choice but to pack up his nervous energy and skepticism and embark on yet another adventure.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/dory/nemoMarlyn00.jpg" alt="니모말린이미지00"/></p>
+										<p><img src="../../img/character/dory/nemoMarlyn01.jpg" alt="니모말린이미지01"/></p>
+										<p><img src="../../img/character/dory/nemoMarlyn02.jpg" alt="니모말린이미지02"/></p>
+										<p><img src="../../img/character/dory/nemoMarlyn03.jpg" alt="니모말린이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Hank</h4>
+										<p>
+											Hank is an octopus. Actually, he’s a “septopus”: he lost a tentacle—along with his sense of humor—somewhere along the way. An accomplished escape artist with camouflaging capabilities to boot, Hank is the first to greet Dory when she finds herself in the Marine Life Institute. Hank is after one thing—a ticket on a transport truck to a cozy Cleveland facility where he’ll be able to enjoy a peaceful life of solitude.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/dory/hank00.jpg" alt="행크이미지00"/></p>
+										<p><img src="../../img/character/dory/hank01.jpg" alt="행크이미지01"/></p>
+										<p><img src="../../img/character/dory/hank02.jpg" alt="행크이미지02"/></p>
+										<p><img src="../../img/character/dory/hank03.jpg" alt="행크이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Bailey</h4>
+										<p>
+											Bailey is the Marine Life Institute’s resident beluga whale who is convinced his biological sonar skills are on the fritz. The good news—or bad news, depending on who you ask—is that doctors at the MLI can’t seem to find anything wrong with him. Bailey’s flair for the dramatic never ceases to push his neighbor’s buttons: whale shark Destiny can’t seem to get through to him.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/dory/bailey00.jpg" alt="베일리이미지00"/></p>
+										<p><img src="../../img/character/dory/bailey01.jpg" alt="베일리이미지01"/></p>
+										<p><img src="../../img/character/dory/bailey02.jpg" alt="베일리이미지02"/></p>
+										<p><img src="../../img/character/dory/bailey03.jpg" alt="베일리이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Destiny</h4>
+										<p>
+											Destiny may be a clumsy swimmer, but she has a big heart. She has a big everything, actually—whale sharks are the biggest fish in the sea. Destiny resides in the Marine Life Institute, where one day an oddly familiar blue tang named Dory falls into her pool. Destiny is admittedly embarrassed by her obvious lack of grace, a product of poor eyesight, but Dory thinks she swims beautifully.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/dory/destiny00.jpg" alt="데스티니이미지00"/></p>
+										<p><img src="../../img/character/dory/destiny01.jpg" alt="데스티니이미지01"/></p>
+										<p><img src="../../img/character/dory/destiny02.jpg" alt="데스티니이미지02"/></p>
+										<p><img src="../../img/character/dory/destiny03.jpg" alt="데스티니이미지03"/></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="designContent" class="contentWrap">
+						<ul>
+							<li>
+								<h3>Great Barrier Reef</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/dory/design00.jpg" alt="도리디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									The Great Barrier Reef’s vibrantly colored coral and seaweed provide a fun and friendly home for Marlin, Nemo and the newest member of their family, Dory.
+								</p>
+							</li>
+							<li>
+								<h3>The Marine Life Institute</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/dory/design01.jpg" alt="도리디자인이미지01"/>
+								</p>
+								<p class="textWrap">
+									The “Jewel of Morro Bay”—the Marine Life Institute (MLI), is a rescue and rehabilitation center and premiere aquarium.
+								</p>
+							</li>
+							<li>
+								<h3>Shipping Lanes</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/dory/design02.jpg" alt="도리디자인이미지02"/>
+								</p>
+								<p class="textWrap">
+									The Shipping Lanes are a stark and foreboding wasteland of shipwrecked vessels and shipping containers. Home to pesky hermit crabs and other creatures, the shipping lanes are filled with surprises.
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li id="creditsContent" class="contentWrap">
+						<p class="nameWrap">
+							<strong>DIRECTED BY</strong>
+							<em>ANDREW STANTON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CO-DIRECTED BY</strong>
+							<em>ANGUS MACLANE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCED BY</strong>
+							<em>LINDSEY COLLINS, P.G.A.</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EXECUTIVE PRODUCER</strong>
+							<em>JOHN LASSETER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ASSOCIATE PRODUCER</strong>
+							<em>BOB ROATH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ORIGINAL STORY BY</strong>
+							<em>ANDREW STANTON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SCREENPLAY BY</strong>
+							<em>
+								ANDREW STANTON<br/>
+								VICTORIA STROUSE<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MUSIC BY</strong>
+							<em>THOMAS NEWMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>STORY SUPERVISOR</strong>
+							<em>MAX BRACE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FILM EDITOR</strong>
+							<em>AXEL GEDDES</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTOR</strong>
+							<em>JOHN HALSTEAD</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION DESIGNERS</strong>
+							<em>
+								STEVE PILCHER
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION MANAGER</strong>
+							<em>BECKY NEIMAN-COBB</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATOR</strong>
+							<em>
+								DAVID DEVAN<br/>
+								MICHAEL STOCKER<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY</strong>
+							<em>
+								CAMERA<br/>
+								JEREMY LASKY<br/><br/>
+								LIGHTING<br/>
+								IAN MEGIBBEN<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER ART DIRECTOR</strong>
+							<em>JASON DEAMER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS</strong>
+							<em>DON SHANK</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER SUPERVISORS</strong>
+							<em>JEREMIE TALBOT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS SUPERVISOR</strong>
+							<em>COLIN HAYES THOMPSON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EFFECTS SUPERVISOR</strong>
+							<em>CHRIS J. CHAPMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>GLOBAL TECHNOLOGY</strong>
+							<em>PATRICK COLEMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>RENDERING SUPERVISOR</strong>
+							<em>HUMERA YASMIN KHAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>NEW TECHNOLOGY INTEGRATION SUPERVISOR</strong>
+							<em>DAVID RYU</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CROWDS &amp; ADDITIONAL ANIMATION SUPERVISOR</strong>
+							<em>PAUL MENDOZA</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CROWDS TECHNICAL</strong>
+							<em>PAUL KANYUK</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SOUND DESIGNER</strong>
+							<em>TIM NIELSEN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CASTING</strong>
+							<em>
+								KEVIN REHER, C.S.A.<br/>
+								NATALIE LYON, C.S.A.<br/>
+							</em>
+						</p>
+						<h3>CAST</h3>
+						<p class="nameWrap">
+							<strong>DORY</strong>
+							<em>ELLEN DEGENERES</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MARLIN</strong>
+							<em>ALBERT BROOKS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>HANK</strong>
+							<em>ED O'NEILL</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DESTINY</strong>
+							<em>KAITLIN OLSON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>NEMO</strong>
+							<em>HAYDEN ROLENCE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>BAILEY</strong>
+							<em>TY BURRELL</em>
+						</p>
+						<p class="nameWrap">
+							<strong>JENNY</strong>
+							<em>DIANE KEATON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARLIE</strong>
+							<em>EUGENE LEVY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>YOUNG DORY</strong>
+							<em>SLOANE MURRAY</em>
+						</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<h1>FOOTER영역</h1>
+			<div>
+				<h2>회사 소개</h2>
+				<h3>PIXAR STUDIOS</h3>
+				<p>about company</p>
+				<p class="textArea">
+					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+				</p>
+				<a href="../about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+			</div>
+			<div>
+				<h2>회사 CONTACT</h2>
+				<h3>CONTACT US</h3>
+				<p>Pixar Animation Studios</p>
+				<p class="textArea">
+					1200 Park Avenue Emeryville, California 94608<br/>
+					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+				</p>
+				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

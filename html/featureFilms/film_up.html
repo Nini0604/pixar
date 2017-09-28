@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR UP</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/header.js"></script>
+		<script src="../../js/film.js"></script>
+		<link href="../../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/film.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tdugine" rel="stylesheet">
+		<style type="text/css">
+			#container #visual{width:100%;height:700px;background-size:cover;background:url("../../img/bg/up_head.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:center;background-color:#000;}
+			#container #movieContent #trailerContent .videoWrap{height:540px;}
+
+			@media all and (min-width:481px) and (max-width:767px){
+				#container #visual{height:500px;background-position:center 165%;}
+				#container #movieContent #trailerContent .videoWrap{height:345px;}
+			}
+
+			@media all and (min-width:320px) and (max-width:480px){
+				#container #visual{height:450px;background-size:300%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:245px;}
+			}
+		</style>
+	</head>
+<body>
+	<div id="mobileNavWrap">
+		<a href="#none" title="menu" class="menu">
+			<span class="firstLine"></span>
+			<span class="secondLine"></span>
+			<span class="lastLine"></span>
+		</a>
+		<p id="mobileNavBg"></p>
+		<div id="mobileNav">
+			<p class="profileWrap">
+				<img src="../../img/icon/piper.png" alt="사용자이미지"/>
+			</p>
+			<p class="loginJoinWrap">
+				<a href="../login.html" title="LOGIN">LOGIN</a>
+				<a href="../join.html" title="JOIN">JOIN</a>
+			</p>
+			<ul>
+				<li><a href="../../index.html" title="HOME">HOME</a></li>
+				<li><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+				<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+				<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+				<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+				<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header id="header">
+			<div id="headerWrap">
+				<h1>
+					<a href="../../index.html" title="home">
+						<img src="../../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+					</a>
+				</h1>
+				<nav id="nav">
+					<h2>NAV영역</h2>
+					<a href="#none" title="menu" class="menu">
+						<span class="firstLine"></span>
+						<span class="secondLine"></span>
+						<span class="lastLine"></span>
+					</a>
+					<ul>
+						<li class="select"><a href="featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+						<li><a href="shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+						<li><a href="character.html" title="CHARACTERS">CHARACTERS</a></li>
+						<li><a href="upcoming.html" title="UPCOMING">UPCOMING</a></li>
+						<li><a href="#none" title="ABOUT">ABOUT</a></li>
+						<li><a href="login.html" title="LOGIN">LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual"></div>
+			</div>
+			<section id="movieContent">
+				<div class="movieHead">
+					<div class="movieLogo">
+						<img src="../../img/logo/up_logo.png" alt="업로고이미지"/>
+					</div>
+					<div class="movieDesc">
+						<h3>UP</h3>
+						<p>
+							A 78-year-old curmudgeonly balloon salesman, is not your average hero. When he ties thousands of balloons to his house and flies away to the wilds of South America, he finally fulfills his lifelong dream of adventure. But after Carl discovers an 8-year-old stowaway named Russell, this unlikely duo soon finds themselves on a hilarious journey in a lost world filled with danger and surprises.
+						</p>
+					</div>
+				</div>
+				<div class="tabWrap">
+					<ul id="tab">
+						<li class="first">
+							<a href="#trailerContent" title="trailer" class="selected">Trailer</a>
+						</li>
+						<li>
+							<a href="#characterContent" title="character">Character</a>
+						</li>
+						<li>
+							<a href="#designContent" title="design">World Design</a>
+						</li>
+						<li>
+							<a href="#creditsContent" title="credits">Credits</a>
+						</li>
+					</ul>
+				</div>
+				<ul id="content">
+					<li id="trailerContent" class="contentWrap">
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/vWapgqedDBM"></iframe>
+						</div>
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/cIyN71asybg"></iframe>
+						</div>
+					</li>
+					<li id="characterContent" class="contentWrap">
+						<div class="characterWrap">
+							<ul>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Carl Fredricksen</h4>
+										<p>
+											Carl Fredricksen is not your average hero. He's a retired balloon salesman who, at the age of 78, is forced to leave the house he and his late wife Ellie built together. But instead of moving into the old folks' home, Carl takes action. He ties thousands of balloons to the roof, lifts the house into the air, and sets off toward South America, finally fulfilling the promise he made to his wife so many years before.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/up/carl00.jpg" alt="carl이미지00"/></p>
+										<p><img src="../../img/character/up/carl01.jpg" alt="carl이미지01"/></p>
+										<p><img src="../../img/character/up/carl02.jpg" alt="carl이미지02"/></p>
+										<p><img src="../../img/character/up/carl03.jpg" alt="carl이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Russell</h4>
+										<p>
+											Russell is an enthusiastic and persistent 8-year-old Junior Wilderness Explorer from Tribe 54, Sweat Lodge 12. Armed with a backpack laden with official Wilderness Explorer camping gear, Russell is ready for the wilderness! There's just one catch: he's never actually left the city. All his knowledge of the outdoors comes from books, and his sole camping experience was in his own living room.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/up/russell00.jpg" alt="russell이미지00"/></p>
+										<p><img src="../../img/character/up/russell01.jpg" alt="russell이미지01"/></p>
+										<p><img src="../../img/character/up/russell02.jpg" alt="russell이미지02"/></p>
+										<p><img src="../../img/character/up/russell03.jpg" alt="russell이미지03"/></p>
+									</div>
+								</li>
+                <li>
+									<div class="characterDescWrap">
+										<h4>Dug</h4>
+										<p>
+											Dug is a lovable golden retriever living in the wilds of Paradise Falls as part of the dog pack searching for a rare flightless bird. Like the rest of his pack, Dug is outfitted with a remarkable high-tech collar that translates his thoughts into speech. But Dug is mocked as the nerd of the pack. Sent into the jungle on a "special" mission, Dug accidentally succeeds when he discovers the bird following Carl and Russell.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/up/dug00.jpg" alt="dug이미지00"/></p>
+										<p><img src="../../img/character/up/dug01.jpg" alt="dug이미지01"/></p>
+										<p><img src="../../img/character/up/dug02.jpg" alt="dug이미지02"/></p>
+										<p><img src="../../img/character/up/dug03.jpg" alt="dug이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Kevin</h4>
+										<p>
+											This bird is hidden from the world in remote Paradise Falls habitat. Very few know that this scientifically invaluable creature exists, but Carl and Russell stumble upon the bird, and Russell names her Kevin after he discovers they share a sweet tooth. Kevin and Russell bond instantly, and despite the bird's propensity to swallow Carl's walker, Kevin joins the latest and most unlikely carl's pack.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/up/kevin00.jpg" alt="kevin이미지00"/></p>
+										<p><img src="../../img/character/up/kevin01.jpg" alt="kevin이미지01"/></p>
+										<p><img src="../../img/character/up/kevin02.jpg" alt="kevin이미지02"/></p>
+										<p><img src="../../img/character/up/kevin03.jpg" alt="kevin이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Charles F. Muntz</h4>
+										<p>
+											In 1930s, rich, clever, and handsome muntz is a beacon of hope for a down-and-out American public. He inspires his biggest fans, youngsters Carl and Ellie, to parrot his famous mantra "adventure is out there!" Traveling the globe many times over in his massive self-designed airship, he discovers the world's treasures: priceless historic relics, amazing scientific discoveries, and exotic flora and fauna never before seen.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/up/muntz00.jpg" alt="muntz이미지00"/></p>
+										<p><img src="../../img/character/up/muntz01.jpg" alt="muntz이미지01"/></p>
+										<p><img src="../../img/character/up/muntz02.jpg" alt="muntz이미지02"/></p>
+										<p><img src="../../img/character/up/muntz03.jpg" alt="muntz이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Alpha Pack</h4>
+										<p>
+											Deep in the jungles of Paradise Falls resides a dog pack on a mission to capture a rare bird that their master is pursuing. Just like their rejected comrade Dug, all the pack dogs have high-tech collars that give them unusual abilities especially designed for sinister hunting expeditions, including GPS tracking and translating their thoughts into speech. Alpha, the pack leader, is a black-as-night Doberman Pinscher.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/up/alphapack00.jpg" alt="alphapack이미지00"/></p>
+										<p><img src="../../img/character/up/alphapack01.jpg" alt="alphapack이미지01"/></p>
+										<p><img src="../../img/character/up/alphapack02.jpg" alt="alphapack이미지02"/></p>
+										<p><img src="../../img/character/up/alphapack03.jpg" alt="alphapack이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Ellie</h4>
+										<p>
+											Ellie is an exuberant, adventurous girl who dreams of exploring the world. She and Carl first bond over their shared admiration for legendary explorer Charles F. Muntz. They pledge to travel together to Paradise Falls—the world's tallest waterfall, deep in the South American rainforest. As the couple settle into their married life, their grandiose plans are set aside as they navigate the ups and downs of their everyday lives.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/up/ellie00.jpg" alt="ellie이미지00"/></p>
+										<p><img src="../../img/character/up/ellie01.jpg" alt="ellie이미지01"/></p>
+										<p><img src="../../img/character/up/ellie02.jpg" alt="ellie이미지02"/></p>
+										<p><img src="../../img/character/up/ellie03.jpg" alt="ellie이미지03"/></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="designContent" class="contentWrap">
+						<ul>
+							<li>
+								<h3>The House</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/up/design00.jpg" alt="업디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									Unlike most stories about leaving home, Up needed a house that would go along for the journey. The Pixar team treated Carl’s house like a film character, touring vintage Oakland and Berkeley neighborhoods to cast for the right mix of comfort and familiarity, with just a touch of melancholy. “We were trying to make Carl’s house look like your grandparents’ house smelled,” explained Producer Jonas Rivera.
+								</p>
+							</li>
+							<li>
+								<h3>Tepui</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/up/design01.jpg" alt="업디자인이미지01"/>
+								</p>
+								<p class="textWrap">
+									Carl’s epic adventure required a destination both fantastic and plausible. When Director Pete Docter happened on a television documentary about the mysterious tepuis of South America, he discovered the perfect world to explore. The massive mile-high plateaus in Venezuela are among the most uncharted places on Earth. Pixar sent a team of artists for a look, and the film's bizarre rock formations, exotic flora, towering waterfall, and fog-shrouded labyrinth can be traced to tepui landscapes. So fantastic were the images, Docter wondered if the very real Tepuis might look too incredible.
+								</p>
+							</li>
+							<li>
+								<h3>Airship</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/up/design02.jpg" alt="업디자인이미지02"/>
+								</p>
+								<p class="textWrap">
+									With Charles Muntz, the most fabled adventurer of his day, the filmmakers gave him the 1930s’ most state-of-the-art airship. Encouraged to indulge in size and detail, the artists created a half-mile-long art deco masterpiece filled with the spoils of a hero turned villain. Still, there were issues of how far to take the airship. “We had a trophy room with an Easter Island head in there,” recalled Production Artist Noah Klocek. “At one point John Lasseter said 'no, that would sink the ship'.”
+								</p>
+							</li>
+              <li>
+								<h3>Colorscript</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/up/design03.jpg" alt="업디자인이미지03"/>
+								</p>
+								<p class="textWrap">
+									A colorscript is a sequence of small pastel drawings or paintings used to emphasize color in each scene and establish a
+									film's visual language.
+									<br/><br/>
+									“While Ellie is alive, our color palette is heavily saturated. She brings color into Carl’s life. When she’s gone, the palette is de-saturated to shades of gray. When Carl blows up the balloons to begin his journey, we bring back the memory of Ellie through those saturated, beautiful colors. Any time we have life or movement forward, we use color saturation. But when there is impending doom, we almost go to black and white.”
+									- Ricky Nierva, Production Designer
+								</p>
+							</li>
+							<li>
+								<h3>Research</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/up/design04.jpg" alt="업디자인이미지04"/>
+								</p>
+								<p class="textWrap">
+									“Adventure is out there!” is the familiar motto from Up that inspired many. And the directors and artists proved it to themselves when they sought firsthand reference to design the pinnacle world where Carl’s journey would end. Together, they climbed mountains, trampled through jungle, and even got caught in a storm atop a tepui mountain in South America. “The research trip to Venezuela was one of the highlights of my career,” said Production Designer Ricky Nierva, “but I’m also glad we made it back alive to make the movie!”
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li id="creditsContent" class="contentWrap">
+						<p class="nameWrap">
+							<strong>DIRECTED BY</strong>
+							<em>PETE DOCTER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CO-DIRECTED BY</strong>
+							<em>BOB PETERSON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCED BY</strong>
+							<em>JONAS RIVERA</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EXECUTIVE PRODUCER</strong>
+							<em>JOHN LASSETER, ANDREW STANTON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ASSOCIATE PRODUCER</strong>
+							<em>DENISE REAM</em>
+						</p>
+            <p class="nameWrap">
+							<strong>STORY BY</strong>
+							<em>PETE DOCTER, BOB PETERSON, TOM MCCARTHY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SCREENPLAY BY</strong>
+							<em>BOB PETERSON, PETE DOCTER  </em>
+						</p>
+						<p class="nameWrap">
+							<strong>MUSIC BY</strong>
+							<em>RONNIE DEL CARMEN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>STORY SUPERVISOR</strong>
+							<em>JASON KATZ</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FILM EDITOR</strong>
+							<em>KEVIN NOLTING</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION DESIGNER</strong>
+							<em>RICKY NIERVA</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTOR</strong>
+							<em>STEVE MAY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION MANAGER</strong>
+							<em>MARK NIELSEN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATORS</strong>
+							<em>SCOTT CLARK</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-CAMERA</strong>
+							<em>PATRICK LIN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-LIGHTING</strong>
+							<em>JEAN-CLAUDE KALACHE</em>
+						</p>
+            <p class="nameWrap">
+							<strong>CHARACTER SUPERVISOR</strong>
+							<em>THOMAS JORDAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS SUPERVISOR</strong>
+							<em>JOHN HALSTEAD</em>
+						</p>
+            <p class="nameWrap">
+							<strong>EFFECTS SUPERVISOR</strong>
+							<em>GARY BRUINS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SIMULATION &amp; CROWDS SUPERVISOR</strong>
+							<em>JOHN POTTEBAUM</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SHADING ART DIRECTION</strong>
+							<em>BRYN IMAGIRE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>RENDERING SUPERVISOR</strong>
+							<em>HUMERA YASMIN KHAN</em>
+						</p>
+            <p class="nameWrap">
+							<strong>SOUND DESIGNER</strong>
+							<em>TOM MYERS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRE PRODUCTION PRODUCER</strong>
+							<em>KORI RAE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>POST PRODUCTION SUPERVISOR</strong>
+							<em>PAUL CICHOCKI</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CASTING BY</strong>
+							<em>
+								KEVIN REHER, C.S.A.<br/>
+								NATALIE LYON, C.S.A.<br/>
+							</em>
+						</p>
+						<h3>CAST</h3>
+						<p class="nameWrap">
+							<strong>CARL FREDRICKSEN</strong>
+							<em>ED ASNER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARLES MUNTZ</strong>
+							<em>CHRISTOPHER PLUMMER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>RUSSELL</strong>
+							<em>JORDAN NAGAI</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DUG</strong>
+							<em>BOB PETERSON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>BETA</strong>
+							<em>DELROY LINDO</em>
+						</p>
+						<p class="nameWrap">
+							<strong>GAMMA</strong>
+							<em>JEROME RANFT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ALPHA</strong>
+							<em>BOB PETERSON</em>
+						</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<h1>FOOTER영역</h1>
+			<div>
+				<h2>회사 소개</h2>
+				<h3>PIXAR STUDIOS</h3>
+				<p>about company</p>
+				<p class="textArea">
+					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+				</p>
+				<a href="../about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+			</div>
+			<div>
+				<h2>회사 CONTACT</h2>
+				<h3>CONTACT US</h3>
+				<p>Pixar Animation Studios</p>
+				<p class="textArea">
+					1200 Park Avenue Emeryville, California 94608<br/>
+					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+				</p>
+				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

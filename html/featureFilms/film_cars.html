@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR CARS</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/header.js"></script>
+		<script src="../../js/film.js"></script>
+		<link href="../../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/film.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tsallyine" rel="stylesheet">
+		<style type="text/css">
+			#container #visual{width:100%;height:700px;background-size:cover;background:url("../../img/bg/cars_head.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:center;background-color:#000;}
+			#container #movieContent #trailerContent .videoWrap{height:360px;}
+
+			@media all and (min-width:481px) and (max-width:767px){
+				#container #visual{height:500px;background-size:200%;background-position:center;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:255px;}
+			}
+
+			@media all and (min-width:320px) and (max-width:480px){
+				#container #visual{height:450px;background-size:230%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:180px;}
+			}
+		</style>
+	</head>
+<body>
+	<div id="mobileNavWrap">
+		<a href="#none" title="menu" class="menu">
+			<span class="firstLine"></span>
+			<span class="secondLine"></span>
+			<span class="lastLine"></span>
+		</a>
+		<p id="mobileNavBg"></p>
+		<div id="mobileNav">
+			<p class="profileWrap">
+				<img src="../../img/icon/piper.png" alt="사용자이미지"/>
+			</p>
+			<p class="loginJoinWrap">
+				<a href="../login.html" title="LOGIN">LOGIN</a>
+				<a href="../join.html" title="JOIN">JOIN</a>
+			</p>
+			<ul>
+				<li><a href="../../index.html" title="HOME">HOME</a></li>
+				<li><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+				<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+				<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+				<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+				<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header id="header">
+			<div id="headerWrap">
+				<h1>
+					<a href="../../index.html" title="home">
+						<img src="../../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+					</a>
+				</h1>
+				<nav id="nav">
+					<h2>NAV영역</h2>
+					<a href="#none" title="menu" class="menu">
+						<span class="firstLine"></span>
+						<span class="secondLine"></span>
+						<span class="lastLine"></span>
+					</a>
+					<ul>
+						<li class="select"><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+						<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+						<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+						<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+						<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+						<li><a href="../login.html" title="LOGIN">LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual"></div>
+			</div>
+			<section id="movieContent">
+				<div class="movieHead">
+					<div class="movieLogo">
+						<img src="../../img/logo/cars_logo.png" alt="카로고이미지"/>
+					</div>
+					<div class="movieDesc">
+						<h3>CARS</h3>
+						<p>
+							Aspiring champion race car Lightning McQueen is on the fast track to success, fame, and everything he's ever hoped for—until he takes an unexpected detour on dusty Route 66. His have-it-all-now attitude is thrown into a tailspin when a small-town community that time forgot shows McQueen what he's been missing in his high-octane life.
+						</p>
+					</div>
+				</div>
+				<div class="tabWrap">
+					<ul id="tab">
+						<li class="first">
+							<a href="#trailerContent" title="trailer" class="selected">Trailer</a>
+						</li>
+						<li>
+							<a href="#characterContent" title="character">Character</a>
+						</li>
+						<li>
+							<a href="#designContent" title="design">World Design</a>
+						</li>
+						<li>
+							<a href="#creditsContent" title="credits">Credits</a>
+						</li>
+					</ul>
+				</div>
+				<ul id="content">
+					<li id="trailerContent" class="contentWrap">
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/Px_-H_P5asE"></iframe>
+						</div>
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/QOHsabCBjxo"></iframe>
+						</div>
+					</li>
+					<li id="characterContent" class="contentWrap">
+						<div class="characterWrap">
+							<ul>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Lightning McQueen</h4>
+										<p>
+											Rats are no strangers to rejection, but mcQueen, a rat who longs to be a great chef, has more than the usual obstacles to overcome. His remarkable sense of smell and genius for combining flavors puts him head and shoulders above most human chefs. However, in the rat world he’s resigned to a life of being the “poison sniffer,” using his unique talent to pick out the safe garbage for his family to eat.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/cars/mcQueen00.jpg" alt="mcQueen이미지00"/></p>
+										<p><img src="../../img/character/cars/mcQueen01.jpg" alt="mcQueen이미지01"/></p>
+										<p><img src="../../img/character/cars/mcQueen02.jpg" alt="mcQueen이미지02"/></p>
+										<p><img src="../../img/character/cars/mcQueen03.jpg" alt="mcQueen이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Mater</h4>
+										<p>
+											Mater is a good ol' boy tow truck with a big heart and a lovable laugh to match. Though a little rusty, he has the quickest towrope in Carburetor County and is always the first to lend a helping hand. He's the sweetest, most loyal guy in town and the first to befriend newcomer Lightning McQueen.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/cars/mater00.jpg" alt="mater이미지00"/></p>
+										<p><img src="../../img/character/cars/mater01.jpg" alt="mater이미지01"/></p>
+										<p><img src="../../img/character/cars/mater02.jpg" alt="mater이미지02"/></p>
+										<p><img src="../../img/character/cars/mater03.jpg" alt="mater이미지03"/></p>
+									</div>
+								</li>
+                <li>
+									<div class="characterDescWrap">
+										<h4>Sally</h4>
+										<p>
+											Sally is a beautiful 2002 Porsche 911 from California who grew tired of life in the fast lane and made a new start in the small town of Radiator Springs. Charming, intelligent, and witty, she is the town's attorney and the car most dedicated to one day getting Radiator Springs "back on the map."
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/cars/sally00.jpg" alt="sally이미지00"/></p>
+										<p><img src="../../img/character/cars/sally01.jpg" alt="sally이미지01"/></p>
+										<p><img src="../../img/character/cars/sally02.jpg" alt="sally이미지02"/></p>
+										<p><img src="../../img/character/cars/sally03.jpg" alt="sally이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Doc Hudson</h4>
+										<p>
+											Doc Hudson is a 1951 Hudson Hornet, a quiet country doctor with a mysterious past. A cornerstone of Radiator Springs, Doc runs the local medical clinic and serves as the town judge. But when Lightning McQueen rolls through town, Doc's old competitive engine gets revved up once more.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/cars/doc00.jpg" alt="doc이미지00"/></p>
+										<p><img src="../../img/character/cars/doc01.jpg" alt="doc이미지01"/></p>
+										<p><img src="../../img/character/cars/doc02.jpg" alt="doc이미지02"/></p>
+										<p><img src="../../img/character/cars/doc03.jpg" alt="doc이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Luigi &amp; Guido</h4>
+										<p>
+											Luigi is a 1959 Fiat 500 who runs the local tire shop, Luigi's Casa Della Tires. Big-hearted, gregarious and excitable Luigi is assisted by Guido, a little Italian forklift, and together they serve up more than a new set of wheels for customers. Their positive energy and enthusiasm have a natural way of rubbing off on anyone who passes through their shop doors.
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/cars/luigiGuido00.jpg" alt="luigiGuido이미지00"/></p>
+										<p><img src="../../img/character/cars/luigiGuido01.jpg" alt="luigiGuido이미지01"/></p>
+										<p><img src="../../img/character/cars/luigiGuido02.jpg" alt="luigiGuido이미지02"/></p>
+										<p><img src="../../img/character/cars/luigiGuido03.jpg" alt="luigiGuido이미지03"/></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="designContent" class="contentWrap">
+						<ul>
+							<li>
+								<h3>Radiator Springs</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars/design00.jpg" alt="카디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									Memorable research trips along Route 66 led the Pixar team to create the town of Radiator Springs in a high desert setting somewhere between Gallup, New Mexico, and Kingman, Arizona, where towns of broken neon, peeling paint, and colorful denizens still exist. “We connected with the people and their towns and we really got it,” Co-Director and Story Supervisor Joe Ranft observed.  “We found out that life out on that old highway is never predictable, and that is what makes the journey so much more memorable. We found the heartbeat of the Mother Road.”
+								</p>
+							</li>
+							<li>
+								<h3>Landscapes</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars/design01.jpg" alt="카디자인이미지01"/>
+								</p>
+								<p class="textWrap">
+									It took three days to prepare the first drawings that would define the Cars landscape. Working from an early inspiration board of automobile and desert references, Production Designer Bill Cone came up with an idea; he spent the day, and that night, thinking of how it could work. Then he rendered several sketches to illustrate his concept that cars, like humans, would shape the world around them as monuments that echoed their likeness. That happened back in 2000, and twelve years later, the landscape became real for generations to visit at Disney’s
+									California Adventure.
+								</p>
+							</li>
+							<li>
+								<h3>Racing</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars/design02.jpg" alt="카디자인이미지02"/>
+								</p>
+								<p class="textWrap">
+									The filmmakers knew no one would watch Cars with a keener eye than professional racing fans. Stock car legend Richard Petty was brought in to provide authenticity, then stayed around to provide voiceover for the 1970 Plymouth Superbird that shared his nickname “The King.” Pixar teams also took extended field trips to some of America’s biggest speedways, looking to capture the sensory overload of rumbling engines, blinding floodlights, and the smell of exhaust, burning rubber, and tailgate barbecue.
+								</p>
+							</li>
+              <li>
+								<h3>Graphics</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars/design03.jpg" alt="카디자인이미지03"/>
+								</p>
+								<p class="textWrap">
+									Graphics are not just creations made with words, names, numbers, letters, colors, and typeface—they are opportunities to include hidden stories. The world of Cars called for an unprecedented number of original graphics, split into three major categories: hometown, broadcast news, and stock car racing.
+								</p>
+							</li>
+							<li>
+								<h3>Research</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars/design04.jpg" alt="카디자인이미지04"/>
+								</p>
+								<p class="textWrap">
+									According to John Lasseter, more research went into Cars than any other project at Pixar to date. Field trips ranged from leisurely journeys across Route 66 to the fast lane of the Charlotte Motor Speedway, where a couple of infield fans named Larry and Mater would charm their way into the film. A Pixar team also traveled to the automotive mecca of Detroit to see how cars are designed and assembled from the ground up. Pixar artists used thousands of still photos and hours of car footage to give Cars the level of detail it would need on the big screen.
+								</p>
+							</li>
+							<li>
+								<h3>Colorscript</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars/design05.jpg" alt="카디자인이미지05"/>
+								</p>
+								<p class="textWrap">
+									A colorscript is a sequence of small pastel drawings or paintings used to emphasize color in each scene and establish a film's visual language.
+									A car lost on a lonely road. A racer outcast within a packed stadium. Many key emotional scenes of Cars took place at night. Creating the paintings to define the lighting provided an interesting challenge. “Light is fictional at night,” explained Production Designer Bill Cone. Light sources that could illuminate the scene had to be invented and manipulated just enough to allow the audience to see what was important, and yet still produce colors that stayed true to a
+									scene's mood.
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li id="creditsContent" class="contentWrap">
+						<p class="nameWrap">
+							<strong>DIRECTED BY</strong>
+							<em>JOHN LASSETER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CO-DIRECTED BY</strong>
+							<em>JOE RANFT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCED BY</strong>
+							<em>DARLA K. ANDERSON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ASSOCIATE PRODUCER</strong>
+							<em>THOMAS PORTER</em>
+						</p>
+            <p class="nameWrap">
+							<strong>ORIGINAL SCORE COMPOSED AND CONDUCTED BY</strong>
+							<em>RANDY NEWMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FILM EDITOR</strong>
+							<em>KEN SCHRETZMANN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ORIGINAL STORY BY</strong>
+							<em>JOHN LASSETER, JOE RANFT, JORGEN KLUBIEN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTOR</strong>
+							<em>EBEN OSTBY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION DESIGNERS</strong>
+							<em>WILLIAM CONE, BOB PAULEY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION DESIGNER</strong>
+							<em>HARLEY JESSUP</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATORS</strong>
+							<em>WILLIAM CONE, BOB PAULEY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-CAMERA</strong>
+							<em>JEREMY LASKY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-LIGHTING</strong>
+							<em>JEAN-CLAUDE KALACHE</em>
+						</p>
+            <p class="nameWrap">
+							<strong>SHADING ART DIRECTOR</strong>
+							<em>TIA W. KRATTER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MATTE SUPERVISOR</strong>
+							<em>LISA FORSSELL</em>
+						</p>
+            <p class="nameWrap">
+							<strong>CHARACTERS SUPERVISOR</strong>
+							<em>TIM MILLIRON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS SUPERVISOR</strong>
+							<em>SOPHIE VINCELETTE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SHADING DIRECTIOR</strong>
+							<em>CHRIS BERNARDI, DAVID MUNIER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EFFECTS SUPERVISOR</strong>
+							<em>STEVE MAY</em>
+						</p>
+            <p class="nameWrap">
+							<strong>CROWDS SUPERVISOR</strong>
+							<em>ZIAH SARAH FOGEL</em>
+						</p>
+						<p class="nameWrap">
+							<strong>RENDERING SUPERVISOR </strong>
+							<em>JESSICA GIAMPIETRO MCMACKIN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>OPTIMIZATION SUPERVISOR </strong>
+							<em>JESSICA GIAMPIETRO MCMACKIN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION MANAGER</strong>
+							<em>JONAS RIVERA</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SOUND DESIGNER</strong>
+							<em>TOM MYERS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EXECUTIVE MUSIC PRODUCER</strong>
+							<em>CHRIS MONTAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION FINANCE LEAD</strong>
+							<em>ALI ROWGHANI</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CASTING BY</strong>
+							<em>KEVIN REHER</em>
+						</p>
+						<h3>CAST</h3>
+						<p class="nameWrap">
+							<strong>LIGHTNING MCQUEEN</strong>
+							<em>OWEN WILSON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DOC HUDSON</strong>
+							<em>PAUL NEWMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SALLY CARRERA</strong>
+							<em>BONNIE HUNT</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MATER</strong>
+							<em>LARRY THE CABLE GUY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>RAMONE</strong>
+							<em>CHEECH MARIN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>LUIGI</strong>
+							<em>TONY SHALHOUB</em>
+						</p>
+						<p class="nameWrap">
+							<strong>GUIDO</strong>
+							<em>GUIDO QUARONI</em>
+						</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<h1>FOOTER영역</h1>
+			<div>
+				<h2>회사 소개</h2>
+				<h3>PIXAR STUDIOS</h3>
+				<p>about company</p>
+				<p class="textArea">
+					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+				</p>
+				<a href="../about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+			</div>
+			<div>
+				<h2>회사 CONTACT</h2>
+				<h3>CONTACT US</h3>
+				<p>Pixar Animation Studios</p>
+				<p class="textArea">
+					1200 Park Avenue Emeryville, California 94608<br/>
+					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+				</p>
+				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

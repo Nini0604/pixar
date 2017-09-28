@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+		<title>PIXAR CARS3</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="../../js/header.js"></script>
+		<script src="../../js/film.js"></script>
+		<link href="../../img/icon/pixar_ball.png" rel="shortcut icon"/>
+		<link href="../../img/icon/pixar_ball.png" rel="apple-touch-icon"/>
+		<link rel="stylesheet" type="text/css" href="../../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/film.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/footer.css"/>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+		<style type="text/css">
+			#container #visual{width:100%;height:700px;background-size:cover;background:url("../../img/bg/cars3_head.jpg");background-attachment:fixed;background-repeat:no-repeat;background-position:center;background-color:#000;}
+
+			@media all and (min-width:481px) and (max-width:767px){
+				#container #visual{height:500px;background-position:center 70%;}
+				#container #movieContent #trailerContent .videoWrap{height:258px;}
+			}
+
+			@media all and (min-width:320px) and (max-width:480px){
+				#container #visual{height:450px;background-size:345%;background-attachment:scroll;}
+				#container #movieContent #trailerContent .videoWrap{height:180px;}
+			}
+		</style>
+	</head>
+<body>
+	<div id="mobileNavWrap">
+		<a href="#none" title="menu" class="menu">
+			<span class="firstLine"></span>
+			<span class="secondLine"></span>
+			<span class="lastLine"></span>
+		</a>
+		<p id="mobileNavBg"></p>
+		<div id="mobileNav">
+			<p class="profileWrap">
+				<img src="../../img/icon/piper.png" alt="사용자이미지"/>
+			</p>
+			<p class="loginJoinWrap">
+				<a href="../login.html" title="LOGIN">LOGIN</a>
+				<a href="../join.html" title="JOIN">JOIN</a>
+			</p>
+			<ul>
+				<li><a href="../../index.html" title="HOME">HOME</a></li>
+				<li><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+				<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+				<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+				<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+				<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="wrapper">
+		<header id="header">
+			<div id="headerWrap">
+				<h1>
+					<a href="../../index.html" title="home">
+						<img src="../../img/logo/pixar_black_logo.png" alt="헤더로고"/>
+					</a>
+				</h1>
+				<nav id="nav">
+					<h2>NAV영역</h2>
+					<a href="#none" title="menu" class="menu">
+						<span class="firstLine"></span>
+						<span class="secondLine"></span>
+						<span class="lastLine"></span>
+					</a>
+					<ul>
+						<li class="select"><a href="../featureFilms.html" title="FEATURE FILMS">FEATURE FILMS</a></li>
+						<li><a href="../shortFilms.html" title="SHORT FILMS">SHORT FILMS</a></li>
+						<li><a href="../character.html" title="CHARACTERS">CHARACTERS</a></li>
+						<li><a href="../upcoming.html" title="UPCOMING">UPCOMING</a></li>
+						<li><a href="../about.html" title="ABOUT">ABOUT</a></li>
+						<li><a href="../login.html" title="LOGIN">LOGIN</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div id="container">
+			<h1>CONTAINER영역</h1>
+			<p class="scrollTopBtn">
+				<a href="#none" title="scrollTop"><img src="../../img/icon/scrollTopBtn.png" alt="스크롤탑버튼"/></a>
+			</p>
+			<div id="visualWrap">
+				<h2>VISUAL영역</h2>
+				<div id="visual"></div>
+			</div>
+			<section id="movieContent">
+				<div class="movieHead">
+					<div class="movieLogo">
+						<img src="../../img/logo/cars3_logo.png" alt="카3로고이미지"/>
+					</div>
+					<div class="movieDesc">
+						<h3>Cars 3</h3>
+						<p>
+							Blindsided by a new generation of blazing-fast racers, the legendary Lightning McQueen (voice of Owen Wilson) is suddenly pushed out of the sport he loves. To get back in the game, he will need the help of an eager young race technician with her own plan to win, inspiration from the late Fabulous Hudson Hornet, and a few unexpected turns. Proving that #95 isn’t through yet will test the heart of a champion on Piston Cup Racing’s biggest stage!
+						</p>
+					</div>
+				</div>
+				<div class="tabWrap">
+					<ul id="tab">
+						<li class="first">
+							<a href="#trailerContent" title="trailer" class="selected">Trailer</a>
+						</li>
+						<li>
+							<a href="#characterContent" title="character">Character</a>
+						</li>
+						<li>
+							<a href="#designContent" title="design">World Design</a>
+						</li>
+						<li>
+							<a href="#creditsContent" title="credits">Credits</a>
+						</li>
+					</ul>
+				</div>
+				<ul id="content">
+					<li id="trailerContent" class="contentWrap">
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/2LeOH9AGJQM" allowfullscreen></iframe>
+						</div>
+						<div class="videoWrap">
+							<iframe src="https://www.youtube.com/embed/E4K7JgPJ8-s" allowfullscreen></iframe>
+						</div>
+					</li>
+					<li id="characterContent" class="contentWrap">
+						<div class="characterWrap">
+							<ul>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Lightning McQueen</h4>
+										<p>
+											Lightning McQueen is a world-champion racer who’s riding high with five Piston-Cup wins under his hood. Suddenly, he finds himself faced with a new generation of racers who threaten not only his dominance in the sport—but the confidence that got him there. Determined to get back into the pole position, #95 must decide if his love for racing is enough to fuel the comeback of his life.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/cars3/mcQueen00.jpg" alt="맥퀸이미지00"/></p>
+										<p><img src="../../img/character/cars3/mcQueen01.jpg" alt="맥퀸이미지01"/></p>
+										<p><img src="../../img/character/cars3/mcQueen02.jpg" alt="맥퀸이미지02"/></p>
+										<p><img src="../../img/character/cars3/mcQueen03.jpg" alt="맥퀸이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Cruz Ramirez</h4>
+										<p>
+											Cruz Ramirez is a tech-savvy, unconventional trainer at the Rust-eze Racing Center. She expertly arms the team’s talented rookies with cutting-edge tools to tear up the track—but she nearly stalls when Piston-Cup champion Lightning McQueen shows up. While she’d love to help him find his way back to the top, she knows the competition is faster than ever, and victory is all about speed—or is it?
+										</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/cars3/cruz00.jpg" alt="크루즈이미지00"/></p>
+										<p><img src="../../img/character/cars3/cruz01.jpg" alt="크루즈이미지01"/></p>
+										<p><img src="../../img/character/cars3/cruz02.jpg" alt="크루즈이미지02"/></p>
+										<p><img src="../../img/character/cars3/cruz03.jpg" alt="크루즈이미지03"/></p>
+									</div>
+								</li>
+								<li>
+									<div class="characterDescWrap">
+										<h4>Jackson Storm</h4>
+										<p>
+											Jackson Storm is fast, sleek and ready to win. A front-runner in the next generation of racers, Storm’s quiet confidence and cocky demeanor are off-putting—but his unmatched speed threatens to redefine the sport. Trained on high-tech simulators that are programmed to perfect technique and maximize velocity, Jackson Storm is literally built to be unbeatable—and he knows it.
+										</p>
+									</div>
+									<div  class="characterImgWrap">
+										<p><img src="../../img/character/cars3/storm00.jpg" alt="잭슨이미지00"/></p>
+										<p><img src="../../img/character/cars3/storm01.jpg" alt="잭슨이미지01"/></p>
+										<p><img src="../../img/character/cars3/storm02.jpg" alt="잭슨이미지02"/></p>
+										<p><img src="../../img/character/cars3/storm03.jpg" alt="잭슨이미지03"/></p>
+									</div>
+								</li>
+								<li class="eventCharacter">
+									<div class="characterDescWrap">
+										<h4>Smokey</h4>
+										<p>
+											Former Piston Cup team owner Smokey teamed up with the Fabulous Hudson Hornet back in the ‘50s. His gruff exterior and strong opinions served him well as crew chief—and he owns what’s arguably the best dang garage in town. He still wrestles with trusting his head or his gut, but when it comes to his friends—he’s all heart.</p>
+									</div>
+									<div class="characterImgWrap">
+										<p><img src="../../img/character/cars3/smokey00.jpg" alt="스모키이미지00"/></p>
+										<p><img src="../../img/character/cars3/smokey01.jpg" alt="스모키이미지01"/></p>
+										<p><img src="../../img/character/cars3/smokey02.jpg" alt="스모키이미지02"/></p>
+										<p><img src="../../img/character/cars3/smokey03.jpg" alt="스모키이미지03"/></p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li id="designContent" class="contentWrap">
+						<ul>
+							<li>
+								<h3>Hyperreal</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars3/design00.jpg" alt="카3디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									According to director Brian Fee, the “Cars” films have a look that separates them from the rest of Pixar’s library. “While all of our films are stylized in their own way, the ‘Cars’ films want to be more photorealistic—almost hyperreal; it’s art directed realism. With the technology we’ve implemented in the last few years, we have the ability to make these characters and sets feel more real and alive than ever before.”
+									<br/></br/>
+									“This is a world we believe exists,” says production designer Bill Cone. “It’s familiar. The term we use is believability, which is the basis for everything we do. The world of ‘Cars’ is built to accommodate its car-sized population. It is stylized. We’ve played with some metaphorical elements—cars see themselves in nature the way man sees himself in nature. It’s all done in a way that is as relatable as it is compelling.”
+								</p>
+							</li>
+							<li>
+								<h3>Radiator Springs</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars3/design01.jpg" alt="카3디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									Although Lightning McQueen ventures far from home in an effort to rediscover what makes him a great racer, his heart will always be in Radiator Springs. But it’s been a few years since his hometown last saw the big screen. “We had to upgrade it a little,” says production designer Bill Cone. “The rest of the world will have the kind of detail we’re capable of achieving now, so we needed to bring Radiator Springs into the same movie.”
+								</p>
+							</li>
+							<li>
+								<h3>The Rust-eze Training Center</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars3/design02.jpg" alt="카3디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									The Rust-eze Training Center is a state-of-the-art facility with high-tech equipment. “We started with the size and shape of an airplane hangar,” says Production Designer Bill Cone. “And we filled it with all of the gadgets and tools a modern racer would want: simulators, treadmills, a yoga room.”
+									</br/></br/>
+									The production designer says the facility was inspired by boutique manufacturers in Europe. “Everything is unbelievably spotless—like a hospital,” Cone says. “You could eat off the floor.”
+								</p>
+							</li>
+							<li>
+								<h3>Thomasville</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars3/design03.jpg" alt="카3디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									When Lightning McQueen realizes that high-tech training may not be the key to his renewed success, he’s inspired to track down the coach who trained his mentor, Doc Hudson. He finds himself in Thomasville, where former crew chief Smokey runs an old-school garage. “Doc grew up in Thomasville—he actually raced his first race there,” says sets art director Noah Klocek. “We took research trips to the South where NASCAR got its start, spending some time in northern Georgia and South Carolina.”
+								</p>
+							</li>
+							<li>
+								<h3>Crazy 8 Demolition Derby</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars3/design04.jpg" alt="카3디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									Lightning McQueen and Cruz Ramirez yearn to take part in a down-and-dirty race to reignite the passion Lightning’s lost. Unfortunately, they end up in the midst of a Crazy 8—which is certainly dirty. To achieve the right look and feel for the sequence, filmmakers actually went to a night race that took place on a dirt track. “They were covered in dirt,” says Cone. “It was inspiring.”
+								</p>
+							</li>
+							<li>
+								<h3>Florida International Super Speedway</h3>
+								<p class="imgWrap">
+									<img src="../../img/content/design/cars3/design05.jpg" alt="카3디자인이미지00"/>
+								</p>
+								<p class="textWrap">
+									The film features several races across the country—and filmmakers added details to make sure each track had a distinctive personality. But the final race in the film that takes place in Florida was a culmination of Lightning McQueen’s journey—so it had to be special. “We were tasked with creating a racetrack that really embraced modernism,” says sets art director Noah Klocek. “It represents what Jackson Storm and all the rest of the next-gen racers are bringing to the sport.”
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li id="creditsContent" class="contentWrap">
+						<p class="nameWrap">
+							<strong>DIRECTED BY</strong>
+							<em>BRIAN FEE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCED BY</strong>
+							<em>KEVIN REHER, P.G.A.</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CO-PRODUCED BY</strong>
+							<em>ANDREA WARREN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EXECUTIVE PRODUCER</strong>
+							<em>JOHN LASSETER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>ORIGINAL STORY BY</strong>
+							<em>
+								BRIAN FEE<br/>
+								BEN QUEEN<br/>
+								EYAL PODELL<br/>
+								JONATHON E. STEWART<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SCREENPLAY BY</strong>
+							<em>
+								KIEL MURRAY<br/>
+								BOB PETERSON<br/>
+								MIKE RICH<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MUSIC BY</strong>
+							<em>RANDY NEWMAN</em>
+						</p>
+						<p class="nameWrap">
+							<strong>STORY SUPERVISOR</strong>
+							<em>SCOTT MORSE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>FILM EDITOR</strong>
+							<em>JASON HUDAK</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING TECHNICAL DIRECTOR</strong>
+							<em>MICHAEL FONG</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION DESIGNERS</strong>
+							<em>
+								WILLIAM CONE<br/>
+								JAY SHUSTER<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>PRODUCTION MANAGER</strong>
+							<em>PAMELA DARROW</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SUPERVISING ANIMATOR</strong>
+							<em>BOBBY PODESTA</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY- CAMERA</strong>
+							<em>JEREMY LASKY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DIRECTOR OF PHOTOGRAPHY-LIGHTING</strong>
+							<em>KIM WHITE</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CO-DIRECTOR OF PHOTOGRAPHY-LIGHTING</strong>
+							<em>MICHAEL SPARBER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS ART DIRECTOR</strong>
+							<em>NOAH KLOCEK</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SHADING ART DIRECTOR</strong>
+							<em>LAURA PHILLIPS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>GRAPHICS ART DIRECTOR</strong>
+							<em>CRAIG FOSTER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CHARACTER SUPERVISORS</strong>
+							<em>
+								MICHAEL COMET<br/>
+								JUNYI LING<br/>
+							</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SETS SUPERVISOR</strong>
+							<em>JUN HAN CHO</em>
+						</p>
+						<p class="nameWrap">
+							<strong>EFFECTS SUPERVISOR</strong>
+							<em>JON REISCH</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MATTE PAINT SUPERVISOR</strong>
+							<em>MATTHEW WEBB</em>
+						</p>
+						<p class="nameWrap">
+							<strong>GLOBAL TECHNOLOGY SUPERVISOR</strong>
+							<em>SUDEEP RANGASWAMY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>RENDERING SUPERVISOR</strong>
+							<em>ALEXANDER KOLLIOPOULOS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CROWDS ANIMATION SUPERVISOR</strong>
+							<em>BECKI ROCHA TOWER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CROWDS &amp; SIMULATION TECHNICAL SUPERVISOR</strong>
+							<em>EDWIN WOOYOUNG CHANG</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SOUND DESIGNER</strong>
+							<em>TOM MYERS</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CASTING</strong>
+							<em>
+								KEVIN REHER, C.S.A.<br/>
+								NATALIE LYON, C.S.A.<br/>
+							</em>
+						</p>
+						<h3>CAST</h3>
+						<p class="nameWrap">
+							<strong>LIGHTNING MCQUEEN</strong>
+							<em>OWEN WILSON</em>
+						</p>
+						<p class="nameWrap">
+							<strong>CRUZ RAMIREZ</strong>
+							<em>CRISTELA ALONZO</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SMOKEY</strong>
+							<em>CHRIS COOPER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>STERLING</strong>
+							<em>NATHAN FILLION</em>
+						</p>
+						<p class="nameWrap">
+							<strong>MATER</strong>
+							<em>LARRY THE CABLE GUY</em>
+						</p>
+						<p class="nameWrap">
+							<strong>JACKSON STORM</strong>
+							<em>ARMIE HAMMER</em>
+						</p>
+						<p class="nameWrap">
+							<strong>DUSTY</strong>
+							<em>RAY MAGLIOZZI</em>
+						</p>
+						<p class="nameWrap">
+							<strong>LUIGI</strong>
+							<em>TONY SHALHOUB</em>
+						</p>
+						<p class="nameWrap">
+							<strong>SALLY</strong>
+							<em>BONNIE HUNT</em>
+						</p>
+					</li>
+				</ul>
+			</section>
+		</div>
+		<footer id="footer">
+			<h1>FOOTER영역</h1>
+			<div>
+				<h2>회사 소개</h2>
+				<h3>PIXAR STUDIOS</h3>
+				<p>about company</p>
+				<p class="textArea">
+					Located in Emeryville, California, Pixar AnimationStudios has created acclaimed animated featureand short films for over 25 yeasc,<br/>Pixar is also home to the RenderMan line software products.
+				</p>
+				<a href="../about.html" title="회사소개더보기" class="mainBtn">Read More</a>
+			</div>
+			<div>
+				<h2>회사 CONTACT</h2>
+				<h3>CONTACT US</h3>
+				<p>Pixar Animation Studios</p>
+				<p class="textArea">
+					1200 Park Avenue Emeryville, California 94608<br/>
+					Telephone: (510) 922-3000 Facsimile: (510) 923-3151.
+				</p>
+				<a href="#none" title="contactUs" class="mainBtn">Contact Us</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

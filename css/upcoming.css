@@ -1,0 +1,54 @@
+body{font-family: 'PT Sans Narrow', sans-serif;}
+/*##########################container#########################################*/
+#container #visual{width:100%;height:550px;background-image:url("../img/bg/coco.jpg");background-size:cover;background-attachment:fixed;background-repeat:no-repeat;background-position:center;}
+#container #visual h3{font-size:40px;font-weight:100;color:#fff;line-height:550px;text-align:center;text-transform: uppercase;letter-spacing:5px;text-shadow:0 0 3px #111;}
+#container section{width:80%;max-width:960px;margin:5% auto 12%;}
+/*#container h3{font-size:40px;font-weight:100;line-height:120px;text-align: center;text-transform: uppercase;}*/
+#container ul li{overflow:hidden;padding:30px 0;border-bottom:1px solid gray;position:relative;}
+#container ul li div{float:left;}
+#container ul li .imgWrap{width:35%;margin-right:5%;}
+#container ul li .imgWrap img{width:100%;}
+#container ul li .textWrap{width:60%;}
+#container ul li .textWrap .nameWrap{float:none;}
+#container ul li .textWrap .nameWrap h4{display:inline-block;font-size:28px;line-height:70px;}
+#container ul li .textWrap .nameWrap .num{line-height:70px;float:right;font-size:40px;color:#499df5;}
+#container ul li .textWrap p{line-height:28px;padding:10px 0;border-top:1px solid gray;}
+#container ul li .textWrap .trailerLink{position:absolute;bottom:30px;right:0;color:#499df5;font-size:18px;}
+#container ul li .textWrap .trailerLink:focus,#container ul li .textWrap .trailerLink:hover{outline:none;color:#358eeb;}
+#container ul li .textWrap .trailerLink img{vertical-align:middle;}
+#container ul li.second .imgWrap{margin-right:0;}
+#container ul li.second .textWrap{margin-right:5%;}
+#container ul li.second .textWrap .trailerLink{right:40%;}
+#container ul li.second .textWrap .nameWrap .num{float:left;padding-right:18px;}
+a.mainBtn{width:210px;height:55px;text-align:center;display:inline-block;font-size:18px;
+line-height:55px;background-color:#499df5;color:#fff;}
+a.mainBtn:hover,a.mainBtn:focus{color:#000;}
+
+@media all and (min-width:768px) and (max-width:1024px){
+  #container section{width:85%;}
+  #container ul li .textWrap p.desc{display:none;}
+}
+
+@media all and (min-width:481px) and (max-width:767px){
+  #container section{width:90%;margin:5% auto 15%;}
+  #container #visual{height:350px;}
+  #container #visual h3{line-height:350px;font-size:30px;}
+  #container ul li .textWrap p.desc{display:none;}
+  #container ul li .textWrap h4{line-height:55px;}
+}
+
+@media all and (min-width:320px) and (max-width:480px){
+  #container section{margin:5% auto 15%;}
+  #container #visual{height:250px;}
+  #container #visual h3{line-height:250px;font-size:26px;}
+  #container ul li .imgWrap{width:250px;margin:0 auto;float:none;}
+  #container ul li .textWrap{width:100%;float:none;}
+  #container ul li .textWrap .trailerLink{bottom:10px;}
+  #container ul li .textWrap h4,#container ul li .textWrap h4 .num{line-height:50px;font-size:22px;}
+  #container ul li .textWrap p.desc{display:none;}
+  #container ul li.second{height:530px;}
+  #container ul li.second .textWrap{padding-top:380px;}
+  #container ul li.second .imgWrap{position:absolute;top:30px;left:50%;margin-left:-125px;}
+  #container ul li.second .textWrap h4 .num{position:absolute;right:0;}
+  #container ul li.second .textWrap .trailerLink{right:0;}
+}

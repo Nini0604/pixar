@@ -1,0 +1,97 @@
+body{font-family: 'PT Sans Narrow', sans-serif;}
+/*##########################container#########################################*/
+#container #movieContent .movieHead{overflow:hidden;padding:20px 0;width:80%;max-width:960px;margin:5% auto;}
+#container #movieContent .movieHead div{float:left;}
+#container #movieContent .movieLogo{width:45%;margin-right:5%;text-align:center;}
+#container #movieContent .movieLogo img{width:100%;max-width:400px;}
+#container #movieContent .movieDesc{width:50%;}
+#container #movieContent .movieDesc h3{padding:20px 0;border-bottom:1px solid gray;font-size:40px;letter-spacing:3px;color:#444;}
+#container #movieContent .movieDesc p{padding-top:20px;font-size:18px;line-height:30px;font-weight:900;}
+/*########################## #movieContent #tab#########################################*/
+#container #movieContent .tabWrap{width:100%;border-bottom:1px solid #ddd;}
+#container #movieContent #tab{overflow:hidden;width:80%;max-width:960px;margin:5% auto 0;}
+#container #movieContent #tab li.first a{border-left:2px solid #499df5;}
+#container #movieContent #tab li a.selected{color:#fff;background-color:#499df5;}
+#container #movieContent #tab li{width:25%;float:left;text-align:center;}
+#container #movieContent #tab li a{width:100%;height:100%;display:block;font-size:18px;color:#333;line-height:40px;box-sizing:border-box;border:2px solid #499df5;border-left:none;border-radius:25px 25px 0 0;letter-spacing:1px;}
+#container #movieContent #tab li a:focus{outline:none;}
+
+#container #content{width:80%;max-width:960px;margin:0 auto;}
+/*###########################container #trailerContent#########################################*/
+#container #movieContent #trailerContent{margin-bottom:20%;}
+#container #movieContent #trailerContent .videoWrap{position:relative;width:100%;height:405px;margin:8% auto;}
+iframe{overflow:hidden;border:none;width:100%;position: absolute; height: 100%; border: none}
+/*###########################container #characterContent#########################################*/
+#container #movieContent #characterContent .characterWrap{width:100%;margin:5% auto 15%;}
+#container #movieContent #characterContent .characterWrap ul li{width:100%;overflow:hidden;box-sizing:border-box;border-bottom:1px solid gray;padding:40px 20px 20px;}
+#container #movieContent #characterContent .characterWrap ul li .characterImgWrap{width:440px;margin-left:20px;float:right;overflow:hidden;}
+#container #movieContent #characterContent .characterWrap ul li .characterImgWrap p{width:200px;height:200px;overflow:hidden;float:left;margin:0 20px 20px 0;}
+#container #movieContent #characterContent .characterWrap ul li .characterImgWrap p img{width:100%;height:100%;}
+#container #movieContent #characterContent .characterWrap ul li .characterDescWrap{width:310px;float:left;}
+#container #movieContent #characterContent .characterWrap ul li .characterDescWrap h4{font-size:25px;padding:10px 0;color:#499df5;}
+#container #movieContent #characterContent .characterWrap ul li .characterDescWrap p{font-size:20px;color:#333;line-height:35px;padding-top:10px;}
+#container #movieContent #characterContent .characterWrap ul li.eventCharacter .characterImgWrap{float:left;}
+#container #movieContent #characterContent .characterWrap ul li.eventCharacter .characterDescWrap{float:right;}
+/*###########################container #designContent#########################################*/
+#container #movieContent #designContent{padding-top:8%;}
+#container #movieContent #designContent ul li{margin-bottom:12%;}
+#container #movieContent #designContent h3{font-size:30px;letter-spacing:3px;line-height:50px;}
+#container #movieContent #designContent .imgWrap img{width:100%;}
+/*###########################container #creditsContent#########################################*/
+#container #movieContent #creditsContent{padding:10% 0;}
+#container #movieContent #creditsContent .nameWrap{margin-bottom:30px;text-align:center;}
+#container #movieContent #creditsContent em{color:#666;font-style:normal;display:block;}
+#container #movieContent #creditsContent h3{color:#499df5;text-align:center;padding:40px 0 20px;}
+
+/*##########################footer#########################################*/
+a.mainBtn{width:210px;height:55px;text-align:center;display:inline-block;font-size:18px;
+line-height:55px;background-color:#499df5;color:#fff;}
+a.mainBtn:hover,a.mainBtn:focus{color:#000;}
+
+@media all and (min-width:768px) and (max-width:1024px){
+  #container #content{width:720px;}
+  #container #movieContent .movieHead{width:720px;}
+  #container #movieContent #tab{width:720px;}
+  #container #movieContent #characterContent .characterWrap{width:720px;}
+  #container #movieContent #characterContent .characterWrap h3{text-indent:0;}
+  #container #movieContent #characterContent .characterWrap ul li{padding:40px 0 20px;}
+  #container #movieContent #characterContent .characterWrap ul li .characterDescWrap{width:260px;}
+  #container #movieContent #characterContent .characterWrap ul li .characterDescWrap p{font-size:18px;line-height:24px;}
+  #container #movieContent #characterContent .characterWrap ul li .characterImgWrap{width:380px;}
+  #container #movieContent #characterContent .characterWrap ul li .characterImgWrap p{width:170px;height:170px;}
+}
+
+@media all and (min-width:481px) and (max-width:767px){
+  #container #movieContent .movieHead{margin:0 auto;padding:0;position:relative;}
+  #container #movieContent #tab{margin:5% auto;}
+  #container #movieContent #characterContent .characterWrap{width:100%;max-width:700px;margin:40px auto;}
+  #container #movieContent #characterContent .characterWrap ul li .characterImgWrap{width:370px;padding-left:10px;}
+  #container #movieContent #characterContent .characterWrap ul li .characterImgWrap p{width:175px;height:175px;}
+}
+
+@media all and (min-width:320px) and (max-width:767px){
+  #container #movieContent .movieHead div{float:none;width:100%;}
+  #container #movieContent .movieHead .movieLogo{display:none;}
+  #container #movieContent #tab li{float:none;width:100%;}
+  #container #movieContent #tab li a{border-radius:0;border:2px solid #499df5;margin-bottom:10px;}
+  #container #movieContent #characterContent .characterWrap h3{text-indent:0;}
+  #container #movieContent #characterContent .characterWrap ul li{padding:20px 0;}
+  #container #movieContent #characterContent .characterWrap ul li .characterImgWrap{float:none;margin:0 auto;}
+  #container #movieContent #characterContent .characterWrap ul li .characterImgWrap p{margin:0 10px 10px 0;}
+  #container #movieContent #characterContent .characterWrap ul li .characterDescWrap{width:100%;}
+  #container #movieContent #characterContent .characterWrap ul li .characterDescWrap p{font-size:16px;line-height:21px;padding-top:0;padding-bottom:20px;}
+  #container #movieContent #characterContent .characterWrap ul li.eventCharacter .characterImgWrap{float:none;}
+  #container #movieContent #characterContent .characterWrap ul li.eventCharacter .characterDescWrap{float:none;}
+}
+
+@media all and (min-width:320px) and (max-width:480px){
+  #container #movieContent .movieHead{width:90%;margin:0 auto;padding:0;}
+  #container #movieContent .movieDesc h3{font-size:28px;}
+  #container #movieContent .movieDesc p{font-size:14px;}
+  #container #movieContent #tab{width:90%;margin:5% auto;}
+  #container #content{width:90%;min-width:295px;}
+  #container #movieContent #characterContent .characterWrap{width:100%;margin:10px auto 80px;}
+  #container #movieContent #characterContent .characterWrap ul li{min-width:295px;}
+  #container #movieContent #characterContent .characterWrap ul li .characterImgWrap{width:285px;padding-left:10px;}
+  #container #movieContent #characterContent .characterWrap ul li .characterImgWrap p{width:132px;height:132px;}
+}
